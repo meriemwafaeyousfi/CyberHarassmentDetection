@@ -1,4 +1,5 @@
 {% load static %}
+{% load socialaccount %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -73,7 +74,7 @@
           <div>
             <h1>SecureTube, La première application qui analyse l'Arabizi</h1>
             <h2>Vous voulez vous débrasser des commentaires déplaisants dans votre chaine YouTube? Avec SecureTube, c'est facile! Il suffit juste de vous connecter avec votre compte google !</h2>
-            <a href="#contact" class="download-btn"><i class="bx bxl-google"></i> Se connecter avec Google </a>
+            <a href="{% provider_login_url 'google' %}" class="download-btn"><i class="bx bxl-google"></i> Se connecter avec Google </a>
           </div>
         </div>
         <div class="col-lg-6 d-lg-flex flex-lg-column align-items-stretch order-1 order-lg-2 hero-img" data-aos="fade-up">

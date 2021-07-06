@@ -38,8 +38,15 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'DjangoApp',
-    'rest_framework'
+    'rest_framework',
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.google',
 ]
+
+SITE_ID = 1
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -131,3 +138,37 @@ STATICFILES_DIRS = [
 os.path.join(BASE_DIR, "static"),
 os.path.join(BASE_DIR, "media")
 ]
+
+# For Google Authentication
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',
+    'allauth.account.auth_backends.AuthenticationBackend'
+]
+
+# Google as the OAuth provider
+
+SOCIALACCOUNT_PROVIDERS = {
+    'google': {
+        'SCOPE': [
+            'profile',
+            'email',
+        ],
+        'AUTH_PARAMS': {
+            'access_type': 'online',
+        },
+        # For each OAuth based provider, either add a ``SocialApp``
+        # (``socialaccount`` app) containing the required client
+        # credentials, or list them here:
+        'APP': {
+            'client_id': '643937594304-28qpufqtgku4251k4ns8m1gcq2vjogvu.apps.googleusercontent.com',
+            'secret': '4EEEF6bRFv971R1AIXFsPmuC',
+            'key': ''
+        }
+    }
+}
+
+
+# Add redirect users to the base route after a successfully login or logout.
+
+LOGIN_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = '/authen/index'
