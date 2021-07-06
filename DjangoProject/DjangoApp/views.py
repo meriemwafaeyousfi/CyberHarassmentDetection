@@ -35,39 +35,39 @@ from textblob import TextBlob
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
-class pretraitement():
+class pretraitement:
     def __init__(self):
-        arabic_punctuations = '''`÷« »×؛<>٩٨'٧٦٥٤٣٢١٠_()↗*•&^%][ـ،/:".,'{}⋮≈~¦+|٪”…“–ـ/[]%=#*+\\•~@£·_{}©^®`→°€™›♥←×§″′Â█à…“★”–●â►−¢¬░¶↑±▾	═¦║―¥▓—‹─▒：⊕▼▪†■’▀¨▄♫☆é¯♦¤▲è¸Ã⋅‘∞∙）↓、│（»，♪╩╚³・╦╣╔╗▬❤ïØ¹≤‡₹´'''
-        english_punctuations = string.punctuation
-        english_punctuations = english_punctuations.replace("!", "")
-        english_punctuations = english_punctuations.replace("?", "")
-        punctuations_list = arabic_punctuations + english_punctuations
-        with open('emoji_signification.txt', 'r', encoding='utf-8') as f:
+        self.arabic_punctuations = '''`÷« »×؛<>٩٨'٧٦٥٤٣٢١٠_()↗*•&^%][ـ،/:".,'{}⋮≈~¦+|٪”…“–ـ/[]%=#*+\\•~@£·_{}©^®`→°€™›♥←×§″′Â█à…“★”–●â►−¢¬░¶↑±▾	═¦║―¥▓—‹─▒：⊕▼▪†■’▀¨▄♫☆é¯♦¤▲è¸Ã⋅‘∞∙）↓、│（»，♪╩╚³・╦╣╔╗▬❤ïØ¹≤‡₹´'''
+        self.english_punctuations = string.punctuation
+        self.english_punctuations = self.english_punctuations.replace("!", "")
+        self.english_punctuations = self.english_punctuations.replace("?", "")
+        self.punctuations_list = self.arabic_punctuations + self.english_punctuations
+        with open('media/emoji_signification.txt', 'r', encoding='utf-8') as f:
             lines = f.readlines()
-            emojis_fr = {}
+            self.emojis_fr = {}
             for line in lines:
                 line = line.strip('\n').split('\t')
-                emojis_fr.update({line[0].strip(): line[1].strip()})
+                self.emojis_fr.update({line[0].strip(): line[1].strip()})
         # emojis_fr
 
-        with open('emot2.txt', 'r', encoding='utf-8-sig') as f:
+        with open('media/emot2.txt', 'r', encoding='utf-8-sig') as f:
             lines = f.readlines()
-            emot_fr = {}
+            self.emot_fr = {}
             # emojis_ar2 = []
             for line in lines:
                 line = line.strip('\n').split('\t')
                 # line2 = line.strip('\n')
-                emot_fr.update({line[0].strip(): line[1].strip()})
+                self.emot_fr.update({line[0].strip(): line[1].strip()})
                 # emojis_ar2.append(line[0])
         # emot_fr
-        with open('stopwords-arabizi.txt', 'r', encoding='utf-8-sig') as f:
+        with open('media/stopwords-arabizi.txt', 'r', encoding='utf-8-sig') as f:
             lines = f.readlines()
-            stop_word_comp = []
+            self.stop_word_comp = []
             # emojis_ar2 = []
             for line in lines:
                 line = line.strip('\n').split('\t')
                 # line2 = line.strip('\n')
-                stop_word_comp.append(line[0].strip())
+                self.stop_word_comp.append(line[0].strip())
                 # emojis_ar2.append(line[0])
 
     def _remove_punctuations(self,x):
@@ -93,7 +93,7 @@ class pretraitement():
         return df
 
     # 5--------lower case
-    def _lower_case(x):
+    def _lower_case(self,x):
         x = x.lower()
         return x
 
@@ -102,7 +102,7 @@ class pretraitement():
         return df
 
     # 5--------extra witespace
-    def _extraWhite(x):
+    def _extraWhite(self,x):
         x = re.sub('\t', ' ', x)
         x = re.sub('\s+', ' ', x)
         return x
@@ -112,16 +112,16 @@ class pretraitement():
         return df
 
     # 6.1--------delete urls
-    def _delete_URLs(text):
-        text = re.sub('http\S+\s*', ' ', text)
-        return text
+    def _delete_URLs(self,text):
+        t = re.sub('http\S+\s*', ' ', text)
+        return t
 
     def delete_URLs(self,df):
         df['data'] = df['data'].apply(lambda x: self._delete_URLs(x))
         return df
 
     # 6.1--------delete single letters and numbers
-    def _delete_single_letters(text):
+    def _delete_single_letters(self,text):
         text = re.sub(r'\b\d+(?:\.\d+)?\b', '', text)
         text = re.sub('(?<![\w])(?:[a-zA-Z0-9](?: |$))', '', text)
         return text
@@ -148,7 +148,7 @@ class pretraitement():
             word_list.extend(self.split_hashtag_to_words(word))
         return word_list
 
-    def _clean_hashtag(text):
+    def _clean_hashtag(self,text):
         text = text.replace("#", " ").replace("_", " ")
         return text
 
@@ -157,7 +157,7 @@ class pretraitement():
         return df
 
     # 7--------emoji translation
-    def is_emoji(word,self):
+    def is_emoji(self,word):
         if word in self.emojis_fr:
             return True
         else:
@@ -214,7 +214,7 @@ class pretraitement():
         return df
 
     # 8--------- latin script only
-    def _latin(x):
+    def _latin(self,x):
         # x = re.sub(r'[^\x00-\x7f]',r'', x)
         x = re.sub(u'[^\\x00-\\x7F\\x80-\\xFF\\u0100-\\u017F\\u0180-\\u024F\\u1E00-\\u1EFF]', u'', x)
         return x
@@ -224,7 +224,7 @@ class pretraitement():
         return df
 
     # 9--------- commentaire vide
-    def vide(df):
+    def vide(self,df):
         indexNames = df[len(df['data']) == 1].index
         # indexNames = df[len(df['Comment']) <= 1 ].index
         df.drop(indexNames, inplace=True)
@@ -253,7 +253,7 @@ class pretraitement():
         return df
 
     # 11-----------nan
-    def delete_vide(df):
+    def delete_vide(self,df):
         for i in df.columns:
             df[i][df[i].apply(lambda i: True if (
                         re.search('^\s*$', str(i)) or re.search('[a-zA-Z]', str(i)) == None) else False)] = None
@@ -278,7 +278,7 @@ class pretraitement():
         return df
 
     # 14--------- delete accents
-    def _delete_accents(x):
+    def _delete_accents(self,x):
         x = unidecode.unidecode(x)
         return x
 
@@ -287,7 +287,7 @@ class pretraitement():
         return df
 
     # 13-----------duplicated comment
-    def delete_dupplicated(df):
+    def delete_dupplicated(self,df):
         df = df.drop_duplicates(subset=["Author", "data"], keep='first', inplace=False)
         return df
 
@@ -349,13 +349,13 @@ def get_comments(id_channel):
                 break
 
         print(video['snippet']['resourceId']['videoId'])
-
-
-
         return 0
 
 def home(request):
-    get_comments('UCyVfMUt4tGYENMbqQ8Pusog')
+    if request == 'POST':
+        get_comments('UCyVfMUt4tGYENMbqQ8Pusog')
+    p = pretraitement()
+    print(p._delete_URLs(text='hi f dahcra t haz https://stackoverflow.com/'))
     return render(request, 'home.html')
 
 def result(request):
