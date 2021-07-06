@@ -1,0 +1,3305 @@
+emoji	signification
+😀	Visage Rieur
+😃	Visage Souriant Avec De Grands Yeux
+😄	Visage Très Souriant Aux Yeux Rieurs
+😁	Visage Souriant Aux Yeux Rieurs
+😆	Visage Souriant Avec Yeux Plissés
+😅	Visage Souriant Avec Une Goutte De Sueur
+🤣	Se Rouler Par Terre De Rire
+😂	Visage Riant Aux Larmes
+🙂	Visage Avec Un Léger Sourire
+🙃	Tête à L’envers
+😉	Visage Faisant Un Clin D’œil
+😊	Visage Souriant Avec Yeux Rieurs
+😇	Visage Souriant Avec Auréole
+🥰	Visage Souriant Avec Cœurs
+😍	Visage Souriant Avec Yeux En Forme De Cœur
+🤩	Visage Avec Des étoiles à La Place Des Yeux
+😘	Visage Envoyant Un Bisou
+😗	Visage Faisant Un Bisou
+☺️	Visage Souriant
+😚	Visage Faisant Un Bisou Avec Les Yeux Fermés
+😙	Visage Aux Yeux Rieurs Faisant Un Bisou
+🥲	Visage Souriant Avec Une Larme
+😋	Miam
+😛	Visage Qui Tire La Langue
+😜	Visage Qui Tire La Langue Et Fait Un Clin D’œil
+🤪	Tête De Fou
+😝	Visage Qui Tire La Langue Les Yeux Plissés
+🤑	Argent Dans Les Yeux Et La Bouche
+🤗	Visage Qui Fait Un Câlin
+🤭	Visage Avec Une Main Sur La Bouche
+🤫	Visage Avec Un Doigt Sur La Bouche
+🤔	Visage En Pleine Réflexion
+🤐	Visage Avec Bouche Fermeture éclair
+🤨	Visage Avec Les Sourcils Relevés
+😐	Visage Neutre
+😑	Visage Sans Expression
+😶	Visage Sans Bouche
+😏	Visage Avec Un Sourire Malin
+😒	Visage Blasé
+🙄	Visage Roulant Des Yeux
+😬	Visage Grimaçant
+🤥	Visage De Menteur
+😌	Visage Soulagé
+😔	Visage Pensif
+😪	Visage Endormi
+🤤	Visage Qui Bave
+😴	Visage Somnolent
+😷	Visage Avec Masque
+🤒	Visage Avec Thermomètre
+🤕	Visage Avec Bandage Autour De La Tête
+🤢	Visage Nauséeux
+🤮	Visage Qui Vomit
+🤧	Visage Qui éternue
+🥵	Visage Rouge Et Chaud
+🥶	Visage Bleu Et Froid
+🥴	Visage éméché
+😵	Visage étourdi
+🤯	Tête Qui Explose
+🤠	Visage Avec Chapeau De Cowboy
+🥳	Visage Festif
+🥸	Visage Déguisé
+😎	Visage Avec Lunettes De Soleil
+🤓	Visage De Geek
+🧐	Visage Avec Un Monocle
+😕	Visage Confus
+😟	Visage Inquiet
+🙁	Visage Légèrement Mécontent
+☹️	Visage Mécontent
+😮	Visage Avec Bouche Ouverte
+😯	Visage ébahi
+😲	Visage Stupéfait
+😳	Visage Qui Rougit
+🥺	Visage Implorant
+😦	Visage Mécontent Avec Bouche Ouverte
+😧	Visage Angoissé
+😨	Visage Effrayé
+😰	Visage Anxieux Avec Goutte De Sueur
+😥	Visage Triste Mais Soulagé
+😢	Visage Qui Pleure
+😭	Visage Qui Pleure à Chaudes Larmes
+😱	Visage Qui Hurle De Peur
+😖	Visage Déconcerté
+😣	Visage Persévérant
+😞	Visage Déçu
+😓	Visage Démoralisé Avec Goutte De Sueur
+😩	Visage épuisé
+😫	Visage Fatigué
+🥱	Visage Bâillant
+😤	Visage Avec Fumée Sortant Des Narines
+😡	Visage Boudeur
+😠	Visage En Colère
+🤬	Visage Avec Des Symboles Dans La Bouche
+😈	Visage Souriant Avec Des Cornes
+👿	Visage En Colère Avec Des Cornes
+💀	Crâne
+☠️	Tête De Mort
+💩	Tas De Crotte
+🤡	Visage De Clown
+👹	Ogre
+👺	Monstre Japonais
+👻	Fantôme
+👽	Alien
+👾	Monstre De L’espace
+🤖	Robot
+😺	Chat Qui Sourit
+😸	Chat Qui Sourit Avec Des Yeux Rieurs
+😹	Chat Qui Pleure De Joie
+😻	Chat Souriant Aux Yeux En Cœurs
+😼	Chat Avec Sourire En Coin
+😽	Chat Qui Fait Un Bisou
+🙀	Chat Fatigué
+😿	Chat Qui Pleure
+😾	Chat Qui Boude
+🙈	Singe Ne Rien Voir
+🙉	Singe Ne Rien Entendre
+🙊	Singe Ne Rien Dire
+💋	Trace De Rouge à Lèvres
+💌	Lettre D’amour
+💘	Cœur Et Flèche
+💝	Cœur Avec Ruban
+💖	Cœur étincelant
+💗	Cœur Grandissant
+💓	Cœur Battant
+💞	Cœurs Qui Tournent
+💕	Deux Cœurs
+💟	Décoration Avec Cœur
+❣️	Cœur Point D’exclamation
+💔	Cœur Brisé
+❤️	Cœur Rouge
+🧡	Cœur Orange
+💛	Cœur Jaune
+💚	Cœur Vert
+💙	Cœur Bleu
+💜	Cœur Violet
+🤎	Cœur Marron
+🖤	Cœur Noir
+🤍	Cœur Blanc
+💯	Cent Points
+💢	Symbole De Colère
+💥	Explosion
+💫	étourdissement
+💦	Gouttes De Sueur
+💨	Décamper
+🕳️	Trou
+💣	Bombe
+💬	Bulle De Parole
+👁️‍🗨️	œil Dans Une Bulle De BD
+🗨️	Bulle De Parole Gauche
+🗯️	Bulle Colère Droite
+💭	Bulle De Pensée
+💤	Endormi
+👋	Signe De La Main
+👋🏻	Signe De La Main : Peau Claire
+👋🏼	Signe De La Main : Peau Moyennement Claire
+👋🏽	Signe De La Main : Peau Légèrement Mate
+👋🏾	Signe De La Main : Peau Mate
+👋🏿	Signe De La Main : Peau Foncée
+🤚	Dos De Main Levée
+🤚🏻	Dos De Main Levée : Peau Claire
+🤚🏼	Dos De Main Levée : Peau Moyennement Claire
+🤚🏽	Dos De Main Levée : Peau Légèrement Mate
+🤚🏾	Dos De Main Levée : Peau Mate
+🤚🏿	Dos De Main Levée : Peau Foncée
+🖐️	Main Levée Doigts écartés
+🖐🏻	Main Levée Doigts écartés : Peau Claire
+🖐🏼	Main Levée Doigts écartés : Peau Moyennement Claire
+🖐🏽	Main Levée Doigts écartés : Peau Légèrement Mate
+🖐🏾	Main Levée Doigts écartés : Peau Mate
+🖐🏿	Main Levée Doigts écartés : Peau Foncée
+✋	Main Levée
+✋🏻	Main Levée : Peau Claire
+✋🏼	Main Levée : Peau Moyennement Claire
+✋🏽	Main Levée : Peau Légèrement Mate
+✋🏾	Main Levée : Peau Mate
+✋🏿	Main Levée : Peau Foncée
+🖖	Salut Vulcain
+🖖🏻	Salut Vulcain : Peau Claire
+🖖🏼	Salut Vulcain : Peau Moyennement Claire
+🖖🏽	Salut Vulcain : Peau Légèrement Mate
+🖖🏾	Salut Vulcain : Peau Mate
+🖖🏿	Salut Vulcain : Peau Foncée
+👌	Ok
+👌🏻	Ok : Peau Claire
+👌🏼	Ok : Peau Moyennement Claire
+👌🏽	Ok : Peau Légèrement Mate
+👌🏾	Ok : Peau Mate
+👌🏿	Ok : Peau Foncée
+🤌	Bout Des Doigts Joints
+🤌🏻	Bout Des Doigts Joints : Peau Claire
+🤌🏼	Bout Des Doigts Joints : Peau Moyennement Claire
+🤌🏽	Bout Des Doigts Joints : Peau Légèrement Mate
+🤌🏾	Bout Des Doigts Joints : Peau Mate
+🤌🏿	Bout Des Doigts Joints : Peau Foncée
+🤏	Pouce Et Index Rapprochés
+🤏🏻	Pouce Et Index Rapprochés : Peau Claire
+🤏🏼	Pouce Et Index Rapprochés : Peau Moyennement Claire
+🤏🏽	Pouce Et Index Rapprochés : Peau Légèrement Mate
+🤏🏾	Pouce Et Index Rapprochés : Peau Mate
+🤏🏿	Pouce Et Index Rapprochés : Peau Foncée
+✌️	V De La Victoire
+✌🏻	V De La Victoire : Peau Claire
+✌🏼	V De La Victoire : Peau Moyennement Claire
+✌🏽	V De La Victoire : Peau Légèrement Mate
+✌🏾	V De La Victoire : Peau Mate
+✌🏿	V De La Victoire : Peau Foncée
+🤞	Doigts Croisés
+🤞🏻	Doigts Croisés : Peau Claire
+🤞🏼	Doigts Croisés : Peau Moyennement Claire
+🤞🏽	Doigts Croisés : Peau Légèrement Mate
+🤞🏾	Doigts Croisés : Peau Mate
+🤞🏿	Doigts Croisés : Peau Foncée
+🤟	Signe Je T’aime
+🤟🏻	Signe Je T’aime : Peau Claire
+🤟🏼	Signe Je T’aime : Peau Moyennement Claire
+🤟🏽	Signe Je T’aime : Peau Légèrement Mate
+🤟🏾	Signe Je T’aime : Peau Mate
+🤟🏿	Signe Je T’aime : Peau Foncée
+🤘	Cornes Avec Les Doigts
+🤘🏻	Cornes Avec Les Doigts : Peau Claire
+🤘🏼	Cornes Avec Les Doigts : Peau Moyennement Claire
+🤘🏽	Cornes Avec Les Doigts : Peau Légèrement Mate
+🤘🏾	Cornes Avec Les Doigts : Peau Mate
+🤘🏿	Cornes Avec Les Doigts : Peau Foncée
+🤙	Signe Appel Téléphonique Avec Les Doigts
+🤙🏻	Signe Appel Téléphonique Avec Les Doigts : Peau Claire
+🤙🏼	Signe Appel Téléphonique Avec Les Doigts : Peau Moyennement Claire
+🤙🏽	Signe Appel Téléphonique Avec Les Doigts : Peau Légèrement Mate
+🤙🏾	Signe Appel Téléphonique Avec Les Doigts : Peau Mate
+🤙🏿	Signe Appel Téléphonique Avec Les Doigts : Peau Foncée
+👈	Main Avec Index Pointant à Gauche
+👈🏻	Main Avec Index Pointant à Gauche : Peau Claire
+👈🏼	Main Avec Index Pointant à Gauche : Peau Moyennement Claire
+👈🏽	Main Avec Index Pointant à Gauche : Peau Légèrement Mate
+👈🏾	Main Avec Index Pointant à Gauche : Peau Mate
+👈🏿	Main Avec Index Pointant à Gauche : Peau Foncée
+👉	Main Avec Index Pointant à Droite
+👉🏻	Main Avec Index Pointant à Droite : Peau Claire
+👉🏼	Main Avec Index Pointant à Droite : Peau Moyennement Claire
+👉🏽	Main Avec Index Pointant à Droite : Peau Légèrement Mate
+👉🏾	Main Avec Index Pointant à Droite : Peau Mate
+👉🏿	Main Avec Index Pointant à Droite : Peau Foncée
+👆	Main Avec Index Pointant Vers Le Haut
+👆🏻	Main Avec Index Pointant Vers Le Haut : Peau Claire
+👆🏼	Main Avec Index Pointant Vers Le Haut : Peau Moyennement Claire
+👆🏽	Main Avec Index Pointant Vers Le Haut : Peau Légèrement Mate
+👆🏾	Main Avec Index Pointant Vers Le Haut : Peau Mate
+👆🏿	Main Avec Index Pointant Vers Le Haut : Peau Foncée
+🖕	Doigt D’honneur
+🖕🏻	Doigt D’honneur : Peau Claire
+🖕🏼	Doigt D’honneur : Peau Moyennement Claire
+🖕🏽	Doigt D’honneur : Peau Légèrement Mate
+🖕🏾	Doigt D’honneur : Peau Mate
+🖕🏿	Doigt D’honneur : Peau Foncée
+👇	Main Avec Index Pointant Vers Le Bas
+👇🏻	Main Avec Index Pointant Vers Le Bas : Peau Claire
+👇🏼	Main Avec Index Pointant Vers Le Bas : Peau Moyennement Claire
+👇🏽	Main Avec Index Pointant Vers Le Bas : Peau Légèrement Mate
+👇🏾	Main Avec Index Pointant Vers Le Bas : Peau Mate
+👇🏿	Main Avec Index Pointant Vers Le Bas : Peau Foncée
+☝️	Index Pointant Vers Le Haut
+☝🏻	Index Pointant Vers Le Haut : Peau Claire
+☝🏼	Index Pointant Vers Le Haut : Peau Moyennement Claire
+☝🏽	Index Pointant Vers Le Haut : Peau Légèrement Mate
+☝🏾	Index Pointant Vers Le Haut : Peau Mate
+☝🏿	Index Pointant Vers Le Haut : Peau Foncée
+👍	Pouce Vers Le Haut
+👍🏻	Pouce Vers Le Haut : Peau Claire
+👍🏼	Pouce Vers Le Haut : Peau Moyennement Claire
+👍🏽	Pouce Vers Le Haut : Peau Légèrement Mate
+👍🏾	Pouce Vers Le Haut : Peau Mate
+👍🏿	Pouce Vers Le Haut : Peau Foncée
+👎	Pouce Vers Le Bas
+👎🏻	Pouce Vers Le Bas : Peau Claire
+👎🏼	Pouce Vers Le Bas : Peau Moyennement Claire
+👎🏽	Pouce Vers Le Bas : Peau Légèrement Mate
+👎🏾	Pouce Vers Le Bas : Peau Mate
+👎🏿	Pouce Vers Le Bas : Peau Foncée
+✊	Poing Levé
+✊🏻	Poing Levé : Peau Claire
+✊🏼	Poing Levé : Peau Moyennement Claire
+✊🏽	Poing Levé : Peau Légèrement Mate
+✊🏾	Poing Levé : Peau Mate
+✊🏿	Poing Levé : Peau Foncée
+👊	Poing De Face
+👊🏻	Poing De Face : Peau Claire
+👊🏼	Poing De Face : Peau Moyennement Claire
+👊🏽	Poing De Face : Peau Légèrement Mate
+👊🏾	Poing De Face : Peau Mate
+👊🏿	Poing De Face : Peau Foncée
+🤛	Poing à Gauche
+🤛🏻	Poing à Gauche : Peau Claire
+🤛🏼	Poing à Gauche : Peau Moyennement Claire
+🤛🏽	Poing à Gauche : Peau Légèrement Mate
+🤛🏾	Poing à Gauche : Peau Mate
+🤛🏿	Poing à Gauche : Peau Foncée
+🤜	Poing à Droite
+🤜🏻	Poing à Droite : Peau Claire
+🤜🏼	Poing à Droite : Peau Moyennement Claire
+🤜🏽	Poing à Droite : Peau Légèrement Mate
+🤜🏾	Poing à Droite : Peau Mate
+🤜🏿	Poing à Droite : Peau Foncée
+👏	Applaudissements
+👏🏻	Applaudissements : Peau Claire
+👏🏼	Applaudissements : Peau Moyennement Claire
+👏🏽	Applaudissements : Peau Légèrement Mate
+👏🏾	Applaudissements : Peau Mate
+👏🏿	Applaudissements : Peau Foncée
+🙌	Mains Levées
+🙌🏻	Mains Levées : Peau Claire
+🙌🏼	Mains Levées : Peau Moyennement Claire
+🙌🏽	Mains Levées : Peau Légèrement Mate
+🙌🏾	Mains Levées : Peau Mate
+🙌🏿	Mains Levées : Peau Foncée
+👐	Mains Ouvertes
+👐🏻	Mains Ouvertes : Peau Claire
+👐🏼	Mains Ouvertes : Peau Moyennement Claire
+👐🏽	Mains Ouvertes : Peau Légèrement Mate
+👐🏾	Mains Ouvertes : Peau Mate
+👐🏿	Mains Ouvertes : Peau Foncée
+🤲	Paume Contre Paume Doigts Vers Le Haut
+🤲🏻	Paume Contre Paume Doigts Vers Le Haut : Peau Claire
+🤲🏼	Paume Contre Paume Doigts Vers Le Haut : Peau Moyennement Claire
+🤲🏽	Paume Contre Paume Doigts Vers Le Haut : Peau Légèrement Mate
+🤲🏾	Paume Contre Paume Doigts Vers Le Haut : Peau Mate
+🤲🏿	Paume Contre Paume Doigts Vers Le Haut : Peau Foncée
+🤝	Poignée De Main
+🙏	Mains En Prière
+🙏🏻	Mains En Prière : Peau Claire
+🙏🏼	Mains En Prière : Peau Moyennement Claire
+🙏🏽	Mains En Prière : Peau Légèrement Mate
+🙏🏾	Mains En Prière : Peau Mate
+🙏🏿	Mains En Prière : Peau Foncée
+✍️	Main Qui écrit
+✍🏻	Main Qui écrit : Peau Claire
+✍🏼	Main Qui écrit : Peau Moyennement Claire
+✍🏽	Main Qui écrit : Peau Légèrement Mate
+✍🏾	Main Qui écrit : Peau Mate
+✍🏿	Main Qui écrit : Peau Foncée
+💅	Vernis à Ongles
+💅🏻	Vernis à Ongles : Peau Claire
+💅🏼	Vernis à Ongles : Peau Moyennement Claire
+💅🏽	Vernis à Ongles : Peau Légèrement Mate
+💅🏾	Vernis à Ongles : Peau Mate
+💅🏿	Vernis à Ongles : Peau Foncée
+🤳	Selfie
+🤳🏻	Selfie : Peau Claire
+🤳🏼	Selfie : Peau Moyennement Claire
+🤳🏽	Selfie : Peau Légèrement Mate
+🤳🏾	Selfie : Peau Mate
+🤳🏿	Selfie : Peau Foncée
+💪	Biceps Contracté
+💪🏻	Biceps Contracté : Peau Claire
+💪🏼	Biceps Contracté : Peau Moyennement Claire
+💪🏽	Biceps Contracté : Peau Légèrement Mate
+💪🏾	Biceps Contracté : Peau Mate
+💪🏿	Biceps Contracté : Peau Foncée
+🦾	Bras Mécanique
+🦿	Jambe Mécanique
+🦵	Jambe
+🦵🏻	Jambe : Peau Claire
+🦵🏼	Jambe : Peau Moyennement Claire
+🦵🏽	Jambe : Peau Légèrement Mate
+🦵🏾	Jambe : Peau Mate
+🦵🏿	Jambe : Peau Foncée
+🦶	Pied
+🦶🏻	Pied : Peau Claire
+🦶🏼	Pied : Peau Moyennement Claire
+🦶🏽	Pied : Peau Légèrement Mate
+🦶🏾	Pied : Peau Mate
+🦶🏿	Pied : Peau Foncée
+👂	Oreille
+👂🏻	Oreille : Peau Claire
+👂🏼	Oreille : Peau Moyennement Claire
+👂🏽	Oreille : Peau Légèrement Mate
+👂🏾	Oreille : Peau Mate
+👂🏿	Oreille : Peau Foncée
+🦻	Oreille Appareillée
+🦻🏻	Oreille Appareillée : Peau Claire
+🦻🏼	Oreille Appareillée : Peau Moyennement Claire
+🦻🏽	Oreille Appareillée : Peau Légèrement Mate
+🦻🏾	Oreille Appareillée : Peau Mate
+🦻🏿	Oreille Appareillée : Peau Foncée
+👃	Nez
+👃🏻	Nez : Peau Claire
+👃🏼	Nez : Peau Moyennement Claire
+👃🏽	Nez : Peau Légèrement Mate
+👃🏾	Nez : Peau Mate
+👃🏿	Nez : Peau Foncée
+🧠	Cerveau
+🫀	Cœur
+🫁	Poumons
+🦷	Dent
+🦴	Os
+👀	Yeux
+👁️	œil
+👅	Langue
+👄	Bouche
+👶	Bébé
+👶🏻	Bébé : Peau Claire
+👶🏼	Bébé : Peau Moyennement Claire
+👶🏽	Bébé : Peau Légèrement Mate
+👶🏾	Bébé : Peau Mate
+👶🏿	Bébé : Peau Foncée
+🧒	Enfant
+🧒🏻	Enfant : Peau Claire
+🧒🏼	Enfant : Peau Moyennement Claire
+🧒🏽	Enfant : Peau Légèrement Mate
+🧒🏾	Enfant : Peau Mate
+🧒🏿	Enfant : Peau Foncée
+👦	Garçon
+👦🏻	Garçon : Peau Claire
+👦🏼	Garçon : Peau Moyennement Claire
+👦🏽	Garçon : Peau Légèrement Mate
+👦🏾	Garçon : Peau Mate
+👦🏿	Garçon : Peau Foncée
+👧	Fille
+👧🏻	Fille : Peau Claire
+👧🏼	Fille : Peau Moyennement Claire
+👧🏽	Fille : Peau Légèrement Mate
+👧🏾	Fille : Peau Mate
+👧🏿	Fille : Peau Foncée
+🧑	Adulte
+🧑🏻	Adulte : Peau Claire
+🧑🏼	Adulte : Peau Moyennement Claire
+🧑🏽	Adulte : Peau Légèrement Mate
+🧑🏾	Adulte : Peau Mate
+🧑🏿	Adulte : Peau Foncée
+👱	Personne Blonde
+👱🏻	Personne Blonde : Peau Claire
+👱🏼	Personne Blonde : Peau Moyennement Claire
+👱🏽	Personne Blonde : Peau Légèrement Mate
+👱🏾	Personne Blonde : Peau Mate
+👱🏿	Personne Blonde : Peau Foncée
+👨	Homme
+👨🏻	Homme : Peau Claire
+👨🏼	Homme : Peau Moyennement Claire
+👨🏽	Homme : Peau Légèrement Mate
+👨🏾	Homme : Peau Mate
+👨🏿	Homme : Peau Foncée
+🧔	Homme Barbu
+🧔🏻	Homme Barbu : Peau Claire
+🧔🏼	Homme Barbu : Peau Moyennement Claire
+🧔🏽	Homme Barbu : Peau Légèrement Mate
+🧔🏾	Homme Barbu : Peau Mate
+🧔🏿	Homme Barbu : Peau Foncée
+👨‍🦰	Homme : Cheveux Roux
+👨🏻‍🦰	Homme : Peau Claire Et Cheveux Roux
+👨🏼‍🦰	Homme : Peau Moyennement Claire Et Cheveux Roux
+👨🏽‍🦰	Homme : Peau Légèrement Mate Et Cheveux Roux
+👨🏾‍🦰	Homme : Peau Mate Et Cheveux Roux
+👨🏿‍🦰	Homme : Peau Foncée Et Cheveux Roux
+👨‍🦱	Homme : Cheveux Bouclés
+👨🏻‍🦱	Homme : Peau Claire Et Cheveux Bouclés
+👨🏼‍🦱	Homme : Peau Moyennement Claire Et Cheveux Bouclés
+👨🏽‍🦱	Homme : Peau Légèrement Mate Et Cheveux Bouclés
+👨🏾‍🦱	Homme : Peau Mate Et Cheveux Bouclés
+👨🏿‍🦱	Homme : Peau Foncée Et Cheveux Bouclés
+👨‍🦳	Homme : Cheveux Blancs
+👨🏻‍🦳	Homme : Peau Claire Et Cheveux Blancs
+👨🏼‍🦳	Homme : Peau Moyennement Claire Et Cheveux Blancs
+👨🏽‍🦳	Homme : Peau Légèrement Mate Et Cheveux Blancs
+👨🏾‍🦳	Homme : Peau Mate Et Cheveux Blancs
+👨🏿‍🦳	Homme : Peau Foncée Et Cheveux Blancs
+👨‍🦲	Homme : Chauve
+👨🏻‍🦲	Homme : Peau Claire Et Chauve
+👨🏼‍🦲	Homme : Peau Moyennement Claire Et Chauve
+👨🏽‍🦲	Homme : Peau Légèrement Mate Et Chauve
+👨🏾‍🦲	Homme : Peau Mate Et Chauve
+👨🏿‍🦲	Homme : Peau Foncée Et Chauve
+👩	Femme
+👩🏻	Femme : Peau Claire
+👩🏼	Femme : Peau Moyennement Claire
+👩🏽	Femme : Peau Légèrement Mate
+👩🏾	Femme : Peau Mate
+👩🏿	Femme : Peau Foncée
+👩‍🦰	Femme : Cheveux Roux
+👩🏻‍🦰	Femme : Peau Claire Et Cheveux Roux
+👩🏼‍🦰	Femme : Peau Moyennement Claire Et Cheveux Roux
+👩🏽‍🦰	Femme : Peau Légèrement Mate Et Cheveux Roux
+👩🏾‍🦰	Femme : Peau Mate Et Cheveux Roux
+👩🏿‍🦰	Femme : Peau Foncée Et Cheveux Roux
+🧑‍🦰	Adulte : Cheveux Roux
+🧑🏻‍🦰	Adulte : Peau Claire Et Cheveux Roux
+🧑🏼‍🦰	Adulte : Peau Moyennement Claire Et Cheveux Roux
+🧑🏽‍🦰	Adulte : Peau Légèrement Mate Et Cheveux Roux
+🧑🏾‍🦰	Adulte : Peau Mate Et Cheveux Roux
+🧑🏿‍🦰	Adulte : Peau Foncée Et Cheveux Roux
+👩‍🦱	Femme : Cheveux Bouclés
+👩🏻‍🦱	Femme : Peau Claire Et Cheveux Bouclés
+👩🏼‍🦱	Femme : Peau Moyennement Claire Et Cheveux Bouclés
+👩🏽‍🦱	Femme : Peau Légèrement Mate Et Cheveux Bouclés
+👩🏾‍🦱	Femme : Peau Mate Et Cheveux Bouclés
+👩🏿‍🦱	Femme : Peau Foncée Et Cheveux Bouclés
+🧑‍🦱	Adulte : Cheveux Bouclés
+🧑🏻‍🦱	Adulte : Peau Claire Et Cheveux Bouclés
+🧑🏼‍🦱	Adulte : Peau Moyennement Claire Et Cheveux Bouclés
+🧑🏽‍🦱	Adulte : Peau Légèrement Mate Et Cheveux Bouclés
+🧑🏾‍🦱	Adulte : Peau Mate Et Cheveux Bouclés
+🧑🏿‍🦱	Adulte : Peau Foncée Et Cheveux Bouclés
+👩‍🦳	Femme : Cheveux Blancs
+👩🏻‍🦳	Femme : Peau Claire Et Cheveux Blancs
+👩🏼‍🦳	Femme : Peau Moyennement Claire Et Cheveux Blancs
+👩🏽‍🦳	Femme : Peau Légèrement Mate Et Cheveux Blancs
+👩🏾‍🦳	Femme : Peau Mate Et Cheveux Blancs
+👩🏿‍🦳	Femme : Peau Foncée Et Cheveux Blancs
+🧑‍🦳	Adulte : Cheveux Blancs
+🧑🏻‍🦳	Adulte : Peau Claire Et Cheveux Blancs
+🧑🏼‍🦳	Adulte : Peau Moyennement Claire Et Cheveux Blancs
+🧑🏽‍🦳	Adulte : Peau Légèrement Mate Et Cheveux Blancs
+🧑🏾‍🦳	Adulte : Peau Mate Et Cheveux Blancs
+🧑🏿‍🦳	Adulte : Peau Foncée Et Cheveux Blancs
+👩‍🦲	Femme : Chauve
+👩🏻‍🦲	Femme : Peau Claire Et Chauve
+👩🏼‍🦲	Femme : Peau Moyennement Claire Et Chauve
+👩🏽‍🦲	Femme : Peau Légèrement Mate Et Chauve
+👩🏾‍🦲	Femme : Peau Mate Et Chauve
+👩🏿‍🦲	Femme : Peau Foncée Et Chauve
+🧑‍🦲	Adulte : Chauve
+🧑🏻‍🦲	Adulte : Peau Claire Et Chauve
+🧑🏼‍🦲	Adulte : Peau Moyennement Claire Et Chauve
+🧑🏽‍🦲	Adulte : Peau Légèrement Mate Et Chauve
+🧑🏾‍🦲	Adulte : Peau Mate Et Chauve
+🧑🏿‍🦲	Adulte : Peau Foncée Et Chauve
+👱‍♀️	Femme Blonde
+👱🏻‍♀️	Femme Blonde : Peau Claire
+👱🏼‍♀️	Femme Blonde : Peau Moyennement Claire
+👱🏽‍♀️	Femme Blonde : Peau Légèrement Mate
+👱🏾‍♀️	Femme Blonde : Peau Mate
+👱🏿‍♀️	Femme Blonde : Peau Foncée
+👱‍♂️	Homme Blond
+👱🏻‍♂️	Homme Blond : Peau Claire
+👱🏼‍♂️	Homme Blond : Peau Moyennement Claire
+👱🏽‍♂️	Homme Blond : Peau Légèrement Mate
+👱🏾‍♂️	Homme Blond : Peau Mate
+👱🏿‍♂️	Homme Blond : Peau Foncée
+🧓	Personne âgée
+🧓🏻	Personne âgée : Peau Claire
+🧓🏼	Personne âgée : Peau Moyennement Claire
+🧓🏽	Personne âgée : Peau Légèrement Mate
+🧓🏾	Personne âgée : Peau Mate
+🧓🏿	Personne âgée : Peau Foncée
+👴	Homme âgé
+👴🏻	Homme âgé : Peau Claire
+👴🏼	Homme âgé : Peau Moyennement Claire
+👴🏽	Homme âgé : Peau Légèrement Mate
+👴🏾	Homme âgé : Peau Mate
+👴🏿	Homme âgé : Peau Foncée
+👵	Femme âgée
+👵🏻	Femme âgée : Peau Claire
+👵🏼	Femme âgée : Peau Moyennement Claire
+👵🏽	Femme âgée : Peau Légèrement Mate
+👵🏾	Femme âgée : Peau Mate
+👵🏿	Femme âgée : Peau Foncée
+🙍	Personne Fronçant Les Sourcils
+🙍🏻	Personne Fronçant Les Sourcils : Peau Claire
+🙍🏼	Personne Fronçant Les Sourcils : Peau Moyennement Claire
+🙍🏽	Personne Fronçant Les Sourcils : Peau Légèrement Mate
+🙍🏾	Personne Fronçant Les Sourcils : Peau Mate
+🙍🏿	Personne Fronçant Les Sourcils : Peau Foncée
+🙍‍♂️	Homme Fronçant Les Sourcils
+🙍🏻‍♂️	Homme Fronçant Les Sourcils : Peau Claire
+🙍🏼‍♂️	Homme Fronçant Les Sourcils : Peau Moyennement Claire
+🙍🏽‍♂️	Homme Fronçant Les Sourcils : Peau Légèrement Mate
+🙍🏾‍♂️	Homme Fronçant Les Sourcils : Peau Mate
+🙍🏿‍♂️	Homme Fronçant Les Sourcils : Peau Foncée
+🙍‍♀️	Femme Fronçant Les Sourcils
+🙍🏻‍♀️	Femme Fronçant Les Sourcils : Peau Claire
+🙍🏼‍♀️	Femme Fronçant Les Sourcils : Peau Moyennement Claire
+🙍🏽‍♀️	Femme Fronçant Les Sourcils : Peau Légèrement Mate
+🙍🏾‍♀️	Femme Fronçant Les Sourcils : Peau Mate
+🙍🏿‍♀️	Femme Fronçant Les Sourcils : Peau Foncée
+🙎	Personne Qui Boude
+🙎🏻	Personne Qui Boude : Peau Claire
+🙎🏼	Personne Qui Boude : Peau Moyennement Claire
+🙎🏽	Personne Qui Boude : Peau Légèrement Mate
+🙎🏾	Personne Qui Boude : Peau Mate
+🙎🏿	Personne Qui Boude : Peau Foncée
+🙎‍♂️	Homme Qui Boude
+🙎🏻‍♂️	Homme Qui Boude : Peau Claire
+🙎🏼‍♂️	Homme Qui Boude : Peau Moyennement Claire
+🙎🏽‍♂️	Homme Qui Boude : Peau Légèrement Mate
+🙎🏾‍♂️	Homme Qui Boude : Peau Mate
+🙎🏿‍♂️	Homme Qui Boude : Peau Foncée
+🙎‍♀️	Femme Qui Boude
+🙎🏻‍♀️	Femme Qui Boude : Peau Claire
+🙎🏼‍♀️	Femme Qui Boude : Peau Moyennement Claire
+🙎🏽‍♀️	Femme Qui Boude : Peau Légèrement Mate
+🙎🏾‍♀️	Femme Qui Boude : Peau Mate
+🙎🏿‍♀️	Femme Qui Boude : Peau Foncée
+🙅	Personne Faisant Un Geste D’interdiction
+🙅🏻	Personne Faisant Un Geste D’interdiction : Peau Claire
+🙅🏼	Personne Faisant Un Geste D’interdiction : Peau Moyennement Claire
+🙅🏽	Personne Faisant Un Geste D’interdiction : Peau Légèrement Mate
+🙅🏾	Personne Faisant Un Geste D’interdiction : Peau Mate
+🙅🏿	Personne Faisant Un Geste D’interdiction : Peau Foncée
+🙅‍♂️	Homme Faisant Un Geste D’interdiction
+🙅🏻‍♂️	Homme Faisant Un Geste D’interdiction : Peau Claire
+🙅🏼‍♂️	Homme Faisant Un Geste D’interdiction : Peau Moyennement Claire
+🙅🏽‍♂️	Homme Faisant Un Geste D’interdiction : Peau Légèrement Mate
+🙅🏾‍♂️	Homme Faisant Un Geste D’interdiction : Peau Mate
+🙅🏿‍♂️	Homme Faisant Un Geste D’interdiction : Peau Foncée
+🙅‍♀️	Femme Faisant Un Geste D’interdiction
+🙅🏻‍♀️	Femme Faisant Un Geste D’interdiction : Peau Claire
+🙅🏼‍♀️	Femme Faisant Un Geste D’interdiction : Peau Moyennement Claire
+🙅🏽‍♀️	Femme Faisant Un Geste D’interdiction : Peau Légèrement Mate
+🙅🏾‍♀️	Femme Faisant Un Geste D’interdiction : Peau Mate
+🙅🏿‍♀️	Femme Faisant Un Geste D’interdiction : Peau Foncée
+🙆	Personne Faisant Un Geste D’acceptation
+🙆🏻	Personne Faisant Un Geste D’acceptation : Peau Claire
+🙆🏼	Personne Faisant Un Geste D’acceptation : Peau Moyennement Claire
+🙆🏽	Personne Faisant Un Geste D’acceptation : Peau Légèrement Mate
+🙆🏾	Personne Faisant Un Geste D’acceptation : Peau Mate
+🙆🏿	Personne Faisant Un Geste D’acceptation : Peau Foncée
+🙆‍♂️	Homme Faisant Un Geste D’acceptation
+🙆🏻‍♂️	Homme Faisant Un Geste D’acceptation : Peau Claire
+🙆🏼‍♂️	Homme Faisant Un Geste D’acceptation : Peau Moyennement Claire
+🙆🏽‍♂️	Homme Faisant Un Geste D’acceptation : Peau Légèrement Mate
+🙆🏾‍♂️	Homme Faisant Un Geste D’acceptation : Peau Mate
+🙆🏿‍♂️	Homme Faisant Un Geste D’acceptation : Peau Foncée
+🙆‍♀️	Femme Faisant Un Geste D’acceptation
+🙆🏻‍♀️	Femme Faisant Un Geste D’acceptation : Peau Claire
+🙆🏼‍♀️	Femme Faisant Un Geste D’acceptation : Peau Moyennement Claire
+🙆🏽‍♀️	Femme Faisant Un Geste D’acceptation : Peau Légèrement Mate
+🙆🏾‍♀️	Femme Faisant Un Geste D’acceptation : Peau Mate
+🙆🏿‍♀️	Femme Faisant Un Geste D’acceptation : Peau Foncée
+💁	Personne Paume Vers Le Haut
+💁🏻	Personne Paume Vers Le Haut : Peau Claire
+💁🏼	Personne Paume Vers Le Haut : Peau Moyennement Claire
+💁🏽	Personne Paume Vers Le Haut : Peau Légèrement Mate
+💁🏾	Personne Paume Vers Le Haut : Peau Mate
+💁🏿	Personne Paume Vers Le Haut : Peau Foncée
+💁‍♂️	Homme Paume Vers Le Haut
+💁🏻‍♂️	Homme Paume Vers Le Haut : Peau Claire
+💁🏼‍♂️	Homme Paume Vers Le Haut : Peau Moyennement Claire
+💁🏽‍♂️	Homme Paume Vers Le Haut : Peau Légèrement Mate
+💁🏾‍♂️	Homme Paume Vers Le Haut : Peau Mate
+💁🏿‍♂️	Homme Paume Vers Le Haut : Peau Foncée
+💁‍♀️	Femme Paume Vers Le Haut
+💁🏻‍♀️	Femme Paume Vers Le Haut : Peau Claire
+💁🏼‍♀️	Femme Paume Vers Le Haut : Peau Moyennement Claire
+💁🏽‍♀️	Femme Paume Vers Le Haut : Peau Légèrement Mate
+💁🏾‍♀️	Femme Paume Vers Le Haut : Peau Mate
+💁🏿‍♀️	Femme Paume Vers Le Haut : Peau Foncée
+🙋	Personne Qui Lève La Main
+🙋🏻	Personne Qui Lève La Main : Peau Claire
+🙋🏼	Personne Qui Lève La Main : Peau Moyennement Claire
+🙋🏽	Personne Qui Lève La Main : Peau Légèrement Mate
+🙋🏾	Personne Qui Lève La Main : Peau Mate
+🙋🏿	Personne Qui Lève La Main : Peau Foncée
+🙋‍♂️	Homme Qui Lève La Main
+🙋🏻‍♂️	Homme Qui Lève La Main : Peau Claire
+🙋🏼‍♂️	Homme Qui Lève La Main : Peau Moyennement Claire
+🙋🏽‍♂️	Homme Qui Lève La Main : Peau Légèrement Mate
+🙋🏾‍♂️	Homme Qui Lève La Main : Peau Mate
+🙋🏿‍♂️	Homme Qui Lève La Main : Peau Foncée
+🙋‍♀️	Femme Qui Lève La Main
+🙋🏻‍♀️	Femme Qui Lève La Main : Peau Claire
+🙋🏼‍♀️	Femme Qui Lève La Main : Peau Moyennement Claire
+🙋🏽‍♀️	Femme Qui Lève La Main : Peau Légèrement Mate
+🙋🏾‍♀️	Femme Qui Lève La Main : Peau Mate
+🙋🏿‍♀️	Femme Qui Lève La Main : Peau Foncée
+🧏	Personne Sourde
+🧏🏻	Personne Sourde : Peau Claire
+🧏🏼	Personne Sourde : Peau Moyennement Claire
+🧏🏽	Personne Sourde : Peau Légèrement Mate
+🧏🏾	Personne Sourde : Peau Mate
+🧏🏿	Personne Sourde : Peau Foncée
+🧏‍♂️	Homme Sourd
+🧏🏻‍♂️	Homme Sourd : Peau Claire
+🧏🏼‍♂️	Homme Sourd : Peau Moyennement Claire
+🧏🏽‍♂️	Homme Sourd : Peau Légèrement Mate
+🧏🏾‍♂️	Homme Sourd : Peau Mate
+🧏🏿‍♂️	Homme Sourd : Peau Foncée
+🧏‍♀️	Femme Sourde
+🧏🏻‍♀️	Femme Sourde : Peau Claire
+🧏🏼‍♀️	Femme Sourde : Peau Moyennement Claire
+🧏🏽‍♀️	Femme Sourde : Peau Légèrement Mate
+🧏🏾‍♀️	Femme Sourde : Peau Mate
+🧏🏿‍♀️	Femme Sourde : Peau Foncée
+🙇	Personne Qui S’incline
+🙇🏻	Personne Qui S’incline : Peau Claire
+🙇🏼	Personne Qui S’incline : Peau Moyennement Claire
+🙇🏽	Personne Qui S’incline : Peau Légèrement Mate
+🙇🏾	Personne Qui S’incline : Peau Mate
+🙇🏿	Personne Qui S’incline : Peau Foncée
+🙇‍♂️	Homme Qui S’incline
+🙇🏻‍♂️	Homme Qui S’incline : Peau Claire
+🙇🏼‍♂️	Homme Qui S’incline : Peau Moyennement Claire
+🙇🏽‍♂️	Homme Qui S’incline : Peau Légèrement Mate
+🙇🏾‍♂️	Homme Qui S’incline : Peau Mate
+🙇🏿‍♂️	Homme Qui S’incline : Peau Foncée
+🙇‍♀️	Femme Qui S’incline
+🙇🏻‍♀️	Femme Qui S’incline : Peau Claire
+🙇🏼‍♀️	Femme Qui S’incline : Peau Moyennement Claire
+🙇🏽‍♀️	Femme Qui S’incline : Peau Légèrement Mate
+🙇🏾‍♀️	Femme Qui S’incline : Peau Mate
+🙇🏿‍♀️	Femme Qui S’incline : Peau Foncée
+🤦	Personne Avec La Paume Sur Le Visage
+🤦🏻	Personne Avec La Paume Sur Le Visage : Peau Claire
+🤦🏼	Personne Avec La Paume Sur Le Visage : Peau Moyennement Claire
+🤦🏽	Personne Avec La Paume Sur Le Visage : Peau Légèrement Mate
+🤦🏾	Personne Avec La Paume Sur Le Visage : Peau Mate
+🤦🏿	Personne Avec La Paume Sur Le Visage : Peau Foncée
+🤦‍♂️	Homme Avec La Paume Sur Le Visage
+🤦🏻‍♂️	Homme Avec La Paume Sur Le Visage : Peau Claire
+🤦🏼‍♂️	Homme Avec La Paume Sur Le Visage : Peau Moyennement Claire
+🤦🏽‍♂️	Homme Avec La Paume Sur Le Visage : Peau Légèrement Mate
+🤦🏾‍♂️	Homme Avec La Paume Sur Le Visage : Peau Mate
+🤦🏿‍♂️	Homme Avec La Paume Sur Le Visage : Peau Foncée
+🤦‍♀️	Femme Avec La Paume Sur Le Visage
+🤦🏻‍♀️	Femme Avec La Paume Sur Le Visage : Peau Claire
+🤦🏼‍♀️	Femme Avec La Paume Sur Le Visage : Peau Moyennement Claire
+🤦🏽‍♀️	Femme Avec La Paume Sur Le Visage : Peau Légèrement Mate
+🤦🏾‍♀️	Femme Avec La Paume Sur Le Visage : Peau Mate
+🤦🏿‍♀️	Femme Avec La Paume Sur Le Visage : Peau Foncée
+🤷	Personne Qui Hausse Les épaules
+🤷🏻	Personne Qui Hausse Les épaules : Peau Claire
+🤷🏼	Personne Qui Hausse Les épaules : Peau Moyennement Claire
+🤷🏽	Personne Qui Hausse Les épaules : Peau Légèrement Mate
+🤷🏾	Personne Qui Hausse Les épaules : Peau Mate
+🤷🏿	Personne Qui Hausse Les épaules : Peau Foncée
+🤷‍♂️	Homme Qui Hausse Les épaules
+🤷🏻‍♂️	Homme Qui Hausse Les épaules : Peau Claire
+🤷🏼‍♂️	Homme Qui Hausse Les épaules : Peau Moyennement Claire
+🤷🏽‍♂️	Homme Qui Hausse Les épaules : Peau Légèrement Mate
+🤷🏾‍♂️	Homme Qui Hausse Les épaules : Peau Mate
+🤷🏿‍♂️	Homme Qui Hausse Les épaules : Peau Foncée
+🤷‍♀️	Femme Qui Hausse Les épaules
+🤷🏻‍♀️	Femme Qui Hausse Les épaules : Peau Claire
+🤷🏼‍♀️	Femme Qui Hausse Les épaules : Peau Moyennement Claire
+🤷🏽‍♀️	Femme Qui Hausse Les épaules : Peau Légèrement Mate
+🤷🏾‍♀️	Femme Qui Hausse Les épaules : Peau Mate
+🤷🏿‍♀️	Femme Qui Hausse Les épaules : Peau Foncée
+🧑‍⚕️	Professionnel De La Santé (tous Genres)
+🧑🏻‍⚕️	Professionnel De La Santé (tous Genres) : Peau Claire
+🧑🏼‍⚕️	Professionnel De La Santé (tous Genres) : Peau Moyennement Claire
+🧑🏽‍⚕️	Professionnel De La Santé (tous Genres) : Peau Légèrement Mate
+🧑🏾‍⚕️	Professionnel De La Santé (tous Genres) : Peau Mate
+🧑🏿‍⚕️	Professionnel De La Santé (tous Genres) : Peau Foncée
+👨‍⚕️	Professionnel De La Santé
+👨🏻‍⚕️	Professionnel De La Santé : Peau Claire
+👨🏼‍⚕️	Professionnel De La Santé : Peau Moyennement Claire
+👨🏽‍⚕️	Professionnel De La Santé : Peau Légèrement Mate
+👨🏾‍⚕️	Professionnel De La Santé : Peau Mate
+👨🏿‍⚕️	Professionnel De La Santé : Peau Foncée
+👩‍⚕️	Professionnelle De La Santé
+👩🏻‍⚕️	Professionnelle De La Santé : Peau Claire
+👩🏼‍⚕️	Professionnelle De La Santé : Peau Moyennement Claire
+👩🏽‍⚕️	Professionnelle De La Santé : Peau Légèrement Mate
+👩🏾‍⚕️	Professionnelle De La Santé : Peau Mate
+👩🏿‍⚕️	Professionnelle De La Santé : Peau Foncée
+🧑‍🎓	étudiant (tous Genres)
+🧑🏻‍🎓	étudiant (tous Genres) : Peau Claire
+🧑🏼‍🎓	étudiant (tous Genres) : Peau Moyennement Claire
+🧑🏽‍🎓	étudiant (tous Genres) : Peau Légèrement Mate
+🧑🏾‍🎓	étudiant (tous Genres) : Peau Mate
+🧑🏿‍🎓	étudiant (tous Genres) : Peau Foncée
+👨‍🎓	étudiant
+👨🏻‍🎓	étudiant : Peau Claire
+👨🏼‍🎓	étudiant : Peau Moyennement Claire
+👨🏽‍🎓	étudiant : Peau Légèrement Mate
+👨🏾‍🎓	étudiant : Peau Mate
+👨🏿‍🎓	étudiant : Peau Foncée
+👩‍🎓	étudiante
+👩🏻‍🎓	étudiante : Peau Claire
+👩🏼‍🎓	étudiante : Peau Moyennement Claire
+👩🏽‍🎓	étudiante : Peau Légèrement Mate
+👩🏾‍🎓	étudiante : Peau Mate
+👩🏿‍🎓	étudiante : Peau Foncée
+🧑‍🏫	Personnel Enseignant
+🧑🏻‍🏫	Personnel Enseignant : Peau Claire
+🧑🏼‍🏫	Personnel Enseignant : Peau Moyennement Claire
+🧑🏽‍🏫	Personnel Enseignant : Peau Légèrement Mate
+🧑🏾‍🏫	Personnel Enseignant : Peau Mate
+🧑🏿‍🏫	Personnel Enseignant : Peau Foncée
+👨‍🏫	Enseignant
+👨🏻‍🏫	Enseignant : Peau Claire
+👨🏼‍🏫	Enseignant : Peau Moyennement Claire
+👨🏽‍🏫	Enseignant : Peau Légèrement Mate
+👨🏾‍🏫	Enseignant : Peau Mate
+👨🏿‍🏫	Enseignant : Peau Foncée
+👩‍🏫	Enseignante
+👩🏻‍🏫	Enseignante : Peau Claire
+👩🏼‍🏫	Enseignante : Peau Moyennement Claire
+👩🏽‍🏫	Enseignante : Peau Légèrement Mate
+👩🏾‍🏫	Enseignante : Peau Mate
+👩🏿‍🏫	Enseignante : Peau Foncée
+🧑‍⚖️	Juge
+🧑🏻‍⚖️	Juge : Peau Claire
+🧑🏼‍⚖️	Juge : Peau Moyennement Claire
+🧑🏽‍⚖️	Juge : Peau Légèrement Mate
+🧑🏾‍⚖️	Juge : Peau Mate
+🧑🏿‍⚖️	Juge : Peau Foncée
+👨‍⚖️	Juge Homme
+👨🏻‍⚖️	Juge Homme : Peau Claire
+👨🏼‍⚖️	Juge Homme : Peau Moyennement Claire
+👨🏽‍⚖️	Juge Homme : Peau Légèrement Mate
+👨🏾‍⚖️	Juge Homme : Peau Mate
+👨🏿‍⚖️	Juge Homme : Peau Foncée
+👩‍⚖️	Juge Femme
+👩🏻‍⚖️	Juge Femme : Peau Claire
+👩🏼‍⚖️	Juge Femme : Peau Moyennement Claire
+👩🏽‍⚖️	Juge Femme : Peau Légèrement Mate
+👩🏾‍⚖️	Juge Femme : Peau Mate
+👩🏿‍⚖️	Juge Femme : Peau Foncée
+🧑‍🌾	Fermier (tous Genres)
+🧑🏻‍🌾	Fermier (tous Genres) : Peau Claire
+🧑🏼‍🌾	Fermier (tous Genres) : Peau Moyennement Claire
+🧑🏽‍🌾	Fermier (tous Genres) : Peau Légèrement Mate
+🧑🏾‍🌾	Fermier (tous Genres) : Peau Mate
+🧑🏿‍🌾	Fermier (tous Genres) : Peau Foncée
+👨‍🌾	Fermier
+👨🏻‍🌾	Fermier : Peau Claire
+👨🏼‍🌾	Fermier : Peau Moyennement Claire
+👨🏽‍🌾	Fermier : Peau Légèrement Mate
+👨🏾‍🌾	Fermier : Peau Mate
+👨🏿‍🌾	Fermier : Peau Foncée
+👩‍🌾	Fermière
+👩🏻‍🌾	Fermière : Peau Claire
+👩🏼‍🌾	Fermière : Peau Moyennement Claire
+👩🏽‍🌾	Fermière : Peau Légèrement Mate
+👩🏾‍🌾	Fermière : Peau Mate
+👩🏿‍🌾	Fermière : Peau Foncée
+🧑‍🍳	Cuisinier (tous Genres)
+🧑🏻‍🍳	Cuisinier (tous Genres) : Peau Claire
+🧑🏼‍🍳	Cuisinier (tous Genres) : Peau Moyennement Claire
+🧑🏽‍🍳	Cuisinier (tous Genres) : Peau Légèrement Mate
+🧑🏾‍🍳	Cuisinier (tous Genres) : Peau Mate
+🧑🏿‍🍳	Cuisinier (tous Genres) : Peau Foncée
+👨‍🍳	Cuisinier
+👨🏻‍🍳	Cuisinier : Peau Claire
+👨🏼‍🍳	Cuisinier : Peau Moyennement Claire
+👨🏽‍🍳	Cuisinier : Peau Légèrement Mate
+👨🏾‍🍳	Cuisinier : Peau Mate
+👨🏿‍🍳	Cuisinier : Peau Foncée
+👩‍🍳	Cuisinière
+👩🏻‍🍳	Cuisinière : Peau Claire
+👩🏼‍🍳	Cuisinière : Peau Moyennement Claire
+👩🏽‍🍳	Cuisinière : Peau Légèrement Mate
+👩🏾‍🍳	Cuisinière : Peau Mate
+👩🏿‍🍳	Cuisinière : Peau Foncée
+🧑‍🔧	Mécanicien (tous Genres)
+🧑🏻‍🔧	Mécanicien (tous Genres) : Peau Claire
+🧑🏼‍🔧	Mécanicien (tous Genres) : Peau Moyennement Claire
+🧑🏽‍🔧	Mécanicien (tous Genres) : Peau Légèrement Mate
+🧑🏾‍🔧	Mécanicien (tous Genres) : Peau Mate
+🧑🏿‍🔧	Mécanicien (tous Genres) : Peau Foncée
+👨‍🔧	Mécanicien
+👨🏻‍🔧	Mécanicien : Peau Claire
+👨🏼‍🔧	Mécanicien : Peau Moyennement Claire
+👨🏽‍🔧	Mécanicien : Peau Légèrement Mate
+👨🏾‍🔧	Mécanicien : Peau Mate
+👨🏿‍🔧	Mécanicien : Peau Foncée
+👩‍🔧	Mécanicienne
+👩🏻‍🔧	Mécanicienne : Peau Claire
+👩🏼‍🔧	Mécanicienne : Peau Moyennement Claire
+👩🏽‍🔧	Mécanicienne : Peau Légèrement Mate
+👩🏾‍🔧	Mécanicienne : Peau Mate
+👩🏿‍🔧	Mécanicienne : Peau Foncée
+🧑‍🏭	Ouvrier (tous Genres)
+🧑🏻‍🏭	Ouvrier (tous Genres) : Peau Claire
+🧑🏼‍🏭	Ouvrier (tous Genres) : Peau Moyennement Claire
+🧑🏽‍🏭	Ouvrier (tous Genres) : Peau Légèrement Mate
+🧑🏾‍🏭	Ouvrier (tous Genres) : Peau Mate
+🧑🏿‍🏭	Ouvrier (tous Genres) : Peau Foncée
+👨‍🏭	Ouvrier
+👨🏻‍🏭	Ouvrier : Peau Claire
+👨🏼‍🏭	Ouvrier : Peau Moyennement Claire
+👨🏽‍🏭	Ouvrier : Peau Légèrement Mate
+👨🏾‍🏭	Ouvrier : Peau Mate
+👨🏿‍🏭	Ouvrier : Peau Foncée
+👩‍🏭	Ouvrière
+👩🏻‍🏭	Ouvrière : Peau Claire
+👩🏼‍🏭	Ouvrière : Peau Moyennement Claire
+👩🏽‍🏭	Ouvrière : Peau Légèrement Mate
+👩🏾‍🏭	Ouvrière : Peau Mate
+👩🏿‍🏭	Ouvrière : Peau Foncée
+🧑‍💼	Employé De Bureau (tous Genres)
+🧑🏻‍💼	Employé De Bureau (tous Genres) : Peau Claire
+🧑🏼‍💼	Employé De Bureau (tous Genres) : Peau Moyennement Claire
+🧑🏽‍💼	Employé De Bureau (tous Genres) : Peau Légèrement Mate
+🧑🏾‍💼	Employé De Bureau (tous Genres) : Peau Mate
+🧑🏿‍💼	Employé De Bureau (tous Genres) : Peau Foncée
+👨‍💼	Employé De Bureau
+👨🏻‍💼	Employé De Bureau : Peau Claire
+👨🏼‍💼	Employé De Bureau : Peau Moyennement Claire
+👨🏽‍💼	Employé De Bureau : Peau Légèrement Mate
+👨🏾‍💼	Employé De Bureau : Peau Mate
+👨🏿‍💼	Employé De Bureau : Peau Foncée
+👩‍💼	Employée De Bureau
+👩🏻‍💼	Employée De Bureau : Peau Claire
+👩🏼‍💼	Employée De Bureau : Peau Moyennement Claire
+👩🏽‍💼	Employée De Bureau : Peau Légèrement Mate
+👩🏾‍💼	Employée De Bureau : Peau Mate
+👩🏿‍💼	Employée De Bureau : Peau Foncée
+🧑‍🔬	Scientifique
+🧑🏻‍🔬	Scientifique : Peau Claire
+🧑🏼‍🔬	Scientifique : Peau Moyennement Claire
+🧑🏽‍🔬	Scientifique : Peau Légèrement Mate
+🧑🏾‍🔬	Scientifique : Peau Mate
+🧑🏿‍🔬	Scientifique : Peau Foncée
+👨‍🔬	Scientifique Homme
+👨🏻‍🔬	Scientifique Homme : Peau Claire
+👨🏼‍🔬	Scientifique Homme : Peau Moyennement Claire
+👨🏽‍🔬	Scientifique Homme : Peau Légèrement Mate
+👨🏾‍🔬	Scientifique Homme : Peau Mate
+👨🏿‍🔬	Scientifique Homme : Peau Foncée
+👩‍🔬	Scientifique Femme
+👩🏻‍🔬	Scientifique Femme : Peau Claire
+👩🏼‍🔬	Scientifique Femme : Peau Moyennement Claire
+👩🏽‍🔬	Scientifique Femme : Peau Légèrement Mate
+👩🏾‍🔬	Scientifique Femme : Peau Mate
+👩🏿‍🔬	Scientifique Femme : Peau Foncée
+🧑‍💻	Informaticien (tous Genres)
+🧑🏻‍💻	Informaticien (tous Genres) : Peau Claire
+🧑🏼‍💻	Informaticien (tous Genres) : Peau Moyennement Claire
+🧑🏽‍💻	Informaticien (tous Genres) : Peau Légèrement Mate
+🧑🏾‍💻	Informaticien (tous Genres) : Peau Mate
+🧑🏿‍💻	Informaticien (tous Genres) : Peau Foncée
+👨‍💻	Informaticien
+👨🏻‍💻	Informaticien : Peau Claire
+👨🏼‍💻	Informaticien : Peau Moyennement Claire
+👨🏽‍💻	Informaticien : Peau Légèrement Mate
+👨🏾‍💻	Informaticien : Peau Mate
+👨🏿‍💻	Informaticien : Peau Foncée
+👩‍💻	Informaticienne
+👩🏻‍💻	Informaticienne : Peau Claire
+👩🏼‍💻	Informaticienne : Peau Moyennement Claire
+👩🏽‍💻	Informaticienne : Peau Légèrement Mate
+👩🏾‍💻	Informaticienne : Peau Mate
+👩🏿‍💻	Informaticienne : Peau Foncée
+🧑‍🎤	Chanteur (tous Genres)
+🧑🏻‍🎤	Chanteur (tous Genres) : Peau Claire
+🧑🏼‍🎤	Chanteur (tous Genres) : Peau Moyennement Claire
+🧑🏽‍🎤	Chanteur (tous Genres) : Peau Légèrement Mate
+🧑🏾‍🎤	Chanteur (tous Genres) : Peau Mate
+🧑🏿‍🎤	Chanteur (tous Genres) : Peau Foncée
+👨‍🎤	Chanteur
+👨🏻‍🎤	Chanteur : Peau Claire
+👨🏼‍🎤	Chanteur : Peau Moyennement Claire
+👨🏽‍🎤	Chanteur : Peau Légèrement Mate
+👨🏾‍🎤	Chanteur : Peau Mate
+👨🏿‍🎤	Chanteur : Peau Foncée
+👩‍🎤	Chanteuse
+👩🏻‍🎤	Chanteuse : Peau Claire
+👩🏼‍🎤	Chanteuse : Peau Moyennement Claire
+👩🏽‍🎤	Chanteuse : Peau Légèrement Mate
+👩🏾‍🎤	Chanteuse : Peau Mate
+👩🏿‍🎤	Chanteuse : Peau Foncée
+🧑‍🎨	Artiste
+🧑🏻‍🎨	Artiste : Peau Claire
+🧑🏼‍🎨	Artiste : Peau Moyennement Claire
+🧑🏽‍🎨	Artiste : Peau Légèrement Mate
+🧑🏾‍🎨	Artiste : Peau Mate
+🧑🏿‍🎨	Artiste : Peau Foncée
+👨‍🎨	Artiste Homme
+👨🏻‍🎨	Artiste Homme : Peau Claire
+👨🏼‍🎨	Artiste Homme : Peau Moyennement Claire
+👨🏽‍🎨	Artiste Homme : Peau Légèrement Mate
+👨🏾‍🎨	Artiste Homme : Peau Mate
+👨🏿‍🎨	Artiste Homme : Peau Foncée
+👩‍🎨	Artiste Femme
+👩🏻‍🎨	Artiste Femme : Peau Claire
+👩🏼‍🎨	Artiste Femme : Peau Moyennement Claire
+👩🏽‍🎨	Artiste Femme : Peau Légèrement Mate
+👩🏾‍🎨	Artiste Femme : Peau Mate
+👩🏿‍🎨	Artiste Femme : Peau Foncée
+🧑‍✈️	Pilote
+🧑🏻‍✈️	Pilote : Peau Claire
+🧑🏼‍✈️	Pilote : Peau Moyennement Claire
+🧑🏽‍✈️	Pilote : Peau Légèrement Mate
+🧑🏾‍✈️	Pilote : Peau Mate
+🧑🏿‍✈️	Pilote : Peau Foncée
+👨‍✈️	Pilote Homme
+👨🏻‍✈️	Pilote Homme : Peau Claire
+👨🏼‍✈️	Pilote Homme : Peau Moyennement Claire
+👨🏽‍✈️	Pilote Homme : Peau Légèrement Mate
+👨🏾‍✈️	Pilote Homme : Peau Mate
+👨🏿‍✈️	Pilote Homme : Peau Foncée
+👩‍✈️	Pilote Femme
+👩🏻‍✈️	Pilote Femme : Peau Claire
+👩🏼‍✈️	Pilote Femme : Peau Moyennement Claire
+👩🏽‍✈️	Pilote Femme : Peau Légèrement Mate
+👩🏾‍✈️	Pilote Femme : Peau Mate
+👩🏿‍✈️	Pilote Femme : Peau Foncée
+🧑‍🚀	Astronaute
+🧑🏻‍🚀	Astronaute : Peau Claire
+🧑🏼‍🚀	Astronaute : Peau Moyennement Claire
+🧑🏽‍🚀	Astronaute : Peau Légèrement Mate
+🧑🏾‍🚀	Astronaute : Peau Mate
+🧑🏿‍🚀	Astronaute : Peau Foncée
+👨‍🚀	Astronaute Homme
+👨🏻‍🚀	Astronaute Homme : Peau Claire
+👨🏼‍🚀	Astronaute Homme : Peau Moyennement Claire
+👨🏽‍🚀	Astronaute Homme : Peau Légèrement Mate
+👨🏾‍🚀	Astronaute Homme : Peau Mate
+👨🏿‍🚀	Astronaute Homme : Peau Foncée
+👩‍🚀	Astronaute Femme
+👩🏻‍🚀	Astronaute Femme : Peau Claire
+👩🏼‍🚀	Astronaute Femme : Peau Moyennement Claire
+👩🏽‍🚀	Astronaute Femme : Peau Légèrement Mate
+👩🏾‍🚀	Astronaute Femme : Peau Mate
+👩🏿‍🚀	Astronaute Femme : Peau Foncée
+🧑‍🚒	Pompier
+🧑🏻‍🚒	Pompier : Peau Claire
+🧑🏼‍🚒	Pompier : Peau Moyennement Claire
+🧑🏽‍🚒	Pompier : Peau Légèrement Mate
+🧑🏾‍🚒	Pompier : Peau Mate
+🧑🏿‍🚒	Pompier : Peau Foncée
+👨‍🚒	Pompier Homme
+👨🏻‍🚒	Pompier Homme : Peau Claire
+👨🏼‍🚒	Pompier Homme : Peau Moyennement Claire
+👨🏽‍🚒	Pompier Homme : Peau Légèrement Mate
+👨🏾‍🚒	Pompier Homme : Peau Mate
+👨🏿‍🚒	Pompier Homme : Peau Foncée
+👩‍🚒	Pompier Femme
+👩🏻‍🚒	Pompier Femme : Peau Claire
+👩🏼‍🚒	Pompier Femme : Peau Moyennement Claire
+👩🏽‍🚒	Pompier Femme : Peau Légèrement Mate
+👩🏾‍🚒	Pompier Femme : Peau Mate
+👩🏿‍🚒	Pompier Femme : Peau Foncée
+👮	Officier De Police
+👮🏻	Officier De Police : Peau Claire
+👮🏼	Officier De Police : Peau Moyennement Claire
+👮🏽	Officier De Police : Peau Légèrement Mate
+👮🏾	Officier De Police : Peau Mate
+👮🏿	Officier De Police : Peau Foncée
+👮‍♂️	Policier
+👮🏻‍♂️	Policier : Peau Claire
+👮🏼‍♂️	Policier : Peau Moyennement Claire
+👮🏽‍♂️	Policier : Peau Légèrement Mate
+👮🏾‍♂️	Policier : Peau Mate
+👮🏿‍♂️	Policier : Peau Foncée
+👮‍♀️	Policière
+👮🏻‍♀️	Policière : Peau Claire
+👮🏼‍♀️	Policière : Peau Moyennement Claire
+👮🏽‍♀️	Policière : Peau Légèrement Mate
+👮🏾‍♀️	Policière : Peau Mate
+👮🏿‍♀️	Policière : Peau Foncée
+🕵️	Détective
+🕵🏻	Détective : Peau Claire
+🕵🏼	Détective : Peau Moyennement Claire
+🕵🏽	Détective : Peau Légèrement Mate
+🕵🏾	Détective : Peau Mate
+🕵🏿	Détective : Peau Foncée
+🕵️‍♂️	Détective Homme
+🕵🏻‍♂️	Détective Homme : Peau Claire
+🕵🏼‍♂️	Détective Homme : Peau Moyennement Claire
+🕵🏽‍♂️	Détective Homme : Peau Légèrement Mate
+🕵🏾‍♂️	Détective Homme : Peau Mate
+🕵🏿‍♂️	Détective Homme : Peau Foncée
+🕵️‍♀️	Détective Femme
+🕵🏻‍♀️	Détective Femme : Peau Claire
+🕵🏼‍♀️	Détective Femme : Peau Moyennement Claire
+🕵🏽‍♀️	Détective Femme : Peau Légèrement Mate
+🕵🏾‍♀️	Détective Femme : Peau Mate
+🕵🏿‍♀️	Détective Femme : Peau Foncée
+💂	Garde
+💂🏻	Garde : Peau Claire
+💂🏼	Garde : Peau Moyennement Claire
+💂🏽	Garde : Peau Légèrement Mate
+💂🏾	Garde : Peau Mate
+💂🏿	Garde : Peau Foncée
+💂‍♂️	Garde Homme
+💂🏻‍♂️	Garde Homme : Peau Claire
+💂🏼‍♂️	Garde Homme : Peau Moyennement Claire
+💂🏽‍♂️	Garde Homme : Peau Légèrement Mate
+💂🏾‍♂️	Garde Homme : Peau Mate
+💂🏿‍♂️	Garde Homme : Peau Foncée
+💂‍♀️	Garde Femme
+💂🏻‍♀️	Garde Femme : Peau Claire
+💂🏼‍♀️	Garde Femme : Peau Moyennement Claire
+💂🏽‍♀️	Garde Femme : Peau Légèrement Mate
+💂🏾‍♀️	Garde Femme : Peau Mate
+💂🏿‍♀️	Garde Femme : Peau Foncée
+🥷	Ninja
+🥷🏻	Ninja : Peau Claire
+🥷🏼	Ninja : Peau Moyennement Claire
+🥷🏽	Ninja : Peau Légèrement Mate
+🥷🏾	Ninja : Peau Mate
+🥷🏿	Ninja : Peau Foncée
+👷	Personnel Du Bâtiment
+👷🏻	Personnel Du Bâtiment : Peau Claire
+👷🏼	Personnel Du Bâtiment : Peau Moyennement Claire
+👷🏽	Personnel Du Bâtiment : Peau Légèrement Mate
+👷🏾	Personnel Du Bâtiment : Peau Mate
+👷🏿	Personnel Du Bâtiment : Peau Foncée
+👷‍♂️	Ouvrier Du Bâtiment
+👷🏻‍♂️	Ouvrier Du Bâtiment : Peau Claire
+👷🏼‍♂️	Ouvrier Du Bâtiment : Peau Moyennement Claire
+👷🏽‍♂️	Ouvrier Du Bâtiment : Peau Légèrement Mate
+👷🏾‍♂️	Ouvrier Du Bâtiment : Peau Mate
+👷🏿‍♂️	Ouvrier Du Bâtiment : Peau Foncée
+👷‍♀️	Ouvrière Du Bâtiment
+👷🏻‍♀️	Ouvrière Du Bâtiment : Peau Claire
+👷🏼‍♀️	Ouvrière Du Bâtiment : Peau Moyennement Claire
+👷🏽‍♀️	Ouvrière Du Bâtiment : Peau Légèrement Mate
+👷🏾‍♀️	Ouvrière Du Bâtiment : Peau Mate
+👷🏿‍♀️	Ouvrière Du Bâtiment : Peau Foncée
+🤴	Prince
+🤴🏻	Prince : Peau Claire
+🤴🏼	Prince : Peau Moyennement Claire
+🤴🏽	Prince : Peau Légèrement Mate
+🤴🏾	Prince : Peau Mate
+🤴🏿	Prince : Peau Foncée
+👸	Princesse
+👸🏻	Princesse : Peau Claire
+👸🏼	Princesse : Peau Moyennement Claire
+👸🏽	Princesse : Peau Légèrement Mate
+👸🏾	Princesse : Peau Mate
+👸🏿	Princesse : Peau Foncée
+👳	Personne En Turban
+👳🏻	Personne En Turban : Peau Claire
+👳🏼	Personne En Turban : Peau Moyennement Claire
+👳🏽	Personne En Turban : Peau Légèrement Mate
+👳🏾	Personne En Turban : Peau Mate
+👳🏿	Personne En Turban : Peau Foncée
+👳‍♂️	Homme En Turban
+👳🏻‍♂️	Homme En Turban : Peau Claire
+👳🏼‍♂️	Homme En Turban : Peau Moyennement Claire
+👳🏽‍♂️	Homme En Turban : Peau Légèrement Mate
+👳🏾‍♂️	Homme En Turban : Peau Mate
+👳🏿‍♂️	Homme En Turban : Peau Foncée
+👳‍♀️	Femme En Turban
+👳🏻‍♀️	Femme En Turban : Peau Claire
+👳🏼‍♀️	Femme En Turban : Peau Moyennement Claire
+👳🏽‍♀️	Femme En Turban : Peau Légèrement Mate
+👳🏾‍♀️	Femme En Turban : Peau Mate
+👳🏿‍♀️	Femme En Turban : Peau Foncée
+👲	Homme Avec Casquette Chinoise
+👲🏻	Homme Avec Casquette Chinoise : Peau Claire
+👲🏼	Homme Avec Casquette Chinoise : Peau Moyennement Claire
+👲🏽	Homme Avec Casquette Chinoise : Peau Légèrement Mate
+👲🏾	Homme Avec Casquette Chinoise : Peau Mate
+👲🏿	Homme Avec Casquette Chinoise : Peau Foncée
+🧕	Femme Avec Foulard
+🧕🏻	Femme Avec Foulard : Peau Claire
+🧕🏼	Femme Avec Foulard : Peau Moyennement Claire
+🧕🏽	Femme Avec Foulard : Peau Légèrement Mate
+🧕🏾	Femme Avec Foulard : Peau Mate
+🧕🏿	Femme Avec Foulard : Peau Foncée
+🤵	Personne En Smoking
+🤵🏻	Personne En Smoking : Peau Claire
+🤵🏼	Personne En Smoking : Peau Moyennement Claire
+🤵🏽	Personne En Smoking : Peau Légèrement Mate
+🤵🏾	Personne En Smoking : Peau Mate
+🤵🏿	Personne En Smoking : Peau Foncée
+🤵‍♂️	Homme En Smoking
+🤵🏻‍♂️	Homme En Smoking : Peau Claire
+🤵🏼‍♂️	Homme En Smoking : Peau Moyennement Claire
+🤵🏽‍♂️	Homme En Smoking : Peau Légèrement Mate
+🤵🏾‍♂️	Homme En Smoking : Peau Mate
+🤵🏿‍♂️	Homme En Smoking : Peau Foncée
+🤵‍♀️	Femme En Smoking
+🤵🏻‍♀️	Femme En Smoking : Peau Claire
+🤵🏼‍♀️	Femme En Smoking : Peau Moyennement Claire
+🤵🏽‍♀️	Femme En Smoking : Peau Légèrement Mate
+🤵🏾‍♀️	Femme En Smoking : Peau Mate
+🤵🏿‍♀️	Femme En Smoking : Peau Foncée
+👰	Personne Mariée Avec Voile
+👰🏻	Personne Mariée Avec Voile : Peau Claire
+👰🏼	Personne Mariée Avec Voile : Peau Moyennement Claire
+👰🏽	Personne Mariée Avec Voile : Peau Légèrement Mate
+👰🏾	Personne Mariée Avec Voile : Peau Mate
+👰🏿	Personne Mariée Avec Voile : Peau Foncée
+👰‍♂️	Homme Avec Voile
+👰🏻‍♂️	Homme Avec Voile : Peau Claire
+👰🏼‍♂️	Homme Avec Voile : Peau Moyennement Claire
+👰🏽‍♂️	Homme Avec Voile : Peau Légèrement Mate
+👰🏾‍♂️	Homme Avec Voile : Peau Mate
+👰🏿‍♂️	Homme Avec Voile : Peau Foncée
+👰‍♀️	Femme Avec Voile
+👰🏻‍♀️	Femme Avec Voile : Peau Claire
+👰🏼‍♀️	Femme Avec Voile : Peau Moyennement Claire
+👰🏽‍♀️	Femme Avec Voile : Peau Légèrement Mate
+👰🏾‍♀️	Femme Avec Voile : Peau Mate
+👰🏿‍♀️	Femme Avec Voile : Peau Foncée
+🤰	Femme Enceinte
+🤰🏻	Femme Enceinte : Peau Claire
+🤰🏼	Femme Enceinte : Peau Moyennement Claire
+🤰🏽	Femme Enceinte : Peau Légèrement Mate
+🤰🏾	Femme Enceinte : Peau Mate
+🤰🏿	Femme Enceinte : Peau Foncée
+🤱	Allaitement
+🤱🏻	Allaitement : Peau Claire
+🤱🏼	Allaitement : Peau Moyennement Claire
+🤱🏽	Allaitement : Peau Légèrement Mate
+🤱🏾	Allaitement : Peau Mate
+🤱🏿	Allaitement : Peau Foncée
+👩‍🍼	Femme Allaitant Un Bébé
+👩🏻‍🍼	Femme Allaitant Un Bébé : Peau Claire
+👩🏼‍🍼	Femme Allaitant Un Bébé : Peau Moyennement Claire
+👩🏽‍🍼	Femme Allaitant Un Bébé : Peau Légèrement Mate
+👩🏾‍🍼	Femme Allaitant Un Bébé : Peau Mate
+👩🏿‍🍼	Femme Allaitant Un Bébé : Peau Foncée
+👨‍🍼	Homme Allaitant Un Bébé
+👨🏻‍🍼	Homme Allaitant Un Bébé : Peau Claire
+👨🏼‍🍼	Homme Allaitant Un Bébé : Peau Moyennement Claire
+👨🏽‍🍼	Homme Allaitant Un Bébé : Peau Légèrement Mate
+👨🏾‍🍼	Homme Allaitant Un Bébé : Peau Mate
+👨🏿‍🍼	Homme Allaitant Un Bébé : Peau Foncée
+🧑‍🍼	Personne Allaitant Un Bébé
+🧑🏻‍🍼	Personne Allaitant Un Bébé : Peau Claire
+🧑🏼‍🍼	Personne Allaitant Un Bébé : Peau Moyennement Claire
+🧑🏽‍🍼	Personne Allaitant Un Bébé : Peau Légèrement Mate
+🧑🏾‍🍼	Personne Allaitant Un Bébé : Peau Mate
+🧑🏿‍🍼	Personne Allaitant Un Bébé : Peau Foncée
+👼	Bébé Ange
+👼🏻	Bébé Ange : Peau Claire
+👼🏼	Bébé Ange : Peau Moyennement Claire
+👼🏽	Bébé Ange : Peau Légèrement Mate
+👼🏾	Bébé Ange : Peau Mate
+👼🏿	Bébé Ange : Peau Foncée
+🎅	Père Noël
+🎅🏻	Père Noël : Peau Claire
+🎅🏼	Père Noël : Peau Moyennement Claire
+🎅🏽	Père Noël : Peau Légèrement Mate
+🎅🏾	Père Noël : Peau Mate
+🎅🏿	Père Noël : Peau Foncée
+🤶	Mère Noël
+🤶🏻	Mère Noël : Peau Claire
+🤶🏼	Mère Noël : Peau Moyennement Claire
+🤶🏽	Mère Noël : Peau Légèrement Mate
+🤶🏾	Mère Noël : Peau Mate
+🤶🏿	Mère Noël : Peau Foncée
+🧑‍🎄	Santa
+🧑🏻‍🎄	Santa : Peau Claire
+🧑🏼‍🎄	Santa : Peau Moyennement Claire
+🧑🏽‍🎄	Santa : Peau Légèrement Mate
+🧑🏾‍🎄	Santa : Peau Mate
+🧑🏿‍🎄	Santa : Peau Foncée
+🦸	Super-héros
+🦸🏻	Super-héros : Peau Claire
+🦸🏼	Super-héros : Peau Moyennement Claire
+🦸🏽	Super-héros : Peau Légèrement Mate
+🦸🏾	Super-héros : Peau Mate
+🦸🏿	Super-héros : Peau Foncée
+🦸‍♂️	Super-héros Homme
+🦸🏻‍♂️	Super-héros Homme : Peau Claire
+🦸🏼‍♂️	Super-héros Homme : Peau Moyennement Claire
+🦸🏽‍♂️	Super-héros Homme : Peau Légèrement Mate
+🦸🏾‍♂️	Super-héros Homme : Peau Mate
+🦸🏿‍♂️	Super-héros Homme : Peau Foncée
+🦸‍♀️	Super-héroïne
+🦸🏻‍♀️	Super-héroïne : Peau Claire
+🦸🏼‍♀️	Super-héroïne : Peau Moyennement Claire
+🦸🏽‍♀️	Super-héroïne : Peau Légèrement Mate
+🦸🏾‍♀️	Super-héroïne : Peau Mate
+🦸🏿‍♀️	Super-héroïne : Peau Foncée
+🦹	Super-vilain
+🦹🏻	Super-vilain : Peau Claire
+🦹🏼	Super-vilain : Peau Moyennement Claire
+🦹🏽	Super-vilain : Peau Légèrement Mate
+🦹🏾	Super-vilain : Peau Mate
+🦹🏿	Super-vilain : Peau Foncée
+🦹‍♂️	Super-vilain Homme
+🦹🏻‍♂️	Super-vilain Homme : Peau Claire
+🦹🏼‍♂️	Super-vilain Homme : Peau Moyennement Claire
+🦹🏽‍♂️	Super-vilain Homme : Peau Légèrement Mate
+🦹🏾‍♂️	Super-vilain Homme : Peau Mate
+🦹🏿‍♂️	Super-vilain Homme : Peau Foncée
+🦹‍♀️	Super-vilain Femme
+🦹🏻‍♀️	Super-vilain Femme : Peau Claire
+🦹🏼‍♀️	Super-vilain Femme : Peau Moyennement Claire
+🦹🏽‍♀️	Super-vilain Femme : Peau Légèrement Mate
+🦹🏾‍♀️	Super-vilain Femme : Peau Mate
+🦹🏿‍♀️	Super-vilain Femme : Peau Foncée
+🧙	Mage
+🧙🏻	Mage : Peau Claire
+🧙🏼	Mage : Peau Moyennement Claire
+🧙🏽	Mage : Peau Légèrement Mate
+🧙🏾	Mage : Peau Mate
+🧙🏿	Mage : Peau Foncée
+🧙‍♂️	Mage Homme
+🧙🏻‍♂️	Mage Homme : Peau Claire
+🧙🏼‍♂️	Mage Homme : Peau Moyennement Claire
+🧙🏽‍♂️	Mage Homme : Peau Légèrement Mate
+🧙🏾‍♂️	Mage Homme : Peau Mate
+🧙🏿‍♂️	Mage Homme : Peau Foncée
+🧙‍♀️	Mage Femme
+🧙🏻‍♀️	Mage Femme : Peau Claire
+🧙🏼‍♀️	Mage Femme : Peau Moyennement Claire
+🧙🏽‍♀️	Mage Femme : Peau Légèrement Mate
+🧙🏾‍♀️	Mage Femme : Peau Mate
+🧙🏿‍♀️	Mage Femme : Peau Foncée
+🧚	Personnage Féérique
+🧚🏻	Personnage Féérique : Peau Claire
+🧚🏼	Personnage Féérique : Peau Moyennement Claire
+🧚🏽	Personnage Féérique : Peau Légèrement Mate
+🧚🏾	Personnage Féérique : Peau Mate
+🧚🏿	Personnage Féérique : Peau Foncée
+🧚‍♂️	Féetaud
+🧚🏻‍♂️	Féetaud : Peau Claire
+🧚🏼‍♂️	Féetaud : Peau Moyennement Claire
+🧚🏽‍♂️	Féetaud : Peau Légèrement Mate
+🧚🏾‍♂️	Féetaud : Peau Mate
+🧚🏿‍♂️	Féetaud : Peau Foncée
+🧚‍♀️	Fée
+🧚🏻‍♀️	Fée : Peau Claire
+🧚🏼‍♀️	Fée : Peau Moyennement Claire
+🧚🏽‍♀️	Fée : Peau Légèrement Mate
+🧚🏾‍♀️	Fée : Peau Mate
+🧚🏿‍♀️	Fée : Peau Foncée
+🧛	Vampire
+🧛🏻	Vampire : Peau Claire
+🧛🏼	Vampire : Peau Moyennement Claire
+🧛🏽	Vampire : Peau Légèrement Mate
+🧛🏾	Vampire : Peau Mate
+🧛🏿	Vampire : Peau Foncée
+🧛‍♂️	Vampire Homme
+🧛🏻‍♂️	Vampire Homme : Peau Claire
+🧛🏼‍♂️	Vampire Homme : Peau Moyennement Claire
+🧛🏽‍♂️	Vampire Homme : Peau Légèrement Mate
+🧛🏾‍♂️	Vampire Homme : Peau Mate
+🧛🏿‍♂️	Vampire Homme : Peau Foncée
+🧛‍♀️	Vampire Femme
+🧛🏻‍♀️	Vampire Femme : Peau Claire
+🧛🏼‍♀️	Vampire Femme : Peau Moyennement Claire
+🧛🏽‍♀️	Vampire Femme : Peau Légèrement Mate
+🧛🏾‍♀️	Vampire Femme : Peau Mate
+🧛🏿‍♀️	Vampire Femme : Peau Foncée
+🧜	Créature Aquatique
+🧜🏻	Créature Aquatique : Peau Claire
+🧜🏼	Créature Aquatique : Peau Moyennement Claire
+🧜🏽	Créature Aquatique : Peau Légèrement Mate
+🧜🏾	Créature Aquatique : Peau Mate
+🧜🏿	Créature Aquatique : Peau Foncée
+🧜‍♂️	Triton
+🧜🏻‍♂️	Triton : Peau Claire
+🧜🏼‍♂️	Triton : Peau Moyennement Claire
+🧜🏽‍♂️	Triton : Peau Légèrement Mate
+🧜🏾‍♂️	Triton : Peau Mate
+🧜🏿‍♂️	Triton : Peau Foncée
+🧜‍♀️	Sirène
+🧜🏻‍♀️	Sirène : Peau Claire
+🧜🏼‍♀️	Sirène : Peau Moyennement Claire
+🧜🏽‍♀️	Sirène : Peau Légèrement Mate
+🧜🏾‍♀️	Sirène : Peau Mate
+🧜🏿‍♀️	Sirène : Peau Foncée
+🧝	Elfe
+🧝🏻	Elfe : Peau Claire
+🧝🏼	Elfe : Peau Moyennement Claire
+🧝🏽	Elfe : Peau Légèrement Mate
+🧝🏾	Elfe : Peau Mate
+🧝🏿	Elfe : Peau Foncée
+🧝‍♂️	Elfe Homme
+🧝🏻‍♂️	Elfe Homme : Peau Claire
+🧝🏼‍♂️	Elfe Homme : Peau Moyennement Claire
+🧝🏽‍♂️	Elfe Homme : Peau Légèrement Mate
+🧝🏾‍♂️	Elfe Homme : Peau Mate
+🧝🏿‍♂️	Elfe Homme : Peau Foncée
+🧝‍♀️	Elfe Femme
+🧝🏻‍♀️	Elfe Femme : Peau Claire
+🧝🏼‍♀️	Elfe Femme : Peau Moyennement Claire
+🧝🏽‍♀️	Elfe Femme : Peau Légèrement Mate
+🧝🏾‍♀️	Elfe Femme : Peau Mate
+🧝🏿‍♀️	Elfe Femme : Peau Foncée
+🧞	Génie
+🧞‍♂️	Génie Homme
+🧞‍♀️	Génie Femme
+🧟	Zombie
+🧟‍♂️	Zombie Homme
+🧟‍♀️	Zombie Femme
+💆	Personne Qui Se Fait Masser
+💆🏻	Personne Qui Se Fait Masser : Peau Claire
+💆🏼	Personne Qui Se Fait Masser : Peau Moyennement Claire
+💆🏽	Personne Qui Se Fait Masser : Peau Légèrement Mate
+💆🏾	Personne Qui Se Fait Masser : Peau Mate
+💆🏿	Personne Qui Se Fait Masser : Peau Foncée
+💆‍♂️	Homme Qui Se Fait Masser
+💆🏻‍♂️	Homme Qui Se Fait Masser : Peau Claire
+💆🏼‍♂️	Homme Qui Se Fait Masser : Peau Moyennement Claire
+💆🏽‍♂️	Homme Qui Se Fait Masser : Peau Légèrement Mate
+💆🏾‍♂️	Homme Qui Se Fait Masser : Peau Mate
+💆🏿‍♂️	Homme Qui Se Fait Masser : Peau Foncée
+💆‍♀️	Femme Qui Se Fait Masser
+💆🏻‍♀️	Femme Qui Se Fait Masser : Peau Claire
+💆🏼‍♀️	Femme Qui Se Fait Masser : Peau Moyennement Claire
+💆🏽‍♀️	Femme Qui Se Fait Masser : Peau Légèrement Mate
+💆🏾‍♀️	Femme Qui Se Fait Masser : Peau Mate
+💆🏿‍♀️	Femme Qui Se Fait Masser : Peau Foncée
+💇	Personne Qui Se Fait Couper Les Cheveux
+💇🏻	Personne Qui Se Fait Couper Les Cheveux : Peau Claire
+💇🏼	Personne Qui Se Fait Couper Les Cheveux : Peau Moyennement Claire
+💇🏽	Personne Qui Se Fait Couper Les Cheveux : Peau Légèrement Mate
+💇🏾	Personne Qui Se Fait Couper Les Cheveux : Peau Mate
+💇🏿	Personne Qui Se Fait Couper Les Cheveux : Peau Foncée
+💇‍♂️	Homme Qui Se Fait Couper Les Cheveux
+💇🏻‍♂️	Homme Qui Se Fait Couper Les Cheveux : Peau Claire
+💇🏼‍♂️	Homme Qui Se Fait Couper Les Cheveux : Peau Moyennement Claire
+💇🏽‍♂️	Homme Qui Se Fait Couper Les Cheveux : Peau Légèrement Mate
+💇🏾‍♂️	Homme Qui Se Fait Couper Les Cheveux : Peau Mate
+💇🏿‍♂️	Homme Qui Se Fait Couper Les Cheveux : Peau Foncée
+💇‍♀️	Femme Qui Se Fait Couper Les Cheveux
+💇🏻‍♀️	Femme Qui Se Fait Couper Les Cheveux : Peau Claire
+💇🏼‍♀️	Femme Qui Se Fait Couper Les Cheveux : Peau Moyennement Claire
+💇🏽‍♀️	Femme Qui Se Fait Couper Les Cheveux : Peau Légèrement Mate
+💇🏾‍♀️	Femme Qui Se Fait Couper Les Cheveux : Peau Mate
+💇🏿‍♀️	Femme Qui Se Fait Couper Les Cheveux : Peau Foncée
+🚶	Personne Qui Marche
+🚶🏻	Personne Qui Marche : Peau Claire
+🚶🏼	Personne Qui Marche : Peau Moyennement Claire
+🚶🏽	Personne Qui Marche : Peau Légèrement Mate
+🚶🏾	Personne Qui Marche : Peau Mate
+🚶🏿	Personne Qui Marche : Peau Foncée
+🚶‍♂️	Homme Qui Marche
+🚶🏻‍♂️	Homme Qui Marche : Peau Claire
+🚶🏼‍♂️	Homme Qui Marche : Peau Moyennement Claire
+🚶🏽‍♂️	Homme Qui Marche : Peau Légèrement Mate
+🚶🏾‍♂️	Homme Qui Marche : Peau Mate
+🚶🏿‍♂️	Homme Qui Marche : Peau Foncée
+🚶‍♀️	Femme Qui Marche
+🚶🏻‍♀️	Femme Qui Marche : Peau Claire
+🚶🏼‍♀️	Femme Qui Marche : Peau Moyennement Claire
+🚶🏽‍♀️	Femme Qui Marche : Peau Légèrement Mate
+🚶🏾‍♀️	Femme Qui Marche : Peau Mate
+🚶🏿‍♀️	Femme Qui Marche : Peau Foncée
+🧍	Personne Debout
+🧍🏻	Personne Debout : Peau Claire
+🧍🏼	Personne Debout : Peau Moyennement Claire
+🧍🏽	Personne Debout : Peau Légèrement Mate
+🧍🏾	Personne Debout : Peau Mate
+🧍🏿	Personne Debout : Peau Foncée
+🧍‍♂️	Homme Debout
+🧍🏻‍♂️	Homme Debout : Peau Claire
+🧍🏼‍♂️	Homme Debout : Peau Moyennement Claire
+🧍🏽‍♂️	Homme Debout : Peau Légèrement Mate
+🧍🏾‍♂️	Homme Debout : Peau Mate
+🧍🏿‍♂️	Homme Debout : Peau Foncée
+🧍‍♀️	Femme Debout
+🧍🏻‍♀️	Femme Debout : Peau Claire
+🧍🏼‍♀️	Femme Debout : Peau Moyennement Claire
+🧍🏽‍♀️	Femme Debout : Peau Légèrement Mate
+🧍🏾‍♀️	Femme Debout : Peau Mate
+🧍🏿‍♀️	Femme Debout : Peau Foncée
+🧎	Personne à Genoux
+🧎🏻	Personne à Genoux : Peau Claire
+🧎🏼	Personne à Genoux : Peau Moyennement Claire
+🧎🏽	Personne à Genoux : Peau Légèrement Mate
+🧎🏾	Personne à Genoux : Peau Mate
+🧎🏿	Personne à Genoux : Peau Foncée
+🧎‍♂️	Homme à Genoux
+🧎🏻‍♂️	Homme à Genoux : Peau Claire
+🧎🏼‍♂️	Homme à Genoux : Peau Moyennement Claire
+🧎🏽‍♂️	Homme à Genoux : Peau Légèrement Mate
+🧎🏾‍♂️	Homme à Genoux : Peau Mate
+🧎🏿‍♂️	Homme à Genoux : Peau Foncée
+🧎‍♀️	Femme à Genoux
+🧎🏻‍♀️	Femme à Genoux : Peau Claire
+🧎🏼‍♀️	Femme à Genoux : Peau Moyennement Claire
+🧎🏽‍♀️	Femme à Genoux : Peau Légèrement Mate
+🧎🏾‍♀️	Femme à Genoux : Peau Mate
+🧎🏿‍♀️	Femme à Genoux : Peau Foncée
+🧑‍🦯	Personne Avec Une Canne Blanche
+🧑🏻‍🦯	Personne Avec Une Canne Blanche : Peau Claire
+🧑🏼‍🦯	Personne Avec Une Canne Blanche : Peau Moyennement Claire
+🧑🏽‍🦯	Personne Avec Une Canne Blanche : Peau Légèrement Mate
+🧑🏾‍🦯	Personne Avec Une Canne Blanche : Peau Mate
+🧑🏿‍🦯	Personne Avec Une Canne Blanche : Peau Foncée
+👨‍🦯	Homme Avec Canne Blanche
+👨🏻‍🦯	Homme Avec Canne Blanche : Peau Claire
+👨🏼‍🦯	Homme Avec Canne Blanche : Peau Moyennement Claire
+👨🏽‍🦯	Homme Avec Canne Blanche : Peau Légèrement Mate
+👨🏾‍🦯	Homme Avec Canne Blanche : Peau Mate
+👨🏿‍🦯	Homme Avec Canne Blanche : Peau Foncée
+👩‍🦯	Femme Avec Canne Blanche
+👩🏻‍🦯	Femme Avec Canne Blanche : Peau Claire
+👩🏼‍🦯	Femme Avec Canne Blanche : Peau Moyennement Claire
+👩🏽‍🦯	Femme Avec Canne Blanche : Peau Légèrement Mate
+👩🏾‍🦯	Femme Avec Canne Blanche : Peau Mate
+👩🏿‍🦯	Femme Avec Canne Blanche : Peau Foncée
+🧑‍🦼	Personne En Fauteuil Motorisé
+🧑🏻‍🦼	Personne En Fauteuil Motorisé : Peau Claire
+🧑🏼‍🦼	Personne En Fauteuil Motorisé : Peau Moyennement Claire
+🧑🏽‍🦼	Personne En Fauteuil Motorisé : Peau Légèrement Mate
+🧑🏾‍🦼	Personne En Fauteuil Motorisé : Peau Mate
+🧑🏿‍🦼	Personne En Fauteuil Motorisé : Peau Foncée
+👨‍🦼	Homme En Fauteuil Motorisé
+👨🏻‍🦼	Homme En Fauteuil Motorisé : Peau Claire
+👨🏼‍🦼	Homme En Fauteuil Motorisé : Peau Moyennement Claire
+👨🏽‍🦼	Homme En Fauteuil Motorisé : Peau Légèrement Mate
+👨🏾‍🦼	Homme En Fauteuil Motorisé : Peau Mate
+👨🏿‍🦼	Homme En Fauteuil Motorisé : Peau Foncée
+👩‍🦼	Femme En Fauteuil Motorisé
+👩🏻‍🦼	Femme En Fauteuil Motorisé : Peau Claire
+👩🏼‍🦼	Femme En Fauteuil Motorisé : Peau Moyennement Claire
+👩🏽‍🦼	Femme En Fauteuil Motorisé : Peau Légèrement Mate
+👩🏾‍🦼	Femme En Fauteuil Motorisé : Peau Mate
+👩🏿‍🦼	Femme En Fauteuil Motorisé : Peau Foncée
+🧑‍🦽	Personne En Fauteuil Roulant Manuel
+🧑🏻‍🦽	Personne En Fauteuil Roulant Manuel : Peau Claire
+🧑🏼‍🦽	Personne En Fauteuil Roulant Manuel : Peau Moyennement Claire
+🧑🏽‍🦽	Personne En Fauteuil Roulant Manuel : Peau Légèrement Mate
+🧑🏾‍🦽	Personne En Fauteuil Roulant Manuel : Peau Mate
+🧑🏿‍🦽	Personne En Fauteuil Roulant Manuel : Peau Foncée
+👨‍🦽	Homme En Fauteuil Roulant Manuel
+👨🏻‍🦽	Homme En Fauteuil Roulant Manuel : Peau Claire
+👨🏼‍🦽	Homme En Fauteuil Roulant Manuel : Peau Moyennement Claire
+👨🏽‍🦽	Homme En Fauteuil Roulant Manuel : Peau Légèrement Mate
+👨🏾‍🦽	Homme En Fauteuil Roulant Manuel : Peau Mate
+👨🏿‍🦽	Homme En Fauteuil Roulant Manuel : Peau Foncée
+👩‍🦽	Femme En Fauteuil Roulant Manuel
+👩🏻‍🦽	Femme En Fauteuil Roulant Manuel : Peau Claire
+👩🏼‍🦽	Femme En Fauteuil Roulant Manuel : Peau Moyennement Claire
+👩🏽‍🦽	Femme En Fauteuil Roulant Manuel : Peau Légèrement Mate
+👩🏾‍🦽	Femme En Fauteuil Roulant Manuel : Peau Mate
+👩🏿‍🦽	Femme En Fauteuil Roulant Manuel : Peau Foncée
+🏃	Personne Qui Court
+🏃🏻	Personne Qui Court : Peau Claire
+🏃🏼	Personne Qui Court : Peau Moyennement Claire
+🏃🏽	Personne Qui Court : Peau Légèrement Mate
+🏃🏾	Personne Qui Court : Peau Mate
+🏃🏿	Personne Qui Court : Peau Foncée
+🏃‍♂️	Homme Qui Court
+🏃🏻‍♂️	Homme Qui Court : Peau Claire
+🏃🏼‍♂️	Homme Qui Court : Peau Moyennement Claire
+🏃🏽‍♂️	Homme Qui Court : Peau Légèrement Mate
+🏃🏾‍♂️	Homme Qui Court : Peau Mate
+🏃🏿‍♂️	Homme Qui Court : Peau Foncée
+🏃‍♀️	Femme Qui Court
+🏃🏻‍♀️	Femme Qui Court : Peau Claire
+🏃🏼‍♀️	Femme Qui Court : Peau Moyennement Claire
+🏃🏽‍♀️	Femme Qui Court : Peau Légèrement Mate
+🏃🏾‍♀️	Femme Qui Court : Peau Mate
+🏃🏿‍♀️	Femme Qui Court : Peau Foncée
+💃	Danseuse
+💃🏻	Danseuse : Peau Claire
+💃🏼	Danseuse : Peau Moyennement Claire
+💃🏽	Danseuse : Peau Légèrement Mate
+💃🏾	Danseuse : Peau Mate
+💃🏿	Danseuse : Peau Foncée
+🕺	Danseur
+🕺🏻	Danseur : Peau Claire
+🕺🏼	Danseur : Peau Moyennement Claire
+🕺🏽	Danseur : Peau Légèrement Mate
+🕺🏾	Danseur : Peau Mate
+🕺🏿	Danseur : Peau Foncée
+🕴️	Homme D’affaires En Lévitation
+🕴🏻	Homme D’affaires En Lévitation : Peau Claire
+🕴🏼	Homme D’affaires En Lévitation : Peau Moyennement Claire
+🕴🏽	Homme D’affaires En Lévitation : Peau Légèrement Mate
+🕴🏾	Homme D’affaires En Lévitation : Peau Mate
+🕴🏿	Homme D’affaires En Lévitation : Peau Foncée
+👯	Personnes Avec Des Oreilles De Lapin
+👯‍♂️	Hommes Avec Des Oreilles De Lapin
+👯‍♀️	Femmes Avec Des Oreilles De Lapin
+🧖	Personne Au Hammam
+🧖🏻	Personne Au Hammam : Peau Claire
+🧖🏼	Personne Au Hammam : Peau Moyennement Claire
+🧖🏽	Personne Au Hammam : Peau Légèrement Mate
+🧖🏾	Personne Au Hammam : Peau Mate
+🧖🏿	Personne Au Hammam : Peau Foncée
+🧖‍♂️	Homme Au Hammam
+🧖🏻‍♂️	Homme Au Hammam : Peau Claire
+🧖🏼‍♂️	Homme Au Hammam : Peau Moyennement Claire
+🧖🏽‍♂️	Homme Au Hammam : Peau Légèrement Mate
+🧖🏾‍♂️	Homme Au Hammam : Peau Mate
+🧖🏿‍♂️	Homme Au Hammam : Peau Foncée
+🧖‍♀️	Femme Au Hammam
+🧖🏻‍♀️	Femme Au Hammam : Peau Claire
+🧖🏼‍♀️	Femme Au Hammam : Peau Moyennement Claire
+🧖🏽‍♀️	Femme Au Hammam : Peau Légèrement Mate
+🧖🏾‍♀️	Femme Au Hammam : Peau Mate
+🧖🏿‍♀️	Femme Au Hammam : Peau Foncée
+🧗	Personne Qui Grimpe
+🧗🏻	Personne Qui Grimpe : Peau Claire
+🧗🏼	Personne Qui Grimpe : Peau Moyennement Claire
+🧗🏽	Personne Qui Grimpe : Peau Légèrement Mate
+🧗🏾	Personne Qui Grimpe : Peau Mate
+🧗🏿	Personne Qui Grimpe : Peau Foncée
+🧗‍♂️	Homme Qui Grimpe
+🧗🏻‍♂️	Homme Qui Grimpe : Peau Claire
+🧗🏼‍♂️	Homme Qui Grimpe : Peau Moyennement Claire
+🧗🏽‍♂️	Homme Qui Grimpe : Peau Légèrement Mate
+🧗🏾‍♂️	Homme Qui Grimpe : Peau Mate
+🧗🏿‍♂️	Homme Qui Grimpe : Peau Foncée
+🧗‍♀️	Femme Qui Grimpe
+🧗🏻‍♀️	Femme Qui Grimpe : Peau Claire
+🧗🏼‍♀️	Femme Qui Grimpe : Peau Moyennement Claire
+🧗🏽‍♀️	Femme Qui Grimpe : Peau Légèrement Mate
+🧗🏾‍♀️	Femme Qui Grimpe : Peau Mate
+🧗🏿‍♀️	Femme Qui Grimpe : Peau Foncée
+🤺	Escrimeur
+🏇	Course Hippique
+🏇🏻	Course Hippique : Peau Claire
+🏇🏼	Course Hippique : Peau Moyennement Claire
+🏇🏽	Course Hippique : Peau Légèrement Mate
+🏇🏾	Course Hippique : Peau Mate
+🏇🏿	Course Hippique : Peau Foncée
+⛷️	Skieur
+🏂	Snowboardeur
+🏂🏻	Snowboardeur : Peau Claire
+🏂🏼	Snowboardeur : Peau Moyennement Claire
+🏂🏽	Snowboardeur : Peau Légèrement Mate
+🏂🏾	Snowboardeur : Peau Mate
+🏂🏿	Snowboardeur : Peau Foncée
+🏌️	Joueur De Golf
+🏌🏻	Joueur De Golf : Peau Claire
+🏌🏼	Joueur De Golf : Peau Moyennement Claire
+🏌🏽	Joueur De Golf : Peau Légèrement Mate
+🏌🏾	Joueur De Golf : Peau Mate
+🏌🏿	Joueur De Golf : Peau Foncée
+🏌️‍♂️	Golfeur
+🏌🏻‍♂️	Golfeur : Peau Claire
+🏌🏼‍♂️	Golfeur : Peau Moyennement Claire
+🏌🏽‍♂️	Golfeur : Peau Légèrement Mate
+🏌🏾‍♂️	Golfeur : Peau Mate
+🏌🏿‍♂️	Golfeur : Peau Foncée
+🏌️‍♀️	Golfeuse
+🏌🏻‍♀️	Golfeuse : Peau Claire
+🏌🏼‍♀️	Golfeuse : Peau Moyennement Claire
+🏌🏽‍♀️	Golfeuse : Peau Légèrement Mate
+🏌🏾‍♀️	Golfeuse : Peau Mate
+🏌🏿‍♀️	Golfeuse : Peau Foncée
+🏄	Personne Faisant Du Surf
+🏄🏻	Personne Faisant Du Surf : Peau Claire
+🏄🏼	Personne Faisant Du Surf : Peau Moyennement Claire
+🏄🏽	Personne Faisant Du Surf : Peau Légèrement Mate
+🏄🏾	Personne Faisant Du Surf : Peau Mate
+🏄🏿	Personne Faisant Du Surf : Peau Foncée
+🏄‍♂️	Surfeur
+🏄🏻‍♂️	Surfeur : Peau Claire
+🏄🏼‍♂️	Surfeur : Peau Moyennement Claire
+🏄🏽‍♂️	Surfeur : Peau Légèrement Mate
+🏄🏾‍♂️	Surfeur : Peau Mate
+🏄🏿‍♂️	Surfeur : Peau Foncée
+🏄‍♀️	Surfeuse
+🏄🏻‍♀️	Surfeuse : Peau Claire
+🏄🏼‍♀️	Surfeuse : Peau Moyennement Claire
+🏄🏽‍♀️	Surfeuse : Peau Légèrement Mate
+🏄🏾‍♀️	Surfeuse : Peau Mate
+🏄🏿‍♀️	Surfeuse : Peau Foncée
+🚣	Personne Ramant Dans Une Barque
+🚣🏻	Personne Ramant Dans Une Barque : Peau Claire
+🚣🏼	Personne Ramant Dans Une Barque : Peau Moyennement Claire
+🚣🏽	Personne Ramant Dans Une Barque : Peau Légèrement Mate
+🚣🏾	Personne Ramant Dans Une Barque : Peau Mate
+🚣🏿	Personne Ramant Dans Une Barque : Peau Foncée
+🚣‍♂️	Rameur Dans Une Barque
+🚣🏻‍♂️	Rameur Dans Une Barque : Peau Claire
+🚣🏼‍♂️	Rameur Dans Une Barque : Peau Moyennement Claire
+🚣🏽‍♂️	Rameur Dans Une Barque : Peau Légèrement Mate
+🚣🏾‍♂️	Rameur Dans Une Barque : Peau Mate
+🚣🏿‍♂️	Rameur Dans Une Barque : Peau Foncée
+🚣‍♀️	Rameuse Dans Une Barque
+🚣🏻‍♀️	Rameuse Dans Une Barque : Peau Claire
+🚣🏼‍♀️	Rameuse Dans Une Barque : Peau Moyennement Claire
+🚣🏽‍♀️	Rameuse Dans Une Barque : Peau Légèrement Mate
+🚣🏾‍♀️	Rameuse Dans Une Barque : Peau Mate
+🚣🏿‍♀️	Rameuse Dans Une Barque : Peau Foncée
+🏊	Personne Nageant
+🏊🏻	Personne Nageant : Peau Claire
+🏊🏼	Personne Nageant : Peau Moyennement Claire
+🏊🏽	Personne Nageant : Peau Légèrement Mate
+🏊🏾	Personne Nageant : Peau Mate
+🏊🏿	Personne Nageant : Peau Foncée
+🏊‍♂️	Nageur
+🏊🏻‍♂️	Nageur : Peau Claire
+🏊🏼‍♂️	Nageur : Peau Moyennement Claire
+🏊🏽‍♂️	Nageur : Peau Légèrement Mate
+🏊🏾‍♂️	Nageur : Peau Mate
+🏊🏿‍♂️	Nageur : Peau Foncée
+🏊‍♀️	Nageuse
+🏊🏻‍♀️	Nageuse : Peau Claire
+🏊🏼‍♀️	Nageuse : Peau Moyennement Claire
+🏊🏽‍♀️	Nageuse : Peau Légèrement Mate
+🏊🏾‍♀️	Nageuse : Peau Mate
+🏊🏿‍♀️	Nageuse : Peau Foncée
+⛹️	Personne Avec Ballon
+⛹🏻	Personne Avec Ballon : Peau Claire
+⛹🏼	Personne Avec Ballon : Peau Moyennement Claire
+⛹🏽	Personne Avec Ballon : Peau Légèrement Mate
+⛹🏾	Personne Avec Ballon : Peau Mate
+⛹🏿	Personne Avec Ballon : Peau Foncée
+⛹️‍♂️	Homme Avec Ballon
+⛹🏻‍♂️	Homme Avec Ballon : Peau Claire
+⛹🏼‍♂️	Homme Avec Ballon : Peau Moyennement Claire
+⛹🏽‍♂️	Homme Avec Ballon : Peau Légèrement Mate
+⛹🏾‍♂️	Homme Avec Ballon : Peau Mate
+⛹🏿‍♂️	Homme Avec Ballon : Peau Foncée
+⛹️‍♀️	Femme Avec Ballon
+⛹🏻‍♀️	Femme Avec Ballon : Peau Claire
+⛹🏼‍♀️	Femme Avec Ballon : Peau Moyennement Claire
+⛹🏽‍♀️	Femme Avec Ballon : Peau Légèrement Mate
+⛹🏾‍♀️	Femme Avec Ballon : Peau Mate
+⛹🏿‍♀️	Femme Avec Ballon : Peau Foncée
+🏋️	Haltérophile
+🏋🏻	Haltérophile : Peau Claire
+🏋🏼	Haltérophile : Peau Moyennement Claire
+🏋🏽	Haltérophile : Peau Légèrement Mate
+🏋🏾	Haltérophile : Peau Mate
+🏋🏿	Haltérophile : Peau Foncée
+🏋️‍♂️	Homme Haltérophile
+🏋🏻‍♂️	Homme Haltérophile : Peau Claire
+🏋🏼‍♂️	Homme Haltérophile : Peau Moyennement Claire
+🏋🏽‍♂️	Homme Haltérophile : Peau Légèrement Mate
+🏋🏾‍♂️	Homme Haltérophile : Peau Mate
+🏋🏿‍♂️	Homme Haltérophile : Peau Foncée
+🏋️‍♀️	Femme Haltérophile
+🏋🏻‍♀️	Femme Haltérophile : Peau Claire
+🏋🏼‍♀️	Femme Haltérophile : Peau Moyennement Claire
+🏋🏽‍♀️	Femme Haltérophile : Peau Légèrement Mate
+🏋🏾‍♀️	Femme Haltérophile : Peau Mate
+🏋🏿‍♀️	Femme Haltérophile : Peau Foncée
+🚴	Cycliste
+🚴🏻	Cycliste : Peau Claire
+🚴🏼	Cycliste : Peau Moyennement Claire
+🚴🏽	Cycliste : Peau Légèrement Mate
+🚴🏾	Cycliste : Peau Mate
+🚴🏿	Cycliste : Peau Foncée
+🚴‍♂️	Cycliste Homme
+🚴🏻‍♂️	Cycliste Homme : Peau Claire
+🚴🏼‍♂️	Cycliste Homme : Peau Moyennement Claire
+🚴🏽‍♂️	Cycliste Homme : Peau Légèrement Mate
+🚴🏾‍♂️	Cycliste Homme : Peau Mate
+🚴🏿‍♂️	Cycliste Homme : Peau Foncée
+🚴‍♀️	Cycliste Femme
+🚴🏻‍♀️	Cycliste Femme : Peau Claire
+🚴🏼‍♀️	Cycliste Femme : Peau Moyennement Claire
+🚴🏽‍♀️	Cycliste Femme : Peau Légèrement Mate
+🚴🏾‍♀️	Cycliste Femme : Peau Mate
+🚴🏿‍♀️	Cycliste Femme : Peau Foncée
+🚵	Personne En VTT
+🚵🏻	Personne En VTT : Peau Claire
+🚵🏼	Personne En VTT : Peau Moyennement Claire
+🚵🏽	Personne En VTT : Peau Légèrement Mate
+🚵🏾	Personne En VTT : Peau Mate
+🚵🏿	Personne En VTT : Peau Foncée
+🚵‍♂️	Homme En VTT
+🚵🏻‍♂️	Homme En VTT : Peau Claire
+🚵🏼‍♂️	Homme En VTT : Peau Moyennement Claire
+🚵🏽‍♂️	Homme En VTT : Peau Légèrement Mate
+🚵🏾‍♂️	Homme En VTT : Peau Mate
+🚵🏿‍♂️	Homme En VTT : Peau Foncée
+🚵‍♀️	Femme En VTT
+🚵🏻‍♀️	Femme En VTT : Peau Claire
+🚵🏼‍♀️	Femme En VTT : Peau Moyennement Claire
+🚵🏽‍♀️	Femme En VTT : Peau Légèrement Mate
+🚵🏾‍♀️	Femme En VTT : Peau Mate
+🚵🏿‍♀️	Femme En VTT : Peau Foncée
+🤸	Personne Faisant La Roue
+🤸🏻	Personne Faisant La Roue : Peau Claire
+🤸🏼	Personne Faisant La Roue : Peau Moyennement Claire
+🤸🏽	Personne Faisant La Roue : Peau Légèrement Mate
+🤸🏾	Personne Faisant La Roue : Peau Mate
+🤸🏿	Personne Faisant La Roue : Peau Foncée
+🤸‍♂️	Homme Faisant La Roue
+🤸🏻‍♂️	Homme Faisant La Roue : Peau Claire
+🤸🏼‍♂️	Homme Faisant La Roue : Peau Moyennement Claire
+🤸🏽‍♂️	Homme Faisant La Roue : Peau Légèrement Mate
+🤸🏾‍♂️	Homme Faisant La Roue : Peau Mate
+🤸🏿‍♂️	Homme Faisant La Roue : Peau Foncée
+🤸‍♀️	Femme Faisant La Roue
+🤸🏻‍♀️	Femme Faisant La Roue : Peau Claire
+🤸🏼‍♀️	Femme Faisant La Roue : Peau Moyennement Claire
+🤸🏽‍♀️	Femme Faisant La Roue : Peau Légèrement Mate
+🤸🏾‍♀️	Femme Faisant La Roue : Peau Mate
+🤸🏿‍♀️	Femme Faisant La Roue : Peau Foncée
+🤼	Personnes Faisant De La Lutte
+🤼‍♂️	Lutteurs
+🤼‍♀️	Lutteuses
+🤽	Personne Jouant Au Water-polo
+🤽🏻	Personne Jouant Au Water-polo : Peau Claire
+🤽🏼	Personne Jouant Au Water-polo : Peau Moyennement Claire
+🤽🏽	Personne Jouant Au Water-polo : Peau Légèrement Mate
+🤽🏾	Personne Jouant Au Water-polo : Peau Mate
+🤽🏿	Personne Jouant Au Water-polo : Peau Foncée
+🤽‍♂️	Joueur De Water-polo
+🤽🏻‍♂️	Joueur De Water-polo : Peau Claire
+🤽🏼‍♂️	Joueur De Water-polo : Peau Moyennement Claire
+🤽🏽‍♂️	Joueur De Water-polo : Peau Légèrement Mate
+🤽🏾‍♂️	Joueur De Water-polo : Peau Mate
+🤽🏿‍♂️	Joueur De Water-polo : Peau Foncée
+🤽‍♀️	Joueuse De Water-polo
+🤽🏻‍♀️	Joueuse De Water-polo : Peau Claire
+🤽🏼‍♀️	Joueuse De Water-polo : Peau Moyennement Claire
+🤽🏽‍♀️	Joueuse De Water-polo : Peau Légèrement Mate
+🤽🏾‍♀️	Joueuse De Water-polo : Peau Mate
+🤽🏿‍♀️	Joueuse De Water-polo : Peau Foncée
+🤾	Personne Jouant Au Handball
+🤾🏻	Personne Jouant Au Handball : Peau Claire
+🤾🏼	Personne Jouant Au Handball : Peau Moyennement Claire
+🤾🏽	Personne Jouant Au Handball : Peau Légèrement Mate
+🤾🏾	Personne Jouant Au Handball : Peau Mate
+🤾🏿	Personne Jouant Au Handball : Peau Foncée
+🤾‍♂️	Handballeur
+🤾🏻‍♂️	Handballeur : Peau Claire
+🤾🏼‍♂️	Handballeur : Peau Moyennement Claire
+🤾🏽‍♂️	Handballeur : Peau Légèrement Mate
+🤾🏾‍♂️	Handballeur : Peau Mate
+🤾🏿‍♂️	Handballeur : Peau Foncée
+🤾‍♀️	Handballeuse
+🤾🏻‍♀️	Handballeuse : Peau Claire
+🤾🏼‍♀️	Handballeuse : Peau Moyennement Claire
+🤾🏽‍♀️	Handballeuse : Peau Légèrement Mate
+🤾🏾‍♀️	Handballeuse : Peau Mate
+🤾🏿‍♀️	Handballeuse : Peau Foncée
+🤹	Personne Qui Jongle
+🤹🏻	Personne Qui Jongle : Peau Claire
+🤹🏼	Personne Qui Jongle : Peau Moyennement Claire
+🤹🏽	Personne Qui Jongle : Peau Légèrement Mate
+🤹🏾	Personne Qui Jongle : Peau Mate
+🤹🏿	Personne Qui Jongle : Peau Foncée
+🤹‍♂️	Jongleur
+🤹🏻‍♂️	Jongleur : Peau Claire
+🤹🏼‍♂️	Jongleur : Peau Moyennement Claire
+🤹🏽‍♂️	Jongleur : Peau Légèrement Mate
+🤹🏾‍♂️	Jongleur : Peau Mate
+🤹🏿‍♂️	Jongleur : Peau Foncée
+🤹‍♀️	Jongleuse
+🤹🏻‍♀️	Jongleuse : Peau Claire
+🤹🏼‍♀️	Jongleuse : Peau Moyennement Claire
+🤹🏽‍♀️	Jongleuse : Peau Légèrement Mate
+🤹🏾‍♀️	Jongleuse : Peau Mate
+🤹🏿‍♀️	Jongleuse : Peau Foncée
+🧘	Personne Dans La Posture Du Lotus
+🧘🏻	Personne Dans La Posture Du Lotus : Peau Claire
+🧘🏼	Personne Dans La Posture Du Lotus : Peau Moyennement Claire
+🧘🏽	Personne Dans La Posture Du Lotus : Peau Légèrement Mate
+🧘🏾	Personne Dans La Posture Du Lotus : Peau Mate
+🧘🏿	Personne Dans La Posture Du Lotus : Peau Foncée
+🧘‍♂️	Homme Dans La Posture Du Lotus
+🧘🏻‍♂️	Homme Dans La Posture Du Lotus : Peau Claire
+🧘🏼‍♂️	Homme Dans La Posture Du Lotus : Peau Moyennement Claire
+🧘🏽‍♂️	Homme Dans La Posture Du Lotus : Peau Légèrement Mate
+🧘🏾‍♂️	Homme Dans La Posture Du Lotus : Peau Mate
+🧘🏿‍♂️	Homme Dans La Posture Du Lotus : Peau Foncée
+🧘‍♀️	Femme Dans La Posture Du Lotus
+🧘🏻‍♀️	Femme Dans La Posture Du Lotus : Peau Claire
+🧘🏼‍♀️	Femme Dans La Posture Du Lotus : Peau Moyennement Claire
+🧘🏽‍♀️	Femme Dans La Posture Du Lotus : Peau Légèrement Mate
+🧘🏾‍♀️	Femme Dans La Posture Du Lotus : Peau Mate
+🧘🏿‍♀️	Femme Dans La Posture Du Lotus : Peau Foncée
+🛀	Personne Prenant Un Bain
+🛀🏻	Personne Prenant Un Bain : Peau Claire
+🛀🏼	Personne Prenant Un Bain : Peau Moyennement Claire
+🛀🏽	Personne Prenant Un Bain : Peau Légèrement Mate
+🛀🏾	Personne Prenant Un Bain : Peau Mate
+🛀🏿	Personne Prenant Un Bain : Peau Foncée
+🛌	Personne Au Lit
+🛌🏻	Personne Au Lit : Peau Claire
+🛌🏼	Personne Au Lit : Peau Moyennement Claire
+🛌🏽	Personne Au Lit : Peau Légèrement Mate
+🛌🏾	Personne Au Lit : Peau Mate
+🛌🏿	Personne Au Lit : Peau Foncée
+🧑‍🤝‍🧑	Deux Personnes Se Tenant La Main
+🧑🏻‍🤝‍🧑🏻	Deux Personnes Se Tenant La Main : Peau Claire
+🧑🏻‍🤝‍🧑🏼	Deux Personnes Se Tenant La Main : Peau Claire Et Peau Moyennement Claire
+🧑🏻‍🤝‍🧑🏽	Deux Personnes Se Tenant La Main : Peau Claire Et Peau Légèrement Mate
+🧑🏻‍🤝‍🧑🏾	Deux Personnes Se Tenant La Main : Peau Claire Et Peau Mate
+🧑🏻‍🤝‍🧑🏿	Deux Personnes Se Tenant La Main : Peau Claire Et Peau Foncée
+🧑🏼‍🤝‍🧑🏻	Deux Personnes Se Tenant La Main : Peau Moyennement Claire Et Peau Claire
+🧑🏼‍🤝‍🧑🏼	Deux Personnes Se Tenant La Main : Peau Moyennement Claire
+🧑🏼‍🤝‍🧑🏽	Deux Personnes Se Tenant La Main : Peau Moyennement Claire Et Peau Légèrement Mate
+🧑🏼‍🤝‍🧑🏾	Deux Personnes Se Tenant La Main : Peau Moyennement Claire Et Peau Mate
+🧑🏼‍🤝‍🧑🏿	Deux Personnes Se Tenant La Main : Peau Moyennement Claire Et Peau Foncée
+🧑🏽‍🤝‍🧑🏻	Deux Personnes Se Tenant La Main : Peau Légèrement Mate Et Peau Claire
+🧑🏽‍🤝‍🧑🏼	Deux Personnes Se Tenant La Main : Peau Légèrement Mate Et Peau Moyennement Claire
+🧑🏽‍🤝‍🧑🏽	Deux Personnes Se Tenant La Main : Peau Légèrement Mate
+🧑🏽‍🤝‍🧑🏾	Deux Personnes Se Tenant La Main : Peau Légèrement Mate Et Peau Mate
+🧑🏽‍🤝‍🧑🏿	Deux Personnes Se Tenant La Main : Peau Légèrement Mate Et Peau Foncée
+🧑🏾‍🤝‍🧑🏻	Deux Personnes Se Tenant La Main : Peau Mate Et Peau Claire
+🧑🏾‍🤝‍🧑🏼	Deux Personnes Se Tenant La Main : Peau Mate Et Peau Moyennement Claire
+🧑🏾‍🤝‍🧑🏽	Deux Personnes Se Tenant La Main : Peau Mate Et Peau Légèrement Mate
+🧑🏾‍🤝‍🧑🏾	Deux Personnes Se Tenant La Main : Peau Mate
+🧑🏾‍🤝‍🧑🏿	Deux Personnes Se Tenant La Main : Peau Mate Et Peau Foncée
+🧑🏿‍🤝‍🧑🏻	Deux Personnes Se Tenant La Main : Peau Foncée Et Peau Claire
+🧑🏿‍🤝‍🧑🏼	Deux Personnes Se Tenant La Main : Peau Foncée Et Peau Moyennement Claire
+🧑🏿‍🤝‍🧑🏽	Deux Personnes Se Tenant La Main : Peau Foncée Et Peau Légèrement Mate
+🧑🏿‍🤝‍🧑🏾	Deux Personnes Se Tenant La Main : Peau Foncée Et Peau Mate
+🧑🏿‍🤝‍🧑🏿	Deux Personnes Se Tenant La Main : Peau Foncée
+👭	Deux Femmes Se Tenant La Main
+👭🏻	Deux Femmes Se Tenant La Main : Peau Claire
+👩🏻‍🤝‍👩🏼	Deux Femmes Se Tenant La Main : Peau Claire Et Peau Moyennement Claire
+👩🏻‍🤝‍👩🏽	Deux Femmes Se Tenant La Main : Peau Claire Et Peau Légèrement Mate
+👩🏻‍🤝‍👩🏾	Deux Femmes Se Tenant La Main : Peau Claire Et Peau Mate
+👩🏻‍🤝‍👩🏿	Deux Femmes Se Tenant La Main : Peau Claire Et Peau Foncée
+👩🏼‍🤝‍👩🏻	Deux Femmes Se Tenant La Main : Peau Moyennement Claire Et Peau Claire
+👭🏼	Deux Femmes Se Tenant La Main : Peau Moyennement Claire
+👩🏼‍🤝‍👩🏽	Deux Femmes Se Tenant La Main : Peau Moyennement Claire Et Peau Légèrement Mate
+👩🏼‍🤝‍👩🏾	Deux Femmes Se Tenant La Main : Peau Moyennement Claire Et Peau Mate
+👩🏼‍🤝‍👩🏿	Deux Femmes Se Tenant La Main : Peau Moyennement Claire Et Peau Foncée
+👩🏽‍🤝‍👩🏻	Deux Femmes Se Tenant La Main : Peau Légèrement Mate Et Peau Claire
+👩🏽‍🤝‍👩🏼	Deux Femmes Se Tenant La Main : Peau Légèrement Mate Et Peau Moyennement Claire
+👭🏽	Deux Femmes Se Tenant La Main : Peau Légèrement Mate
+👩🏽‍🤝‍👩🏾	Deux Femmes Se Tenant La Main : Peau Légèrement Mate Et Peau Mate
+👩🏽‍🤝‍👩🏿	Deux Femmes Se Tenant La Main : Peau Légèrement Mate Et Peau Foncée
+👩🏾‍🤝‍👩🏻	Deux Femmes Se Tenant La Main : Peau Mate Et Peau Claire
+👩🏾‍🤝‍👩🏼	Deux Femmes Se Tenant La Main : Peau Mate Et Peau Moyennement Claire
+👩🏾‍🤝‍👩🏽	Deux Femmes Se Tenant La Main : Peau Mate Et Peau Légèrement Mate
+👭🏾	Deux Femmes Se Tenant La Main : Peau Mate
+👩🏾‍🤝‍👩🏿	Deux Femmes Se Tenant La Main : Peau Mate Et Peau Foncée
+👩🏿‍🤝‍👩🏻	Deux Femmes Se Tenant La Main : Peau Foncée Et Peau Claire
+👩🏿‍🤝‍👩🏼	Deux Femmes Se Tenant La Main : Peau Foncée Et Peau Moyennement Claire
+👩🏿‍🤝‍👩🏽	Deux Femmes Se Tenant La Main : Peau Foncée Et Peau Légèrement Mate
+👩🏿‍🤝‍👩🏾	Deux Femmes Se Tenant La Main : Peau Foncée Et Peau Mate
+👭🏿	Deux Femmes Se Tenant La Main : Peau Foncée
+👫	Femme Et Homme Se Tenant La Main
+👫🏻	Femme Et Homme Se Tenant La Main : Peau Claire
+👩🏻‍🤝‍👨🏼	Femme Et Homme Se Tenant La Main : Peau Claire Et Peau Moyennement Claire
+👩🏻‍🤝‍👨🏽	Femme Et Homme Se Tenant La Main : Peau Claire Et Peau Légèrement Mate
+👩🏻‍🤝‍👨🏾	Femme Et Homme Se Tenant La Main : Peau Claire Et Peau Mate
+👩🏻‍🤝‍👨🏿	Femme Et Homme Se Tenant La Main : Peau Claire Et Peau Foncée
+👩🏼‍🤝‍👨🏻	Femme Et Homme Se Tenant La Main : Peau Moyennement Claire Et Peau Claire
+👫🏼	Femme Et Homme Se Tenant La Main : Peau Moyennement Claire
+👩🏼‍🤝‍👨🏽	Femme Et Homme Se Tenant La Main : Peau Moyennement Claire Et Peau Légèrement Mate
+👩🏼‍🤝‍👨🏾	Femme Et Homme Se Tenant La Main : Peau Moyennement Claire Et Peau Mate
+👩🏼‍🤝‍👨🏿	Femme Et Homme Se Tenant La Main : Peau Moyennement Claire Et Peau Foncée
+👩🏽‍🤝‍👨🏻	Femme Et Homme Se Tenant La Main : Peau Légèrement Mate Et Peau Claire
+👩🏽‍🤝‍👨🏼	Femme Et Homme Se Tenant La Main : Peau Légèrement Mate Et Peau Moyennement Claire
+👫🏽	Femme Et Homme Se Tenant La Main : Peau Légèrement Mate
+👩🏽‍🤝‍👨🏾	Femme Et Homme Se Tenant La Main : Peau Légèrement Mate Et Peau Mate
+👩🏽‍🤝‍👨🏿	Femme Et Homme Se Tenant La Main : Peau Légèrement Mate Et Peau Foncée
+👩🏾‍🤝‍👨🏻	Femme Et Homme Se Tenant La Main : Peau Mate Et Peau Claire
+👩🏾‍🤝‍👨🏼	Femme Et Homme Se Tenant La Main : Peau Mate Et Peau Moyennement Claire
+👩🏾‍🤝‍👨🏽	Femme Et Homme Se Tenant La Main : Peau Mate Et Peau Légèrement Mate
+👫🏾	Femme Et Homme Se Tenant La Main : Peau Mate
+👩🏾‍🤝‍👨🏿	Femme Et Homme Se Tenant La Main : Peau Mate Et Peau Foncée
+👩🏿‍🤝‍👨🏻	Femme Et Homme Se Tenant La Main : Peau Foncée Et Peau Claire
+👩🏿‍🤝‍👨🏼	Femme Et Homme Se Tenant La Main : Peau Foncée Et Peau Moyennement Claire
+👩🏿‍🤝‍👨🏽	Femme Et Homme Se Tenant La Main : Peau Foncée Et Peau Légèrement Mate
+👩🏿‍🤝‍👨🏾	Femme Et Homme Se Tenant La Main : Peau Foncée Et Peau Mate
+👫🏿	Femme Et Homme Se Tenant La Main : Peau Foncée
+👬	Deux Hommes Se Tenant La Main
+👬🏻	Deux Hommes Se Tenant La Main : Peau Claire
+👨🏻‍🤝‍👨🏼	Deux Hommes Se Tenant La Main : Peau Claire Et Peau Moyennement Claire
+👨🏻‍🤝‍👨🏽	Deux Hommes Se Tenant La Main : Peau Claire Et Peau Légèrement Mate
+👨🏻‍🤝‍👨🏾	Deux Hommes Se Tenant La Main : Peau Claire Et Peau Mate
+👨🏻‍🤝‍👨🏿	Deux Hommes Se Tenant La Main : Peau Claire Et Peau Foncée
+👨🏼‍🤝‍👨🏻	Deux Hommes Se Tenant La Main : Peau Moyennement Claire Et Peau Claire
+👬🏼	Deux Hommes Se Tenant La Main : Peau Moyennement Claire
+👨🏼‍🤝‍👨🏽	Deux Hommes Se Tenant La Main : Peau Moyennement Claire Et Peau Légèrement Mate
+👨🏼‍🤝‍👨🏾	Deux Hommes Se Tenant La Main : Peau Moyennement Claire Et Peau Mate
+👨🏼‍🤝‍👨🏿	Deux Hommes Se Tenant La Main : Peau Moyennement Claire Et Peau Foncée
+👨🏽‍🤝‍👨🏻	Deux Hommes Se Tenant La Main : Peau Légèrement Mate Et Peau Claire
+👨🏽‍🤝‍👨🏼	Deux Hommes Se Tenant La Main : Peau Légèrement Mate Et Peau Moyennement Claire
+👬🏽	Deux Hommes Se Tenant La Main : Peau Légèrement Mate
+👨🏽‍🤝‍👨🏾	Deux Hommes Se Tenant La Main : Peau Légèrement Mate Et Peau Mate
+👨🏽‍🤝‍👨🏿	Deux Hommes Se Tenant La Main : Peau Légèrement Mate Et Peau Foncée
+👨🏾‍🤝‍👨🏻	Deux Hommes Se Tenant La Main : Peau Mate Et Peau Claire
+👨🏾‍🤝‍👨🏼	Deux Hommes Se Tenant La Main : Peau Mate Et Peau Moyennement Claire
+👨🏾‍🤝‍👨🏽	Deux Hommes Se Tenant La Main : Peau Mate Et Peau Légèrement Mate
+👬🏾	Deux Hommes Se Tenant La Main : Peau Mate
+👨🏾‍🤝‍👨🏿	Deux Hommes Se Tenant La Main : Peau Mate Et Peau Foncée
+👨🏿‍🤝‍👨🏻	Deux Hommes Se Tenant La Main : Peau Foncée Et Peau Claire
+👨🏿‍🤝‍👨🏼	Deux Hommes Se Tenant La Main : Peau Foncée Et Peau Moyennement Claire
+👨🏿‍🤝‍👨🏽	Deux Hommes Se Tenant La Main : Peau Foncée Et Peau Légèrement Mate
+👨🏿‍🤝‍👨🏾	Deux Hommes Se Tenant La Main : Peau Foncée Et Peau Mate
+👬🏿	Deux Hommes Se Tenant La Main : Peau Foncée
+💏	Bisou
+👩‍❤️‍💋‍👨	Bisou : Femme Et Homme
+👨‍❤️‍💋‍👨	Bisou : Homme Et Homme
+👩‍❤️‍💋‍👩	Bisou : Femme Et Femme
+💑	Couple Avec Cœur
+👩‍❤️‍👨	Couple Avec Cœur : Femme Et Homme
+👨‍❤️‍👨	Couple Avec Cœur : Homme Et Homme
+👩‍❤️‍👩	Couple Avec Cœur : Femme Et Femme
+👪	Famille
+👨‍👩‍👦	Famille : Homme, Femme Et Garçon
+👨‍👩‍👧	Famille : Homme, Femme Et Fille
+👨‍👩‍👧‍👦	Famille : Homme, Femme, Fille Et Garçon
+👨‍👩‍👦‍👦	Famille : Homme, Femme, Garçon Et Garçon
+👨‍👩‍👧‍👧	Famille : Homme, Femme, Fille Et Fille
+👨‍👨‍👦	Famille : Homme, Homme Et Garçon
+👨‍👨‍👧	Famille : Homme, Homme Et Fille
+👨‍👨‍👧‍👦	Famille : Homme, Homme, Fille Et Garçon
+👨‍👨‍👦‍👦	Famille : Homme, Homme, Garçon Et Garçon
+👨‍👨‍👧‍👧	Famille : Homme, Homme, Fille Et Fille
+👩‍👩‍👦	Famille : Femme, Femme Et Garçon
+👩‍👩‍👧	Famille : Femme, Femme Et Fille
+👩‍👩‍👧‍👦	Famille : Femme, Femme, Fille Et Garçon
+👩‍👩‍👦‍👦	Famille : Femme, Femme, Garçon Et Garçon
+👩‍👩‍👧‍👧	Famille : Femme, Femme, Fille Et Fille
+👨‍👦	Famille : Homme Et Garçon
+👨‍👦‍👦	Famille : Homme, Garçon Et Garçon
+👨‍👧	Famille : Homme Et Fille
+👨‍👧‍👦	Famille : Homme, Fille Et Garçon
+👨‍👧‍👧	Famille : Homme, Fille Et Fille
+👩‍👦	Famille : Femme Et Garçon
+👩‍👦‍👦	Famille : Femme, Garçon Et Garçon
+👩‍👧	Famille : Femme Et Fille
+👩‍👧‍👦	Famille : Femme, Fille Et Garçon
+👩‍👧‍👧	Famille : Femme, Fille Et Fille
+🗣️	Tête Qui Parle
+👤	Silhouette De Buste
+👥	Silhouettes De Bustes
+🫂	étreinte
+👣	Traces De Pas
+🏻	Peau Claire
+🏼	Peau Moyennement Claire
+🏽	Peau Légèrement Mate
+🏾	Peau Mate
+🏿	Peau Foncée
+🦰	Cheveux Roux
+🦱	Cheveux Bouclés
+🦳	Cheveux Blancs
+🦲	Chauve
+🐵	Tête De Singe
+🐒	Singe
+🦍	Gorille
+🦧	Orang-outan
+🐶	Tête De Chien
+🐕	Chien
+🦮	Chien Guide
+🐕‍🦺	Chien D’assistance
+🐩	Caniche
+🐺	Loup
+🦊	Renard
+🦝	Raton Laveur
+🐱	Tête De Chat
+🐈	Chat
+🐈‍⬛	Chat Noir
+🦁	Tête De Lion
+🐯	Tête De Tigre
+🐅	Tigre
+🐆	Léopard
+🐴	Tête De Cheval
+🐎	Cheval
+🦄	Licorne
+🦓	Zèbre
+🦌	Cerf
+🦬	Bison
+🐮	Tête De Vache
+🐂	Bœuf
+🐃	Buffle
+🐄	Vache
+🐷	Tête De Cochon
+🐖	Cochon
+🐗	Sanglier
+🐽	Groin
+🐏	Bélier
+🐑	Mouton
+🐐	Chèvre
+🐪	Dromadaire
+🐫	Chameau
+🦙	Lama
+🦒	Girafe
+🐘	éléphant
+🦣	Mammouth
+🦏	Rhinocéros
+🦛	Hippopotame
+🐭	Tête De Souris
+🐁	Souris
+🐀	Rat
+🐹	Hamster
+🐰	Tête De Lapin
+🐇	Lapin
+🐿️	écureuil
+🦫	Castor
+🦔	Hérisson
+🦇	Chauve-souris
+🐻	Ours
+🐻‍❄️	Ours Polaire
+🐨	Koala
+🐼	Panda
+🦥	Paresseux
+🦦	Loutre
+🦨	Mouffette
+🦘	Kangourou
+🦡	Blaireau
+🐾	Empreintes D’animaux
+🦃	Dindon
+🐔	Poule
+🐓	Coq
+🐣	Poussin Qui éclôt
+🐤	Poussin
+🐥	Poussin De Face
+🐦	Oiseau
+🐧	Pingouin
+🕊️	Colombe
+🦅	Aigle
+🦆	Canard
+🦢	Cygne
+🦉	Chouette
+🦤	Dodo
+🪶	Plume
+🦩	Flamant
+🦚	Paon
+🦜	Perroquet
+🐸	Grenouille
+🐊	Crocodile
+🐢	Tortue
+🦎	Lézard
+🐍	Serpent
+🐲	Tête De Dragon
+🐉	Dragon
+🦕	Sauropode
+🦖	T-Rex
+🐳	Baleine Soufflant Par Son évent
+🐋	Baleine
+🐬	Dauphin
+🦭	Phoque
+🐟	Poisson
+🐠	Poisson Tropical
+🐡	Poisson-lune
+🦈	Requin
+🐙	Pieuvre
+🐚	Coquille En Spirale
+🐌	Escargot
+🦋	Papillon
+🐛	Chenille
+🐜	Fourmi
+🐝	Abeille
+🪲	Scarabée
+🐞	Coccinelle
+🦗	Criquet
+🪳	Cafard
+🕷️	Araignée
+🕸️	Toile D’araignée
+🦂	Scorpion
+🦟	Moustique
+🪰	Mouche
+🪱	Lombric
+🦠	Microbe
+💐	Bouquet
+🌸	Fleur De Cerisier
+💮	Fleur Blanche
+🏵️	Rosette
+🌹	Rose
+🥀	Fleur Fanée
+🌺	Hibiscus
+🌻	Tournesol
+🌼	Bourgeon
+🌷	Tulipe
+🌱	Jeune Pousse
+🪴	Plante En Pot
+🌲	Conifère
+🌳	Arbre à Feuilles Caduques
+🌴	Palmier
+🌵	Cactus
+🌾	Plant De Riz
+🌿	Feuille
+☘️	Trèfle
+🍀	Trèfle à Quatre Feuilles
+🍁	Feuille D’érable
+🍂	Feuille Morte
+🍃	Feuille Virevoltante
+🍇	Raisin
+🍈	Melon
+🍉	Pastèque
+🍊	Mandarine
+🍋	Citron
+🍌	Banane
+🍍	Ananas
+🥭	Mangue
+🍎	Pomme Rouge
+🍏	Pomme Verte
+🍐	Poire
+🍑	Pêche
+🍒	Cerises
+🍓	Fraise
+🫐	Myrtilles
+🥝	Kiwi
+🍅	Tomate
+🫒	Olive
+🥥	Noix De Coco
+🥑	Avocat
+🍆	Aubergine
+🥔	Pomme De Terre
+🥕	Carotte
+🌽	épi De Maïs
+🌶️	Piment Rouge
+🫑	Poivron
+🥒	Concombre
+🥬	Légume à Feuilles Vertes
+🥦	Broccoli
+🧄	Ail
+🧅	Oignon
+🍄	Champignon
+🥜	Cacahuètes
+🌰	Châtaigne
+🍞	Pain
+🥐	Croissant
+🥖	Baguette
+🫓	Galette
+🥨	Bretzel
+🥯	Bagel
+🥞	Pancakes
+🧇	Gaufre
+🧀	Part De Fromage
+🍖	Viande Sur Un Os
+🍗	Cuisse De Poulet
+🥩	Morceau De Viande
+🥓	Lard
+🍔	Hamburger
+🍟	Frites
+🍕	Pizza
+🌭	Hot Dog
+🥪	Sandwich
+🌮	Taco
+🌯	Burrito
+🫔	Tamal
+🥙	Kebab
+🧆	Falafels
+🥚	œuf
+🍳	œuf Au Plat
+🥘	Plat Mitonné
+🍲	Marmite
+🫕	Fondue
+🥣	Bol Avec Cuillère
+🥗	Salade Verte
+🍿	Pop-corn
+🧈	Beurre
+🧂	Sel
+🥫	Aliments En Conserve
+🍱	Boîte Déjeuner
+🍘	Galette De Riz
+🍙	Boulette De Riz
+🍚	Bol De Riz
+🍛	Riz Au Curry
+🍜	Bol Fumant
+🍝	Spaghetti
+🍠	Patate Douce
+🍢	Brochette De Poisson
+🍣	Sushi
+🍤	Beignet De Crevette
+🍥	Croquette De Poisson
+🥮	Gâteau De Lune
+🍡	Brochette De Bonbons
+🥟	Boulette De Pâte
+🥠	Biscuit Chinois
+🥡	Boîte à Emporter
+🦀	Crabe
+🦞	Homard
+🦐	Crevette
+🦑	Calamar
+🦪	Huître
+🍦	Glace Italienne
+🍧	Granité
+🍨	Glace
+🍩	Doughnut
+🍪	Cookie
+🎂	Gâteau D’anniversaire
+🍰	Gâteau Sablé
+🧁	Cupcake
+🥧	Tarte
+🍫	Barre Chocolatée
+🍬	Bonbon
+🍭	Sucette
+🍮	Crème Renversée
+🍯	Pot De Miel
+🍼	Biberon
+🥛	Verre De Lait
+☕	Boisson Chaude
+🫖	Théière
+🍵	Tasse
+🍶	Saké
+🍾	Bouteille De Champagne
+🍷	Verre De Vin
+🍸	Cocktail
+🍹	Cocktail Tropical
+🍺	Chope
+🍻	Chopes De Bière
+🥂	Trinquer
+🥃	Verre Tumbler
+🥤	Gobelet Avec Paille
+🧋	Thé Aux Perles
+🧃	Briquette De Jus
+🧉	Maté
+🧊	Glaçon
+🥢	Baguettes
+🍽️	Fourchette Et Couteau Avec Assiette
+🍴	Fourchette Et Couteau
+🥄	Cuillère
+🔪	Couteau De Cuisine
+🏺	Amphore
+🌍	Globe Tourné Sur L’Afrique Et L’Europe
+🌎	Globe Tourné Sur Les Amériques
+🌏	Globe Tourné Sur L’Asie Et L’Australie
+🌐	Globe Avec Méridiens
+🗺️	Carte Du Monde
+🗾	Carte Du Japon
+🧭	Boussole
+🏔️	Montagne Enneigée
+⛰️	Montagne
+🌋	Volcan
+🗻	Mont Fuji
+🏕️	Camping
+🏖️	Plage Avec Parasol
+🏜️	Désert
+🏝️	île Déserte
+🏞️	Parc National
+🏟️	Stade
+🏛️	Monument Classique
+🏗️	Construction D’un Bâtiment
+🧱	Brique
+🪨	Rocher
+🪵	Bois
+🛖	Hutte
+🏘️	Maisons
+🏚️	Maison Abandonnée
+🏠	Pavillon
+🏡	Maison Avec Jardin
+🏢	Immeuble De Bureaux
+🏣	Bureau De Poste Japonais
+🏤	Bureau De Poste
+🏥	Hôpital
+🏦	Banque
+🏨	Hôtel
+🏩	Love Hotel
+🏪	Supérette
+🏫	école
+🏬	Grand Magasin
+🏭	Usine
+🏯	Château Japonais
+🏰	Château
+💒	Mariage
+🗼	Tour De Tokyo
+🗽	Statue De La Liberté
+⛪	église
+🕌	Mosquée
+🛕	Temple Hindou
+🕍	Synagogue
+⛩️	Sanctuaire Shinto
+🕋	Kaaba
+⛲	Fontaine
+⛺	Tente
+🌁	Brume
+🌃	Nuit étoilée
+🏙️	Ville
+🌄	Soleil Levant Derrière Les Montagnes
+🌅	Soleil Levant
+🌆	Ville Au Crépuscule
+🌇	Coucher De Soleil
+🌉	Pont De Nuit
+♨️	Sources Chaudes
+🎠	Cheval De Manège
+🎡	Grande Roue
+🎢	Montagnes Russes
+💈	Enseigne De Barbier
+🎪	Chapiteau
+🚂	Locomotive
+🚃	Wagon
+🚄	TGV
+🚅	Train à Grande Vitesse
+🚆	Train
+🚇	Métro
+🚈	Métro Léger
+🚉	Gare
+🚊	Tramway
+🚝	Monorail
+🚞	Train De Montagne
+🚋	Wagon De Tramway
+🚌	Bus
+🚍	Bus De Face
+🚎	Trolleybus
+🚐	Minibus
+🚑	Ambulance
+🚒	Camion De Pompier
+🚓	Voiture De Police
+🚔	Voiture De Police De Face
+🚕	Taxi
+🚖	Taxi De Face
+🚗	Voiture
+🚘	Voiture De Face
+🚙	Véhicule Utilitaire Sport
+🛻	Pick-up
+🚚	Camion De Livraison
+🚛	Semi-remorque
+🚜	Tracteur
+🏎️	Voiture De Course
+🏍️	Moto
+🛵	Scooter
+🦽	Fauteuil Roulant Manuel
+🦼	Fauteuil Motorisé
+🛺	Tuk Tuk
+🚲	Vélo
+🛴	Trottinette
+🛹	Planche à Roulettes
+🛼	Patin à Roulettes
+🚏	Arrêt De Bus
+🛣️	Autoroute
+🛤️	Voie Ferrée
+🛢️	Baril De Pétrole
+⛽	Pompe à Essence
+🚨	Gyrophare
+🚥	Feu Tricolore Horizontal
+🚦	Feu Tricolore Vertical
+🛑	Stop
+🚧	Travaux
+⚓	Ancre
+⛵	Voilier
+🛶	Canoë
+🚤	Hors-bord
+🛳️	Paquebot
+⛴️	Ferry
+🛥️	Bateau à Moteur
+🚢	Navire
+✈️	Avion
+🛩️	Petit Avion
+🛫	Avion Au Décollage
+🛬	Avion à L’atterrissage
+🪂	Parachute
+💺	Siège
+🚁	Hélicoptère
+🚟	Train Suspendu
+🚠	Téléphérique
+🚡	Tramway Aérien
+🛰️	Satellite
+🚀	Fusée
+🛸	Soucoupe Volante
+🛎️	Cloche De Comptoir
+🧳	Bagage
+⌛	Sablier
+⏳	Sablier Avec Sable Qui Coule
+⌚	Montre
+⏰	Réveil
+⏱️	Chronomètre
+⏲️	Horloge
+🕰️	Pendule
+🕛	Midi/minuit
+🕧	Midi/minuit Et Demie
+🕐	Une Heure
+🕜	Une Heure Et Demie
+🕑	Deux Heures
+🕝	Deux Heures Et Demie
+🕒	Trois Heures
+🕞	Trois Heures Et Demie
+🕓	Quatre Heures
+🕟	Quatre Heures Et Demie
+🕔	Cinq Heures
+🕠	Cinq Heures Et Demie
+🕕	Six Heures
+🕡	Six Heures Et Demie
+🕖	Sept Heures
+🕢	Sept Heures Et Demie
+🕗	Huit Heures
+🕣	Huit Heures Et Demie
+🕘	Neuf Heures
+🕤	Neuf Heures Et Demie
+🕙	Dix Heures
+🕥	Dix Heures Et Demie
+🕚	Onze Heures
+🕦	Onze Heures Et Demie
+🌑	Nouvelle Lune
+🌒	Lune Croissante
+🌓	Premier Quartier De Lune
+🌔	Lune Gibbeuse Croissante
+🌕	Pleine Lune
+🌖	Lune Gibbeuse Décroissante
+🌗	Dernier Quartier
+🌘	Lune Décroissante
+🌙	Croissant De Lune
+🌚	Nouvelle Lune Avec Visage
+🌛	Premier Quartier De Lune Avec Visage
+🌜	Dernier Quartier De Lune Avec Visage
+🌡️	Thermomètre
+☀️	Soleil
+🌝	Pleine Lune Avec Visage
+🌞	Soleil Avec Visage
+🪐	Planète à Anneaux
+⭐	étoile
+🌟	étoile Brillante
+🌠	étoile Filante
+🌌	Voie Lactée
+☁️	Nuage
+⛅	Soleil Derrière Les Nuages
+⛈️	Nuage Avec éclair Et Pluie
+🌤️	Soleil Derrière Un Petit Nuage
+🌥️	Soleil Derrière Un Gros Nuage
+🌦️	Soleil Derrière Un Nuage De Pluie
+🌧️	Nuage Avec Pluie
+🌨️	Nuage Avec Neige
+🌩️	Nuage Avec éclair
+🌪️	Tornade
+🌫️	Brouillard
+🌬️	Vent Avec Visage
+🌀	Cyclone
+🌈	Arc-en-ciel
+🌂	Parapluie Fermé
+☂️	Parapluie Ouvert
+☔	Parapluie Avec Gouttes De Pluie
+⛱️	Parasol Sur Le Sol
+⚡	Symbole De Haute Tension
+❄️	Flocon
+☃️	Bonhomme De Neige
+⛄	Bonhomme De Neige Sans Neige
+☄️	Comète
+🔥	Feu
+💧	Goutte D’eau
+🌊	Vague
+🎃	Citrouille
+🎄	Sapin De Noël
+🎆	Feu D’artifice
+🎇	Cierge Magique
+🧨	Pétard
+✨	étincelles
+🎈	Ballon Gonflable
+🎉	Cotillons
+🎊	Confettis
+🎋	Arbre à Vœux
+🎍	Bambou Décoratif
+🎎	Poupées Japonaises
+🎏	Koinobori
+🎐	Carillon éolien
+🎑	Cérémonie De La Lune
+🧧	Enveloppe Rouge
+🎀	Ruban
+🎁	Cadeau
+🎗️	Ruban De Mémoire
+🎟️	Billet D’entrée
+🎫	Billet
+🎖️	Médaille Militaire
+🏆	Trophée
+🏅	Médaille Sportive
+🥇	Médaille D’or
+🥈	Médaille D’argent
+🥉	Médaille De Bronze
+⚽	Ballon De Football
+⚾	Baseball
+🥎	Softball
+🏀	Basket
+🏐	Volley-ball
+🏈	Football Américain
+🏉	Rugby
+🎾	Tennis
+🥏	Disque-volant
+🎳	Bowling
+🏏	Cricket
+🏑	Hockey Sur Gazon
+🏒	Hockey Sur Glace
+🥍	Crosse
+🏓	Ping-pong
+🏸	Badminton
+🥊	Gant De Boxe
+🥋	Tenue D’arts Martiaux
+🥅	Cage
+⛳	Drapeau De Golf
+⛸️	Patin à Glace
+🎣	Pêche à La Ligne
+🤿	Masque De Plongée
+🎽	Maillot De Course
+🎿	Ski
+🛷	Luge
+🥌	Pierre De Curling
+🎯	Dans Le Mille
+🪀	Yoyo
+🪁	Cerf-volant
+🎱	Billard
+🔮	Boule De Cristal
+🪄	Baguette Magique
+🧿	Mauvais œil
+🎮	Jeu Vidéo
+🕹️	Manette De Jeu
+🎰	Machine à Sous
+🎲	Dés
+🧩	Pièce De Puzzle
+🧸	Ours En Peluche
+🪅	Piñata
+🪆	Poupées Russes
+♠️	Pique
+♥️	Cœur Cartes
+♦️	Carreau
+♣️	Trèfle Cartes
+♟️	Pion D’échec
+🃏	Carte Joker
+🀄	Dragon Rouge Mahjong
+🎴	Jeu Des Fleurs
+🎭	Spectacle Vivant
+🖼️	Cadre Avec Image
+🎨	Palette De Peinture
+🧵	Bobine De Fil
+🪡	Aiguille à Coudre
+🧶	Fil
+🪢	Nœud
+👓	Lunettes De Vue
+🕶️	Lunettes De Soleil
+🥽	Lunettes
+🥼	Blouse Blanche
+🦺	Gilet De Sécurité
+👔	Cravate
+👕	T-shirt
+👖	Jean
+🧣	Foulard
+🧤	Gants
+🧥	Manteau
+🧦	Chaussettes
+👗	Robe
+👘	Kimono
+🥻	Sari
+🩱	Maillot De Bain Une Pièce
+🩲	Slip
+🩳	Short
+👙	Bikini
+👚	Vêtements De Femme
+👛	Porte-monnaie
+👜	Sac à Main
+👝	Pochette
+🛍️	Sacs De Shopping
+🎒	Cartable
+🩴	Tong
+👞	Chaussure D’homme
+👟	Chaussure De Sport
+🥾	Chaussure De Randonnée
+🥿	Chaussure Plate
+👠	Chaussure à Talon Haut
+👡	Sandale De Femme
+🩰	Chaussons De Danse
+👢	Botte De Femme
+👑	Couronne
+👒	Chapeau De Femme
+🎩	Haut De Forme
+🎓	Toque Universitaire
+🧢	Casquette Américaine
+🪖	Casque Militaire
+⛑️	Casque De Secouriste
+📿	Chapelet
+💄	Rouge à Lèvres
+💍	Bague
+💎	Pierre Précieuse
+🔇	Muet
+🔈	Volume Des Enceintes Faible
+🔉	Volume Des Enceintes Moyen
+🔊	Volume Des Enceintes élevé
+📢	Haut-parleur
+📣	Porte-voix
+📯	Cor Postal
+🔔	Cloche
+🔕	Alarme Désactivée
+🎼	Partition
+🎵	Note De Musique
+🎶	Notes De Musique
+🎙️	Micro De Studio
+🎚️	Curseur De Niveau
+🎛️	Boutons De Réglage
+🎤	Micro
+🎧	Casque
+📻	Radio
+🎷	Saxophone
+🪗	Accordéon
+🎸	Guitare
+🎹	Piano
+🎺	Trompette
+🎻	Violon
+🪕	Banjo
+🥁	Batterie
+🪘	Djembé
+📱	Téléphone Portable
+📲	Appel Entrant
+☎️	Téléphone
+📞	Combiné Téléphonique
+📟	Bipeur
+📠	Fax
+🔋	Pile
+🔌	Câble Avec Fiche électrique
+💻	Ordinateur Portable
+🖥️	Ordinateur De Bureau
+🖨️	Imprimante
+⌨️	Clavier
+🖱️	Souris D’ordinateur
+🖲️	Boule De Commande
+💽	Disque D’ordinateur
+💾	Disquette
+💿	CD
+📀	DVD
+🧮	Abaque
+🎥	Caméra
+🎞️	Pellicule
+📽️	Projecteur Cinématographique
+🎬	Clap
+📺	Téléviseur
+📷	Appareil Photo
+📸	Appareil Photo Avec Flash
+📹	Caméscope
+📼	Cassette Vidéo
+🔍	Loupe Orientée à Gauche
+🔎	Loupe Orientée à Droite
+🕯️	Bougie
+💡	Ampoule
+🔦	Torche
+🏮	Lampion Rouge
+🪔	Diya
+📔	Carnet Avec Couverture
+📕	Livre Fermé
+📖	Livre Ouvert
+📗	Livre Vert
+📘	Livre Bleu
+📙	Livre Orange
+📚	Livres
+📓	Carnet
+📒	Carnet De Compte
+📃	Page Enroulée
+📜	Parchemin
+📄	Page
+📰	Journal
+🗞️	Journal Roulé
+📑	Signets
+🔖	Marque-page
+🏷️	étiquette
+💰	Sac Plein D’argent
+🪙	Pièce
+💴	Billet En Yens
+💵	Billet En Dollars
+💶	Billet En Euros
+💷	Billet En Livres
+💸	Billet Avec Des Ailes
+💳	Carte Bancaire
+🧾	Reçu
+💹	Courbe Avec Yen En Hausse
+✉️	Enveloppe
+📧	E-mail
+📨	Message Reçu
+📩	Enveloppe Avec Flèche
+📤	Boîte D’envoi
+📥	Boîte De Réception
+📦	Colis
+📫	Boîte Aux Lettres Fermée Drapeau Levé
+📪	Boîte Aux Lettres Fermée Drapeau Baissé
+📬	Boîte Aux Lettres Ouverte Drapeau Levé
+📭	Boîte Aux Lettres Ouverte Drapeau Baissé
+📮	Boîte Aux Lettres
+🗳️	Urne électorale
+✏️	Crayon
+✒️	Stylo Plume Noir
+🖋️	Stylo Plume
+🖊️	Stylo
+🖌️	Pinceau
+🖍️	Crayon Pastel
+📝	Mémo
+💼	Porte-documents
+📁	Dossier
+📂	Dossier Ouvert
+🗂️	Intercalaires
+📅	Calendrier
+📆	éphéméride
+🗒️	Bloc-notes à Spirale
+🗓️	Calendrier à Spirale
+📇	Carnet D’adresses
+📈	Graphique En Hausse
+📉	Graphique En Baisse
+📊	Graphiques à Barres
+📋	Porte-bloc
+📌	Punaise
+📍	épingle
+📎	Trombone
+🖇️	Trombones
+📏	Règle
+📐	équerre
+✂️	Ciseaux
+🗃️	Boîte à Dossiers
+🗄️	Meuble à Dossiers
+🗑️	Corbeille à Papiers
+🔒	Cadenas Fermé
+🔓	Cadenas Ouvert
+🔏	Cadenas Fermé Avec Stylo
+🔐	Cadenas Fermé Avec Clé
+🔑	Clé
+🗝️	Clé Ancienne
+🔨	Marteau
+🪓	Hache
+⛏️	Pioche
+⚒️	Marteau Et Pioche
+🛠️	Marteau Et Clé à Molette
+🗡️	Dague
+⚔️	épées Croisées
+🔫	Pistolet
+🪃	Boomerang
+🏹	Arc Et Flèche
+🛡️	Bouclier
+🪚	Scie
+🔧	Clé à Molette
+🪛	Tournevis
+🔩	Vis Et écrou
+⚙️	Roue Dentée
+🗜️	Serre-joint
+⚖️	Balance à Poids
+🦯	Canne Blanche
+🔗	Chaînons
+⛓️	Chaînes
+🪝	Crochet
+🧰	Boîte à Outils
+🧲	Aimant
+🪜	échelle
+⚗️	Alambic
+🧪	Tube à Essai
+🧫	Boîte De Pétri
+🧬	Adn
+🔬	Microscope
+🔭	Télescope
+📡	Antenne Satellite
+💉	Seringue
+🩸	Goutte De Sang
+💊	Pilule
+🩹	Sparadrap
+🩺	Stéthoscope
+🚪	Porte
+🛗	Ascenseur
+🪞	Miroir
+🪟	Fenêtre
+🛏️	Lit
+🛋️	Canapé Et Lampe
+🪑	Chaise
+🚽	Toilettes
+🪠	Ventouse
+🚿	Douche
+🛁	Baignoire
+🪤	Tapette à Souris
+🪒	Rasoir
+🧴	Bouteille De Lotion
+🧷	épingle De Sûreté
+🧹	Balai
+🧺	Panier
+🧻	Rouleau De Papier
+🪣	Seau
+🧼	Savon
+🪥	Brosse à Dents
+🧽	éponge
+🧯	Extincteur
+🛒	Chariot
+🚬	Cigarette
+⚰️	Cercueil
+🪦	Pierre Tombale
+⚱️	Urne Funéraire
+🗿	Moai
+🪧	Pancarte
+🏧	Distributeur De Billets
+🚮	Icône Poubelle
+🚰	Eau Potable
+♿	Symbole Accès Handicapés
+🚹	Symbole Toilettes Hommes
+🚺	Symbole Toilettes Femmes
+🚻	Panneau Toilettes
+🚼	Symbole Bébé
+🚾	WC
+🛂	Contrôle Des Passeports
+🛃	Douane
+🛄	Retrait Des Bagages
+🛅	Consigne
+⚠️	Symbole D’avertissement
+🚸	Traversée D’enfants
+⛔	Sens Interdit
+🚫	Symbole D’interdiction
+🚳	Vélos Interdits
+🚭	Interdiction De Fumer
+🚯	Dépôt D’ordures Interdit
+🚱	Eau Non Potable
+🚷	Interdit Aux Piétons
+📵	Téléphones Portables Interdits
+🔞	18 Ans Et Plus
+☢️	Radioactif
+☣️	Danger Biologique
+⬆️	Flèche Haut
+↗️	Flèche Haut Droite
+➡️	Flèche Droite
+↘️	Flèche Bas Droite
+⬇️	Flèche Bas
+↙️	Flèche Bas Gauche
+⬅️	Flèche Gauche
+↖️	Flèche Haut Gauche
+↕️	Flèche Haut Bas
+↔️	Flèche Gauche Droite
+↩️	Flèche Courbe Gauche
+↪️	Flèche Courbe Droite
+⤴️	Flèche Courbe Haut
+⤵️	Flèche Courbe Bas
+🔃	Flèches Dans Le Sens Horaire
+🔄	Flèches Dans Le Sens Antihoraire
+🔙	Flèche Retour
+🔚	Flèche Fin
+🔛	Flèche Activé
+🔜	Flèche Bientôt
+🔝	Flèche En Haut
+🛐	Lieu De Culte
+⚛️	Symbole De L’atome
+🕉️	Om
+✡️	étoile De David
+☸️	Roue Du Dharma
+☯️	Yin Yang
+✝️	Croix Latine
+☦️	Croix Orthodoxe
+☪️	Lune Et étoile
+☮️	Symbole De Paix
+🕎	Chandelier à Sept Branches
+🔯	étoile à 6 Branches
+♈	Bélier Zodiaque
+♉	Taureau
+♊	Gémeaux
+♋	Cancer
+♌	Lion
+♍	Vierge
+♎	Balance
+♏	Scorpion Zodiaque
+♐	Sagittaire
+♑	Capricorne
+♒	Verseau
+♓	Poissons
+⛎	Serpentaire
+🔀	Bouton Lecture Aléatoire
+🔁	Bouton Répétition
+🔂	Bouton Répétition De La Piste
+▶️	Bouton Lecture
+⏩	Bouton Avance Rapide
+⏭️	Bouton Piste Suivante
+⏯️	Bouton Lecture/pause
+◀️	Bouton Retour
+⏪	Bouton Retour Rapide
+⏮️	Bouton Piste Précédente
+🔼	Petit Triangle Haut
+⏫	Double Flèche Vers Le Haut
+🔽	Petit Triangle Bas
+⏬	Double Flèche Vers Le Bas
+⏸️	Bouton Pause
+⏹️	Bouton Stop
+⏺️	Bouton Enregistrer
+⏏️	Bouton éjecter
+🎦	Cinéma
+🔅	Luminosité Faible
+🔆	Luminosité élevée
+📶	Barres De Réseau
+📳	Mode Vibreur
+📴	Téléphone éteint
+♀️	Symbole De La Femme
+♂️	Symbole De L’homme
+⚧️	Symbole De La Communauté Transgenre
+✖️	Signe Multiplier
+➕	Signe Plus
+➖	Signe Moins
+➗	Signe Diviser
+♾️	Infini
+‼️	Double Point D’exclamation
+⁉️	Points D’exclamation Et D’interrogation
+❓	Point D’interrogation
+❔	Point D’interrogation Blanc
+❕	Point D’exclamation Blanc
+❗	Point D’exclamation
+〰️	Ligne Ondulée
+💱	Conversion De Devise
+💲	Dollar
+⚕️	Caducée
+♻️	Symbole Recyclage
+⚜️	Fleur De Lys
+🔱	Trident
+📛	Badge Nominatif
+🔰	Symbole Japonais De Débutant
+⭕	Cercle Rouge
+✅	Bouton Coché
+☑️	Case Cochée
+✔️	Coche
+❌	Croix
+❎	Bouton Croix
+➰	Boucle
+➿	Double Boucle
+〽️	Alternance
+✳️	Astérisque Huit Branches
+✴️	étoile Huit Branches
+❇️	éclat
+©️	Symbole Copyright
+®️	Marque Déposée
+™️	Marque Commerciale Déposée
+#️⃣	Touches : #
+*️⃣	Touches : *
+0️⃣	Touches : 0
+1️⃣	Touches : 1
+2️⃣	Touches : 2
+3️⃣	Touches : 3
+4️⃣	Touches : 4
+5️⃣	Touches : 5
+6️⃣	Touches : 6
+7️⃣	Touches : 7
+8️⃣	Touches : 8
+9️⃣	Touches : 9
+🔟	Touches : 10
+🔠	Majuscules
+🔡	Minuscules
+🔢	Saisie De Chiffres
+🔣	Saisie De Symboles
+🔤	Alphabet Latin
+🅰️	Groupe Sanguin A
+🆎	Groupe Sanguin AB
+🅱️	Groupe Sanguin B
+🆑	Bouton Effacer
+🆒	Bouton Cool
+🆓	Bouton Gratuit
+ℹ️	Source D’informations
+🆔	Bouton Identifiant
+Ⓜ️	M Encerclé
+🆕	Bouton Nouveau
+🆖	Bouton Pas Bien
+🅾️	Groupe Sanguin O
+🆗	Bouton OK
+🅿️	Bouton P
+🆘	Bouton SOS
+🆙	Bouton Vers Le Haut
+🆚	Bouton VS
+🈁	Bouton Ici En Japonais
+🈂️	Bouton Frais De Service En Japonais
+🈷️	Bouton Montant Mensuel En Japonais
+🈶	Bouton Pas Gratuit En Japonais
+🈯	Bouton Réservé En Japonais
+🉐	Bouton Bonne Affaire En Japonais
+🈹	Bouton Réduction En Japonais
+🈚	Bouton Gratuit En Japonais
+🈲	Bouton Interdit En Japonais
+🉑	Bouton Accepter En Japonais
+🈸	Bouton Application En Japonais
+🈴	Bouton Note Pour Réussir En Japonais
+🈳	Bouton Chambres Disponibles En Japonais
+㊗️	Bouton Félicitations En Japonais
+㊙️	Bouton Secret En Japonais
+🈺	Bouton Ouvert Pour Affaires En Japonais
+🈵	Bouton Complet En Japonais
+🔴	Disque Rouge
+🟠	Disque Orange
+🟡	Disque Jaune
+🟢	Disque Vert
+🔵	Disque Bleu
+🟣	Disque Violet
+🟤	Disque Marron
+⚫	Disque Noir
+⚪	Disque Blanc
+🟥	Carré Rouge
+🟧	Carré Orange
+🟨	Carré Jaune
+🟩	Carré Vert
+🟦	Carré Bleu
+🟪	Carré Violet
+🟫	Carré Marron
+⬛	Grand Carré Noir
+⬜	Grand Carré Blanc
+◼️	Carré Moyen Noir
+◻️	Carré Moyen Blanc
+◾	Carré Petit Moyen Noir
+◽	Carré Petit Moyen Blanc
+▪️	Petit Carré Noir
+▫️	Petit Carré Blanc
+🔶	Grand Losange Orange
+🔷	Grand Losange Bleu
+🔸	Petit Losange Orange
+🔹	Petit Losange Bleu
+🔺	Triangle Rouge Pointant Vers Le Haut
+🔻	Triangle Rouge Pointant Vers Le Bas
+💠	Diamant Avec Un Point
+🔘	Bouton Radio
+🔳	Carré Blanc
+🔲	Carré Noir
+🏁	Drapeau à Damier
+🚩	Drapeau Triangulaire
+🎌	Drapeaux Croisés
+🏴	Drapeau Noir
+🏳️	Drapeau Blanc
+🏳️‍🌈	Drapeau Arc-en-ciel
+🏳️‍⚧️	Drapeau Transgenre
+🏴‍☠️	Drapeau De Pirate
+🇦🇨	Drapeau : Île De L’Ascension
+🇦🇩	Drapeau : Andorre
+🇦🇪	Drapeau : Émirats Arabes Unis
+🇦🇫	Drapeau : Afghanistan
+🇦🇬	Drapeau : Antigua-et-Barbuda
+🇦🇮	Drapeau : Anguilla
+🇦🇱	Drapeau : Albanie
+🇦🇲	Drapeau : Arménie
+🇦🇴	Drapeau : Angola
+🇦🇶	Drapeau : Antarctique
+🇦🇷	Drapeau : Argentine
+🇦🇸	Drapeau : Samoa Américaines
+🇦🇹	Drapeau : Autriche
+🇦🇺	Drapeau : Australie
+🇦🇼	Drapeau : Aruba
+🇦🇽	Drapeau : Îles Åland
+🇦🇿	Drapeau : Azerbaïdjan
+🇧🇦	Drapeau : Bosnie-Herzégovine
+🇧🇧	Drapeau : Barbade
+🇧🇩	Drapeau : Bangladesh
+🇧🇪	Drapeau : Belgique
+🇧🇫	Drapeau : Burkina Faso
+🇧🇬	Drapeau : Bulgarie
+🇧🇭	Drapeau : Bahreïn
+🇧🇮	Drapeau : Burundi
+🇧🇯	Drapeau : Bénin
+🇧🇱	Drapeau : Saint-Barthélemy
+🇧🇲	Drapeau : Bermudes
+🇧🇳	Drapeau : Brunéi Darussalam
+🇧🇴	Drapeau : Bolivie
+🇧🇶	Drapeau : Pays-Bas Caribéens
+🇧🇷	Drapeau : Brésil
+🇧🇸	Drapeau : Bahamas
+🇧🇹	Drapeau : Bhoutan
+🇧🇻	Drapeau : Île Bouvet
+🇧🇼	Drapeau : Botswana
+🇧🇾	Drapeau : Biélorussie
+🇧🇿	Drapeau : Belize
+🇨🇦	Drapeau : Canada
+🇨🇨	Drapeau : Îles Cocos
+🇨🇩	Drapeau : Congo-Kinshasa
+🇨🇫	Drapeau : République Centrafricaine
+🇨🇬	Drapeau : Congo-Brazzaville
+🇨🇭	Drapeau : Suisse
+🇨🇮	Drapeau : Côte D’Ivoire
+🇨🇰	Drapeau : Îles Cook
+🇨🇱	Drapeau : Chili
+🇨🇲	Drapeau : Cameroun
+🇨🇳	Drapeau : Chine
+🇨🇴	Drapeau : Colombie
+🇨🇵	Drapeau : Île Clipperton
+🇨🇷	Drapeau : Costa Rica
+🇨🇺	Drapeau : Cuba
+🇨🇻	Drapeau : Cap-Vert
+🇨🇼	Drapeau : Curaçao
+🇨🇽	Drapeau : Île Christmas
+🇨🇾	Drapeau : Chypre
+🇨🇿	Drapeau : Tchéquie
+🇩🇪	Drapeau : Allemagne
+🇩🇬	Drapeau : Diego Garcia
+🇩🇯	Drapeau : Djibouti
+🇩🇰	Drapeau : Danemark
+🇩🇲	Drapeau : Dominique
+🇩🇴	Drapeau : République Dominicaine
+🇩🇿	Drapeau : Algérie
+🇪🇦	Drapeau : Ceuta Et Melilla
+🇪🇨	Drapeau : Équateur
+🇪🇪	Drapeau : Estonie
+🇪🇬	Drapeau : Égypte
+🇪🇭	Drapeau : Sahara Occidental
+🇪🇷	Drapeau : Érythrée
+🇪🇸	Drapeau : Espagne
+🇪🇹	Drapeau : Éthiopie
+🇪🇺	Drapeau : Union Européenne
+🇫🇮	Drapeau : Finlande
+🇫🇯	Drapeau : Fidji
+🇫🇰	Drapeau : Îles Malouines
+🇫🇲	Drapeau : États Fédérés De Micronésie
+🇫🇴	Drapeau : Îles Féroé
+🇫🇷	Drapeau : France
+🇬🇦	Drapeau : Gabon
+🇬🇧	Drapeau : Royaume-Uni
+🇬🇩	Drapeau : Grenade
+🇬🇪	Drapeau : Géorgie
+🇬🇫	Drapeau : Guyane Française
+🇬🇬	Drapeau : Guernesey
+🇬🇭	Drapeau : Ghana
+🇬🇮	Drapeau : Gibraltar
+🇬🇱	Drapeau : Groenland
+🇬🇲	Drapeau : Gambie
+🇬🇳	Drapeau : Guinée
+🇬🇵	Drapeau : Guadeloupe
+🇬🇶	Drapeau : Guinée équatoriale
+🇬🇷	Drapeau : Grèce
+🇬🇸	Drapeau : Géorgie Du Sud Et îles Sandwich Du Sud
+🇬🇹	Drapeau : Guatemala
+🇬🇺	Drapeau : Guam
+🇬🇼	Drapeau : Guinée-Bissau
+🇬🇾	Drapeau : Guyana
+🇭🇰	Drapeau : R.A.S. Chinoise De Hong Kong
+🇭🇲	Drapeau : Îles Heard Et McDonald
+🇭🇳	Drapeau : Honduras
+🇭🇷	Drapeau : Croatie
+🇭🇹	Drapeau : Haïti
+🇭🇺	Drapeau : Hongrie
+🇮🇨	Drapeau : Îles Canaries
+🇮🇩	Drapeau : Indonésie
+🇮🇪	Drapeau : Irlande
+🇮🇱	Drapeau : Israël
+🇮🇲	Drapeau : Île De Man
+🇮🇳	Drapeau : Inde
+🇮🇴	Drapeau : Territoire Britannique De L’océan Indien
+🇮🇶	Drapeau : Irak
+🇮🇷	Drapeau : Iran
+🇮🇸	Drapeau : Islande
+🇮🇹	Drapeau : Italie
+🇯🇪	Drapeau : Jersey
+🇯🇲	Drapeau : Jamaïque
+🇯🇴	Drapeau : Jordanie
+🇯🇵	Drapeau : Japon
+🇰🇪	Drapeau : Kenya
+🇰🇬	Drapeau : Kirghizistan
+🇰🇭	Drapeau : Cambodge
+🇰🇮	Drapeau : Kiribati
+🇰🇲	Drapeau : Comores
+🇰🇳	Drapeau : Saint-Christophe-et-Niévès
+🇰🇵	Drapeau : Corée Du Nord
+🇰🇷	Drapeau : Corée Du Sud
+🇰🇼	Drapeau : Koweït
+🇰🇾	Drapeau : Îles Caïmans
+🇰🇿	Drapeau : Kazakhstan
+🇱🇦	Drapeau : Laos
+🇱🇧	Drapeau : Liban
+🇱🇨	Drapeau : Sainte-Lucie
+🇱🇮	Drapeau : Liechtenstein
+🇱🇰	Drapeau : Sri Lanka
+🇱🇷	Drapeau : Libéria
+🇱🇸	Drapeau : Lesotho
+🇱🇹	Drapeau : Lituanie
+🇱🇺	Drapeau : Luxembourg
+🇱🇻	Drapeau : Lettonie
+🇱🇾	Drapeau : Libye
+🇲🇦	Drapeau : Maroc
+🇲🇨	Drapeau : Monaco
+🇲🇩	Drapeau : Moldavie
+🇲🇪	Drapeau : Monténégro
+🇲🇫	Drapeau : Saint-Martin
+🇲🇬	Drapeau : Madagascar
+🇲🇭	Drapeau : Îles Marshall
+🇲🇰	Drapeau : Macédoine Du Nord
+🇲🇱	Drapeau : Mali
+🇲🇲	Drapeau : Myanmar (Birmanie)
+🇲🇳	Drapeau : Mongolie
+🇲🇴	Drapeau : R.A.S. Chinoise De Macao
+🇲🇵	Drapeau : Îles Mariannes Du Nord
+🇲🇶	Drapeau : Martinique
+🇲🇷	Drapeau : Mauritanie
+🇲🇸	Drapeau : Montserrat
+🇲🇹	Drapeau : Malte
+🇲🇺	Drapeau : Maurice
+🇲🇻	Drapeau : Maldives
+🇲🇼	Drapeau : Malawi
+🇲🇽	Drapeau : Mexique
+🇲🇾	Drapeau : Malaisie
+🇲🇿	Drapeau : Mozambique
+🇳🇦	Drapeau : Namibie
+🇳🇨	Drapeau : Nouvelle-Calédonie
+🇳🇪	Drapeau : Niger
+🇳🇫	Drapeau : Île Norfolk
+🇳🇬	Drapeau : Nigéria
+🇳🇮	Drapeau : Nicaragua
+🇳🇱	Drapeau : Pays-Bas
+🇳🇴	Drapeau : Norvège
+🇳🇵	Drapeau : Népal
+🇳🇷	Drapeau : Nauru
+🇳🇺	Drapeau : Niue
+🇳🇿	Drapeau : Nouvelle-Zélande
+🇴🇲	Drapeau : Oman
+🇵🇦	Drapeau : Panama
+🇵🇪	Drapeau : Pérou
+🇵🇫	Drapeau : Polynésie Française
+🇵🇬	Drapeau : Papouasie-Nouvelle-Guinée
+🇵🇭	Drapeau : Philippines
+🇵🇰	Drapeau : Pakistan
+🇵🇱	Drapeau : Pologne
+🇵🇲	Drapeau : Saint-Pierre-et-Miquelon
+🇵🇳	Drapeau : Îles Pitcairn
+🇵🇷	Drapeau : Porto Rico
+🇵🇸	Drapeau : Territoires Palestiniens
+🇵🇹	Drapeau : Portugal
+🇵🇼	Drapeau : Palaos
+🇵🇾	Drapeau : Paraguay
+🇶🇦	Drapeau : Qatar
+🇷🇪	Drapeau : La Réunion
+🇷🇴	Drapeau : Roumanie
+🇷🇸	Drapeau : Serbie
+🇷🇺	Drapeau : Russie
+🇷🇼	Drapeau : Rwanda
+🇸🇦	Drapeau : Arabie Saoudite
+🇸🇧	Drapeau : Îles Salomon
+🇸🇨	Drapeau : Seychelles
+🇸🇩	Drapeau : Soudan
+🇸🇪	Drapeau : Suède
+🇸🇬	Drapeau : Singapour
+🇸🇭	Drapeau : Sainte-Hélène
+🇸🇮	Drapeau : Slovénie
+🇸🇯	Drapeau : Svalbard Et Jan Mayen
+🇸🇰	Drapeau : Slovaquie
+🇸🇱	Drapeau : Sierra Leone
+🇸🇲	Drapeau : Saint-Marin
+🇸🇳	Drapeau : Sénégal
+🇸🇴	Drapeau : Somalie
+🇸🇷	Drapeau : Suriname
+🇸🇸	Drapeau : Soudan Du Sud
+🇸🇹	Drapeau : Sao Tomé-et-Principe
+🇸🇻	Drapeau : Salvador
+🇸🇽	Drapeau : Saint-Martin (partie Néerlandaise)
+🇸🇾	Drapeau : Syrie
+🇸🇿	Drapeau : Eswatini
+🇹🇦	Drapeau : Tristan Da Cunha
+🇹🇨	Drapeau : Îles Turques-et-Caïques
+🇹🇩	Drapeau : Tchad
+🇹🇫	Drapeau : Terres Australes Françaises
+🇹🇬	Drapeau : Togo
+🇹🇭	Drapeau : Thaïlande
+🇹🇯	Drapeau : Tadjikistan
+🇹🇰	Drapeau : Tokelau
+🇹🇱	Drapeau : Timor Oriental
+🇹🇲	Drapeau : Turkménistan
+🇹🇳	Drapeau : Tunisie
+🇹🇴	Drapeau : Tonga
+🇹🇷	Drapeau : Turquie
+🇹🇹	Drapeau : Trinité-et-Tobago
+🇹🇻	Drapeau : Tuvalu
+🇹🇼	Drapeau : Taïwan
+🇹🇿	Drapeau : Tanzanie
+🇺🇦	Drapeau : Ukraine
+🇺🇬	Drapeau : Ouganda
+🇺🇲	Drapeau : Îles Mineures éloignées Des États-Unis
+🇺🇳	Drapeau : Nations Unies
+🇺🇸	Drapeau : États-Unis
+🇺🇾	Drapeau : Uruguay
+🇺🇿	Drapeau : Ouzbékistan
+🇻🇦	Drapeau : État De La Cité Du Vatican
+🇻🇨	Drapeau : Saint-Vincent-et-les-Grenadines
+🇻🇪	Drapeau : Venezuela
+🇻🇬	Drapeau : Îles Vierges Britanniques
+🇻🇮	Drapeau : Îles Vierges Des États-Unis
+🇻🇳	Drapeau : Vietnam
+🇻🇺	Drapeau : Vanuatu
+🇼🇫	Drapeau : Wallis-et-Futuna
+🇼🇸	Drapeau : Samoa
+🇽🇰	Drapeau : Kosovo
+🇾🇪	Drapeau : Yémen
+🇾🇹	Drapeau : Mayotte
+🇿🇦	Drapeau : Afrique Du Sud
+🇿🇲	Drapeau : Zambie
+🇿🇼	Drapeau : Zimbabwe
+🏴󠁧󠁢󠁥󠁮󠁧󠁿	Drapeau : Angleterre
+🏴󠁧󠁢󠁳󠁣󠁴󠁿	Drapeau : Écosse
+🏴󠁧󠁢󠁷󠁬󠁳󠁿	Drapeau : Pays De Galles

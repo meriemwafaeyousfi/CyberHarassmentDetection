@@ -1,0 +1,231 @@
+;\)	clin d'oeil
+;-\)	clin d'oeil
+,-\)	clin d'oeil
+,'-\)	clin d'oeil
+:\)	content
+:-\)	content
+\(:	smiley du sourire à l'envers = sourire ironique
+\(-:	smiley du sourire à l'envers = sourire ironique
+:\)\)	très heureux
+:-\)\)	très heureux
+:->	très heureux
+=\)	sourire bienveillant
+X\)	sourire perfide
+>:\)	sourire diabolique
+XD	fou rire
+:-D	je rigole très fort
+:D	je rigole très fort
+X3	mignon 
+:3	mignon 
+:-3	mignon 
+:-\(	triste
+:\(	triste
+=\(	triste
+:-\(\(	très triste
+:\(\(	très triste
+:-<	très triste
+:-C	pas content
+:-/	je suis sceptique / pas marrant
+:/\)	je suis sceptique / pas marrant
+:/	je suis sceptique / pas marrant
+=/	je suis sceptique / pas marrant
+/\)	je suis sceptique / pas marrant
+:-\]	sourire sarcastique
+:\]	sourire sarcastique
+:\*\)	je t'embrasse
+:\)\*	je t'embrasse
+:-\*	je t'embrasse
+:\*	je t'embrasse
+:-X	je t'embrasse très fort
+:-p	je tire la langue
+;-p	je tire la langue
+:p	je tire la langue
+:-d	bouche arrondie = moquerie (ou tire la langue = concentration)
+:d	bouche arrondie = moquerie (ou tire la langue = concentration)
+:'-\(	je pleure
+:'\(	je pleure
+:'-\)	je pleure de rire
+=-O	étonnement
+=O	étonnement
+:-O	étonnement (ou cris)
+:O	étonnement (ou cris)
+8-O	quelle surprise !
+:-@	au secours !
+:-7	désabusé
+:-~	écoeuré
+:-\|	indifférent
+:\|	indifférent
+\|-\)	endormi
+%-\)	fatigué
+%-\|	j'ai bossé toute la nuit
+#-\)	j'ai fait la fête toute la nuit
+:-\(\*\)	une extinction de voix
+:-\)~	je bave
+$-\)	j'ai gagné au loto
+:-~\)	j'ai froid
+:-$	malade
+:$	malade
+:-#	oops...
+:>	je suis sarcastique
+:-\{	je fais la gueule
+:-w	langue de vipère
+:w	langue de vipère
+:-i	je fume
+:-9	je me lèche les babines
+:-#	je montre les dents
+\.-\)	je ne dors que d'un oeil
+:-S	je suis confus - embarrassé
+:S	je suis confus - embarrassé
+:$	je suis confus - embarrassé
+8-\)	je porte des lunettes
+::-\)	je porte des lunettes
+::\)	je porte des lunettes
+::-\)\)	des lunettes et très heureux
+B-\)	lunettes de soleil
+B:-\)	lunettes sur le front
+:-!	j'ai la bouche pleine / confus
+:-\{\}	trop de rouge à lèvres
+%-\)	yeux explosés
+:#\)	saoul
+\(:-\)	chauve
+\(-:	gaucher
+\(-\)	besoin d'aller chez le coiffeur
+@:-\}	je sors de chez le coiffeur
+@:\{	le coiffeur m'a raté
+Â§:-\)	une coupe à la mode
+%\+\{	j'ai perdu un combat
+\:\)	j'ai un béret
+!:\)	un képi
+!:-\)	un képi
+c\|:-\)	un chapeau melon
+\{\|:-\)	le roi (couronne)
+:-\)>~	j'ai une cravate
+\[:-\)	j'écoute mon baladeur
+!-"	siffler une fille
+p-\)	un borgne (ou un pirate)
+\(:\)-\)	de la plongée sous-marine
+:\^\)	un grand nez
+:n\)	un petit nez
+\+-\)	un oeil au beurre noir
+:-#\|	une moustache
+:\{	une moustache
+:€	une moustache
+:-\)\}	une barbe
+:-\)»	un bouc
+_:\^\)	un indien
+\.\.\.:\)	un indien
+\*<:-\)	un père noel
+\+:-\)	un prêtre
+\*:o\)	un clown
+:o\)	un clown
+<\|:o\)	un clown
+;o\)	clin d'oeil du clown
+\(:-\)\(Â°Â°Â°\)	un bonhomme de neige
+\*\|:\^\)\(\.\.\.\)	un bonhomme de neige
+8\{\)	un professeur
+\[ : \]	un robot
+o:-\)	un saint
+:\+\)	un cannibale
+:-\[	un vampire
+8<:-\)	un magicien
+8:-\)	une petite fille
+:-\)8<	une grande fille
+\*<\(:-\)	père noël
+-:-\)	un punk
+=:-\)	un punk
+-:p	punk qui tire la langue
+C=:-\)	un cuisinier
+#:o\+=	Betty Boop
+Q:-\)	David Croquet
+5:-\)	Elvis Presley
+5:-\[\]	Elvis Presley
+:-=\(	Hitler
+\(_8-\(\|\)	Homère Simpson
+8\(:-\)	Mickey
+=\):-\)	Oncle Sam
+\+O:-\)	le Pape
+~\(:-\)	Tintin
+: =8\)	un babouin
+3:\*\)	un cerf
+3:\]	un chien
+:8\)	un cochon
+:@\)	un cochon
+8\)	une grenouille
+:\)\(	une grenouille
+:\)=	un lapin
+:=\)	un orang-outang
+:o-\)	un ourson
+3:-\)	une vache
+>\[ \]	télévision
+@\}----	une fleur
+@--,--'--	une rose
+>-l	un verre
+\)-l	un verre
+\(\|\)	un burger
+\(\|\|\)	un big mac
+~i	une cigarette
+-===\)	une bougie
+\^\^	sourire (les yeux plissés)
+\^_\^	sourire (les yeux plissés)
+\^___\^	sourire (les yeux plissés)
+\(\^-\^\)	sourire (les yeux plissés)
+\(\^\^\)/	joie
+\(\^_\^\)/	joie
+\^ω\^	joie
+><	pleurer de rire (les yeux plissés)
+>\.<	pleurer de rire (les yeux plissés)
+\(:_;\)	je pleure
+;__;	je pleure
+;-;	je pleure
+;;	je pleure
+\('_'\)	je pleure
+QQ	je pleure
+\(-_-\)	j'ai honte
+--	yeux fermés
+-\.-	yeux fermés
+-_-'	je suis déçu
+-w-	je suis déçu
+--"	je suis déçu
+--'	exaspération (les yeux fermés..)
+`_´	je suis en colère
+è_é	je suis en colère
+>\.>	je suis en colère
+\(=_=\)	je suis fatigué
+v\.v	je suis fatigué
+\(\+_\+\)	je n'en crois pas mes yeux
+\*_\*	je n'en crois pas mes yeux
+\*-\*	je n'en crois pas mes yeux
+\(@_@\)	je n'en crois pas mes yeux
+@@	je n'en crois pas mes yeux
+\*\^\*	je n'en crois pas mes yeux (ou lunettes)
+\(\^_\^;\)	je suis troublé, embarrassé
+\(-_-;\)	je suis troublé, embarrassé
+\(o\.o\)	je suis surpris
+o_0	je suis surpris
+oO	je suis surpris
+\(\._\.\)	je regarde en bas
+\(\.\.\)	je regarde en bas
+<\(-_-\)>	Yoda
+\(o\^_\^o\)	pika pika
+\(';'\)	un bébé
+C\[_\]	une tasse
+\(__\)>	un tasse de café
+===="	une cigarette
+E_\)~~	souris d'ordinateur
+\_O<	un canard
+\(>'\.'<\)	un petit chat de face
+@_v	un escargot
+@\(\*0\*\)@	un koala
+\)\)i\(\(	un papillon
+><>	un petit poisson
+>-\^\):>	un poisson
+~\( 'Â°>	une souris
+<:3\)~~	une souris
+\(Y\)	des fesses
+\(_Y_\)	des fesses
+\(_!_\)	des fesses
+8Ã–<	une caméra
+\(-:	content (ou gaucher)
+\(:	content (ou gaucher) 
+<3	un coeur
+</3	coeur brisé

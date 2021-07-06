@@ -21,6 +21,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
 <body class="hold-transition sidebar-mini">
+
 <div class="wrapper">
 
   <!-- Navbar -->
@@ -216,7 +217,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
   </aside>
 
   <!-- Content Wrapper. Contains page content -->
+
   <div class="content-wrapper">
+    {% block content %}
     <!-- Content Header (Page header) -->
     <div class="content-header">
       <div class="container-fluid">
@@ -233,15 +236,23 @@ scratch. This page gets rid of all links and provides the needed markup only.
         </div><!-- /.row -->
       </div><!-- /.container-fluid -->
     </div>
+
     <!-- /.content-header -->
 
     <!-- Main content -->
+    <form action="{% url 'result' %}">
+<input type="submit" name ="" value="submit">
+    </form>
+  <form method="POST" action="/">
+    {% csrf_token %}
+<input type="submit" name ="" value="submit">
+    </form>
 
 
-
-
+ {% endblock %}
     <!-- /.content -->
   </div>
+
   <!-- /.content-wrapper -->
 
   <!-- Control Sidebar -->
@@ -249,15 +260,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- /.control-sidebar -->
 
   <!-- Main Footer -->
-  <footer class="main-footer">
-    <!-- To the right -->
-    <div class="float-right d-none d-sm-inline">
 
-    </div>
-    <!-- Default to the left -->
 
-  </footer>
 </div>
+
 <!-- ./wrapper -->
 
 <!-- REQUIRED SCRIPTS -->

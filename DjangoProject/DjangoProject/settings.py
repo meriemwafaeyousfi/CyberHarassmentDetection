@@ -77,8 +77,15 @@ WSGI_APPLICATION = 'DjangoProject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'djongo',
-        'NAME': "projectdb",
+        #'ENGINE': 'djongo',
+        #'NAME': "projectdb",
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'projectdb',
+        'USER': 'root',
+        'PASS': '',
+        'HOST': 'localhost',
+        'PORT': '3306',
+        'OPTIONS': {'charset': 'utf8mb4'},
     }
 }
 
@@ -122,4 +129,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
 os.path.join(BASE_DIR, "static"),
+os.path.join(BASE_DIR, "media")
 ]
