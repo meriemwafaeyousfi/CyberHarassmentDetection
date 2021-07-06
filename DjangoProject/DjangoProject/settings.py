@@ -156,14 +156,6 @@ SOCIALACCOUNT_PROVIDERS = {
         'AUTH_PARAMS': {
             'access_type': 'online',
         },
-        # For each OAuth based provider, either add a ``SocialApp``
-        # (``socialaccount`` app) containing the required client
-        # credentials, or list them here:
-        'APP': {
-            'client_id': '643937594304-28qpufqtgku4251k4ns8m1gcq2vjogvu.apps.googleusercontent.com',
-            'secret': '4EEEF6bRFv971R1AIXFsPmuC',
-            'key': ''
-        }
     }
 }
 
