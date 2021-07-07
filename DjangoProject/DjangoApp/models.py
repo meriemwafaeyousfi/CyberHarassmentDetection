@@ -7,6 +7,7 @@ class Comments(models.Model):
     comment_author = models.CharField(max_length = 255)
     comment_source = models.CharField(max_length=255, null=True)
     comment_date = models.DateTimeField( null=True)
+    comment_clean = models.TextField(null=True)
 
 
     def __str__(self):

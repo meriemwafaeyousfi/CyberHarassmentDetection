@@ -1,6 +1,10 @@
 from bson import ObjectId
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render
+from django.views import View
+from rest_framework.response import Response
+#from rest_framework.authtoken.admin import User
+from rest_framework.views import APIView
 from sklearn.feature_extraction.text import TfidfTransformer, CountVectorizer
 from sklearn.pipeline import make_pipeline
 # Create your views here.
@@ -34,6 +38,7 @@ from multiprocessing import Pool
 from textblob import TextBlob
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
+from django.db import connection
 
 class pretraitement:
     def __init__(self):
@@ -72,24 +77,22 @@ class pretraitement:
 
     def _remove_punctuations(self,x):
         x = str(x)
-        # translator = str.maketrans(' ', ' ', punctuations_list)
+        translator = str.maketrans(' ', ' ', self.punctuations_list)
         translator = str.maketrans(self.punctuations_list, ' ' * len(self.punctuations_list))
-        x2 = x.translate(translator)
-        x3 = word_tokenize(x2)
-        return x3
+        return x.translate(translator)
 
     def remove_punctuations(self,df):
-        df['data'] = df['data'].apply(lambda x: self._remove_punctuations(x))
+        df['comment_clean'] = df['comment_clean'].apply(lambda x: self._remove_punctuations(x))
         return df
 
 
     # 3--------remove doubles (plus que deux fois)
     def _remove_repeating_char(self,x):
         x = str(x)
-        return re.sub(r'(.)\1{2,}', r'\1', x)
+        return re.sub(r'(.)\1{2,}', r'\1\1', x)
 
     def remove_repeating_char(self,df):
-        df['data'] = df['data'].apply(lambda x: self._remove_repeating_char(x))
+        df['comment_clean'] = df['comment_clean'].apply(lambda x: self._remove_repeating_char(x))
         return df
 
     # 5--------lower case
@@ -98,7 +101,7 @@ class pretraitement:
         return x
 
     def lower_case(self,df):
-        df['data'] = df['data'].apply(lambda x: self._lower_case(x))
+        df['comment_clean'] = df['comment_clean'].apply(lambda x: self._lower_case(x))
         return df
 
     # 5--------extra witespace
@@ -108,7 +111,7 @@ class pretraitement:
         return x
 
     def extraWhite(self,df):
-        df['data'] = df['data'].apply(lambda x: self._extraWhite(x))
+        df['comment_clean'] = df['comment_clean'].apply(lambda x: self._extraWhite(x))
         return df
 
     # 6.1--------delete urls
@@ -117,7 +120,7 @@ class pretraitement:
         return t
 
     def delete_URLs(self,df):
-        df['data'] = df['data'].apply(lambda x: self._delete_URLs(x))
+        df['comment_clean'] = df['comment_clean'].apply(lambda x: self._delete_URLs(x))
         return df
 
     # 6.1--------delete single letters and numbers
@@ -127,7 +130,7 @@ class pretraitement:
         return text
 
     def delete_single_letters(self,df):
-        df['data'] = df['data'].apply(lambda x: self._delete_single_letters(x))
+        df['comment_clean'] = df['comment_clean'].apply(lambda x: self._delete_single_letters(x))
         return df
 
     # 6.2--------delete hashtags
@@ -153,7 +156,7 @@ class pretraitement:
         return text
 
     def clean_hashtag(self,df):
-        df['data'] = df['data'].apply(lambda x: self._clean_hashtag(x))
+        df['comment_clean'] = df['comment_clean'].apply(lambda x: self._clean_hashtag(x))
         return df
 
     # 7--------emoji translation
@@ -210,7 +213,7 @@ class pretraitement:
     def emoji_trans(self,df):
         # for i in df.index:
         # df['Comment'][i] = emoji_unicode_translation(df['Comment'][i])
-        df['data'] = df['data'].apply(lambda x: self.emoji_unicode_translation(x))
+        df['comment_clean'] = df['comment_clean'].apply(lambda x: self.emoji_unicode_translation(x))
         return df
 
     # 8--------- latin script only
@@ -220,12 +223,12 @@ class pretraitement:
         return x
 
     def latin(self,df):
-        df['data'] = df['data'].apply(lambda x: self._latin(x))
+        df['comment_clean'] = df['comment_clean'].apply(lambda x: self._latin(x))
         return df
 
     # 9--------- commentaire vide
     def vide(self,df):
-        indexNames = df[len(df['data']) == 1].index
+        indexNames = df[len(df['comment_clean']) == 1].index
         # indexNames = df[len(df['Comment']) <= 1 ].index
         df.drop(indexNames, inplace=True)
         return df
@@ -249,7 +252,7 @@ class pretraitement:
         return text
 
     def replace_emoticons(self,df):
-        df['data'] = df['data'].apply(lambda x: self._replace_emoticons(x))
+        df['comment_clean'] = df['comment_clean'].apply(lambda x: self._replace_emoticons(x))
         return df
 
     # 11-----------nan
@@ -257,7 +260,7 @@ class pretraitement:
         for i in df.columns:
             df[i][df[i].apply(lambda i: True if (
                         re.search('^\s*$', str(i)) or re.search('[a-zA-Z]', str(i)) == None) else False)] = None
-        df.dropna(subset=["data"], inplace=True)
+        df.dropna(subset=["comment_clean"], inplace=True)
         return df
 
     # 12-----------delete stop words
@@ -274,7 +277,7 @@ class pretraitement:
         return x
 
     def delete_stop_words(self,df):
-        df['data'] = df['data'].apply(lambda x: self._delete_stop_words(x))
+        df['comment_clean'] = df['comment_clean'].apply(lambda x: self._delete_stop_words(x))
         return df
 
     # 14--------- delete accents
@@ -283,13 +286,70 @@ class pretraitement:
         return x
 
     def delete_accents(self,df):
-        df['data'] = df['data'].apply(lambda x: self._delete_accents(x))
+        df['comment_clean'] = df['comment_clean'].apply(lambda x: self._delete_accents(x))
         return df
 
     # 13-----------duplicated comment
     def delete_dupplicated(self,df):
-        df = df.drop_duplicates(subset=["Author", "data"], keep='first', inplace=False)
+        df = df.drop_duplicates(subset=["comment_author", "comment_clean"], keep='first', inplace=False)
         return df
+
+
+def get_videos(playlist_id):
+    key = "AIzaSyBPkPCltYAW6hXfAkMNfwfnZzQl-VbTNiM" #hide it
+    YOUTUBE_API_SERVICE_NAME = "youtube"
+    YOUTUBE_API_VERSION = "v3"
+
+    service = build(YOUTUBE_API_SERVICE_NAME, YOUTUBE_API_VERSION, developerKey=key)
+    videos = []
+    videos_id=[]
+    next_page_token = None
+    while 1:
+        res = service.playlistItems().list(part='snippet', playlistId=playlist_id, maxResults=50,
+                                           pageToken=next_page_token).execute()
+        videos += res['items']
+        next_page_token = res.get('nextPageToken')
+        if next_page_token is None:
+            break
+    # loop the videos of the playlist channel
+    for video in videos:
+        videoId = video['snippet']['resourceId']['videoId']
+        videos_id.append(videoId)
+    return videos_id
+
+def get_comments_video(videoId):
+    key = "AIzaSyBPkPCltYAW6hXfAkMNfwfnZzQl-VbTNiM"
+    YOUTUBE_API_SERVICE_NAME = "youtube"
+    YOUTUBE_API_VERSION = "v3"
+
+    part = 'snippet'
+    maxResults = 100
+    textFormat = 'plainText'
+    order = 'time'
+
+    service = build(YOUTUBE_API_SERVICE_NAME, YOUTUBE_API_VERSION, developerKey=key)
+    response = service.commentThreads().list(part=part, maxResults=maxResults, textFormat=textFormat, order=order,
+                                             videoId=videoId).execute()
+    allComments =[]
+    while response:
+        for item in response['items']:
+            commen = item['snippet']['topLevelComment']['snippet']
+            comment = commen['textDisplay'].replace('\n', '')
+            author = commen['authorDisplayName']
+            date = commen['publishedAt']
+            source = commen['videoId']
+            # 6 append to lists
+            allComments.append([comment,author,date,source,comment])
+            # new_comment =Comments(comment_data=comment,comment_author=author,comment_date=date,comment_source=source).save()
+            # 8 check for nextPageToken, and if it exists, set response equal to the JSON response
+        if 'nextPageToken' in response:
+            response = service.commentThreads().list(part=part, maxResults=maxResults, textFormat=textFormat,
+                                                     order=order, videoId=videoId,
+                                                     pageToken=response['nextPageToken']).execute()
+        else:
+            break
+    return allComments
+
 
 
 def get_comments(id_channel):
@@ -298,64 +358,60 @@ def get_comments(id_channel):
     YOUTUBE_API_VERSION = "v3"
 
     service = build(YOUTUBE_API_SERVICE_NAME, YOUTUBE_API_VERSION, developerKey=key)
-    comments, authors, sources, dates, viewerRating = [], [], [], [], []
-
-    part = 'snippet'
-    maxResults = 100
-    textFormat = 'plainText'
-    order = 'time'
-
     ch_request = service.channels().list(part='contentDetails', id=id_channel)
     ch_response = ch_request.execute()
     playlist_id = ch_response['items'][0]['contentDetails']['relatedPlaylists']['uploads']
-    videos = []
-    next_page_token = None
-    while 1:
-        res = service.playlistItems().list(
-            part='snippet',
-            playlistId=playlist_id,
-            maxResults=50,
-            pageToken=next_page_token
-        ).execute()
-        videos += res['items']
-        next_page_token = res.get('nextPageToken')
-        if next_page_token is None:
-            break
-    # loop the videos of the playlist channel
-    for video in videos:
-        videoId = video['snippet']['resourceId']['videoId']
-        response = service.commentThreads().list(part=part, maxResults=maxResults, textFormat=textFormat, order=order,
-                                                 videoId=videoId).execute()
-        while response:
-            for item in response['items']:
-                commen = item['snippet']['topLevelComment']['snippet']
-                comment = commen['textDisplay'].replace('\n', '')
-                author = commen['authorDisplayName']
-                date = commen['publishedAt']
-                source = commen['videoId']
+    videosIds= get_videos(playlist_id)
+    comments=[]
+    for videoId in videosIds:
+        comments_video= get_comments_video(videoId)
+        comments+=comments_video
+    return comments
 
-                # 6 append to lists
-                comments.append(comment)
-                authors.append(author)
-                sources.append(source)
-                dates.append(date)
-                # new_comment =Comments(comment_data=comment,comment_author=author,comment_date=date,comment_source=source).save()
-                # 8 check for nextPageToken, and if it exists, set response equal to the JSON response
-            if 'nextPageToken' in response:
-                response = service.commentThreads().list(part=part, maxResults=maxResults, textFormat=textFormat,
-                                                         order=order, videoId=videoId,
-                                                         pageToken=response['nextPageToken']).execute()
-            else:
-                break
+def df_parallelize_run(df, func, num_cores=2):
+    df_split = np.array_split(df, num_cores)
+    pool = Pool(num_cores)
+    df = pd.concat(pool.map(func, df_split))
+    pool.close()
+    pool.join()
+    return df
 
-        print(video['snippet']['resourceId']['videoId'])
-        return 0
+def cleaning(df):
+    p = pretraitement()
+    df = p.delete_dupplicated(df)
+    df = p.replace_emoticons(df)
+    df = p.remove_punctuations(df)
+    df = p.remove_repeating_char(df)
+    df = p.delete_URLs(df)
+    df = p.clean_hashtag(df)
+    df= p.emoji_trans(df)
+    df = p.lower_case(df)
+    df= p.latin(df)
+    df = p.delete_stop_words(df)
+    df = p.delete_accents(df)
+    df = p.extraWhite(df)
+    df= p.delete_single_letters(df)
+    df= p.delete_vide(df)
+    return df
+
 
 def home(request):
-    if request == 'POST':
-        get_comments('UCyVfMUt4tGYENMbqQ8Pusog')
-    p = pretraitement()
-    print(p._delete_URLs(text='hi f dahcra t haz https://stackoverflow.com/'))
+    ar = get_comments('UCyVfMUt4tGYENMbqQ8Pusog')
+    df = pd.DataFrame(ar, columns=['comment_data', 'comment_author', 'comment_date', 'comment_source', 'comment_clean'])
+    df_cleaned = cleaning(df)
+    # get the comments from the database
+    query = str(Comments.objects.all().query)
+    df1 = pd.read_sql_query(query, connection)
+    df2 = pd.concat([df1, df_cleaned]).drop_duplicates(subset=["comment_data", "comment_author", "comment_source", "comment_clean"], keep=False, inplace=False)
+    print(df2)
+
+    for i in range(len(df2)):
+        comment = df_cleaned['comment_data'][i]
+        author = df_cleaned['comment_author'][i]
+        date = df_cleaned['comment_date'][i]
+        source = df_cleaned['comment_source'][i]
+        clean = df_cleaned['comment_clean'][i]
+        new_comment = Comments(comment_data=comment, comment_author=author, comment_date=date, comment_source=source, comment_clean= clean).save()
     return render(request, 'home.html')
 
 def result(request):
@@ -364,3 +420,30 @@ def result(request):
     feat_test = loaded_cvec.transform(['hmar hhh'])
     ans = cls.predict(feat_test)
     return render(request, 'result.html',{'ans':ans})
+
+def get_data(request, *args, **kwargs):
+    data = {
+        "sales": 100,
+        "customers": 10,
+    }
+    return JsonResponse(data) # http response
+
+
+
+class ChartData(APIView):
+    authentication_classes = []
+    permission_classes = []
+
+    def get(self, request, format=None):
+        #qs_count = User.objects.all().count()
+        labels = ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+        default_items = [1, 23, 2, 3, 12, 2,5]
+        data = {
+                "labels": labels,
+                "default": default_items,
+        }
+        return Response(data)
+
+class HomeView(View):
+    def get(self, request, *args, **kwargs):
+        return render(request, 'dashboard.html', {"customers": 10})
