@@ -1,6 +1,6 @@
 from bson import ObjectId
 from django.http import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import redirect, render
 from sklearn.feature_extraction.text import TfidfTransformer, CountVectorizer
 from sklearn.pipeline import make_pipeline
 # Create your views here.
@@ -352,11 +352,14 @@ def get_comments(id_channel):
         return 0
 
 def home(request):
-    if request == 'POST':
-        get_comments('UCyVfMUt4tGYENMbqQ8Pusog')
-    p = pretraitement()
-    print(p._delete_URLs(text='hi f dahcra t haz https://stackoverflow.com/'))
-    return render(request, 'home.html')
+    if request.user.is_authenticated:
+        if request == 'POST':
+            get_comments('UCyVfMUt4tGYENMbqQ8Pusog')
+        p = pretraitement()
+        print(p._delete_URLs(text='hi f dahcra t haz https://stackoverflow.com/'))
+        return render(request, 'home.html')
+    else :
+        return redirect('/authen/index')
 
 def result(request):
     cls= joblib.load('final_model.sav')
