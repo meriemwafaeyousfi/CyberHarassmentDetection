@@ -1,17 +1,122 @@
-{% extends 'home.html' %}
-
-<script>
+{% extends 'index.html' %}
+{% load static %}
+<script >
 {% block jquery %}
-var endpoint = '/api/chart/data/'
+var endpoint = '/comments/'
 var defaultData = []
 var labels = [];
+var d =0;
+var n =0;
+var countUsers = {};
+var offCount = [];
+var nonoffCount = [];
+var users = [];
+var userLabels = [];
+var countOffUsers = {};
+var countNonOffUsers = {};
+var defaultD= [0,0,0,0,0,0,0];
+var defaultData2= [0,0];
+var gDate =[]
+var goffCount = []
+var gnonoffCount = []
 $.ajax({
     method: "GET",
     url: endpoint,
     success: function(data){
-        labels = data.labels
-        defaultData = data.default
-        setChart()
+        vid = "{{videoId}}"
+        l = data.length
+        labels = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday","Saturday"]
+        labels2 = ["NONOFF", "OFF"]
+        gDate = {{date |safe}};
+        goffCount = {{offCount |safe}};
+        gnonoffCount = {{nonoffCount |safe}};
+        console.log(goffCount.length);
+
+        for (let i = 0; i < 7; i++) {
+        for (let j = 0; j < l; j++) {
+            d =new Date(data[j]["comment_date"]);
+            n = d.getDay();
+            if ((n==i) & (data[j]["comment_source"]==vid)){
+                defaultD[i]++;
+            }
+        }
+        }
+
+         for (let k = 0; k < l; k++) {
+           if(data[k]["comment_source"]==vid) {
+                    if (!data[k]["comment_OFF"]){
+                        defaultData2[0]++;
+                    }
+                    else{
+                     defaultData2[1]++;
+                    }
+            }
+        }
+         defaultData= defaultD
+
+ var tbl = document.getElementById("tableUsers");
+  var tblBody = document.getElementById("tbodyUsers");
+  var cell;
+  var cellText;
+  var row;
+
+  // count users comments
+    var offUsers =  data.filter(function(comment) {
+    return (comment.comment_OFF == 1 & comment.comment_source==vid);
+    });
+    var nonoffUsers =  data.filter(function(comment) {
+    return (comment.comment_OFF == 0 & comment.comment_source==vid);
+    });
+
+    offUsers.forEach(function (x) { countOffUsers[x.comment_author] = (countOffUsers[x.comment_author] || 0) + 1; });
+    nonoffUsers.forEach(function (x) { countNonOffUsers[x.comment_author] = (countNonOffUsers[x.comment_author] || 0) + 1; });
+    data.forEach(function (x) { countUsers[x.comment_author] = (countUsers[x.comment_author] || 0) + 1; });
+
+    console.log(countUsers);
+    index = 0;
+    for (const element in countUsers) {
+     users[index] = element;
+
+     if(countOffUsers[element] != null){
+     offCount[index] = countOffUsers[element];
+
+     }else{
+     offCount[index] =  0;
+     }
+     if(countNonOffUsers[element] != null){
+     nonoffCount[index] = countNonOffUsers[element];
+     }else{
+     nonoffCount[index] = 0;
+     }
+     index++;
+
+    }
+    console.log(countOffUsers);
+  for (const element in countOffUsers) {
+      if (countOffUsers[element] >0){
+      $("#harceleurs").show();
+      row = document.createElement("tr");
+       console.log('hiiiii');
+      cell = document.createElement("td");
+      cellText = document.createTextNode(element);
+      cell.appendChild(cellText);
+      row.appendChild(cell);
+
+      cell = document.createElement("td");
+      cellText = document.createTextNode(countOffUsers[element]);
+      cell.appendChild(cellText);
+      row.appendChild(cell);
+
+    tblBody.appendChild(row);
+    }
+  }
+
+  tbl.appendChild(tblBody);
+
+  tbl.setAttribute("border", "2");
+
+
+setChart()
     },
     error: function(error_data){
         console.log("error")
@@ -19,53 +124,20 @@ $.ajax({
     }
 })
 
+
+
 function setChart(){
     var ctx = document.getElementById("myChart");
-    var ctx2 = document.getElementById("myChart2");
-    var myChart = new Chart(ctx2, {
-    type: 'bar',
-    data: {
-        labels: labels,
-        datasets: [{
-            label: '# of Votes',
-            data: defaultData,
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
-            ],
-            borderColor: [
-                'rgba(255,99,132,1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
-            ],
-            borderWidth: 1
-        }]
-    },
-    options: {
-        scales: {
-            yAxes: [{
-                ticks: {
-                    beginAtZero:true
-                }
-            }]
-        }
-    }
-});
+    var ctx3 = document.getElementById("myChart3");
+    var ctx4 = document.getElementById("myChart4");
 
     var myChart = new Chart(ctx, {
-    type: 'polarArea',
+    type: 'doughnut',
     data: {
-        labels: labels,
+        labels: labels2,
         datasets: [{
             label: '# of Votes',
-            data: defaultData,
+            data: defaultData2,
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
@@ -85,6 +157,60 @@ function setChart(){
             borderWidth: 1
         }]
     },
+
+});
+var myChart4 = new Chart(ctx4, {
+        type: 'line',
+        data: {
+            labels:gDate,
+            datasets: [{
+                label: 'OFF',
+                data: goffCount,
+                borderColor: 'rgba(75, 192, 192, 1)',
+                backgroundColor: 'rgba(75, 192, 192, 0.2)',
+
+            },
+            {
+                label: 'NONOFF',
+                data: gnonoffCount,
+                 backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                 borderColor:'rgba(255,99,132,1)',
+
+            }
+            ]
+        },
+       options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero:true
+                }
+            }]
+        }
+    }
+    });
+
+// users graph
+var myChart = new Chart(ctx3, {
+    type: 'bar',
+    data: {
+        labels: users,
+        datasets: [{
+            label: 'OFF',
+            data: offCount,
+            backgroundColor: 'rgba(255, 99, 132, 0.2)',
+            borderColor:'rgba(255,99,132,1)',
+            borderWidth: 1
+        },
+        {
+            label: 'NONOFF',
+            data: nonoffCount,
+            backgroundColor: 'rgba(54, 162, 235, 0.2)',
+            borderColor: 'rgba(54, 162, 235, 1)',
+            borderWidth: 1
+        }
+        ]
+    },
     options: {
         scales: {
             yAxes: [{
@@ -95,19 +221,135 @@ function setChart(){
         }
     }
 });
+
+
 }
 // var ctx = document.getElementById("myChart");
-
+window.onload = function() {
+//nothing
+};
 
 
 {% endblock %}
 </script>
 
 {% block content %}
+<section id="dashboard" >
+
 <div style="padding : 15px ">
 <div class="row">
-    <div class="col-sm-6" >
-<div class="card card-primary ">
+
+    <div class="col-sm-3">
+
+ <div class="card card-outline card-primary">
+
+            <div class="card-body" >
+                    <div class="row d-flex align-items-center" style=" text-align : center">
+
+                       <div class="col-lg-3">
+                            <img src="{% static 'assets/img/comment.png' %}" class="img-fluid" style="margin : 0px" width="50px" height="50px" alt="">
+                       </div>
+                        <div class="col-lg-3" >
+                            <p style="font-family: 'Raleway', sans-serif; font-size: 30px; margin : 0px"> {{total}}</p>
+                             <p style="font-family: 'Raleway', sans-serif; font-size: 25px; margin : 0px">Total</p>
+                        </div>
+                        <div class="col-lg-3"  style=" padding : 0px">
+                              <img src="{% static 'assets/img/rouge.png' %}" class="img-fluid" style="margin : 10px 0px 0px 0px" width="40px" height="50px" alt="">
+                       <p style="font-family: 'Raleway', sans-serif; font-size: 20px; margin : 5px 0px 10px 0px"> {{off}}% </p>
+
+                        </div>
+                        <div class="col-lg-3"  style=" padding : 0px">
+                               <img src="{% static 'assets/img/vert.png' %}" class="img-fluid" style="margin :10px 0px 0px 0px" width="40px" height="50px" alt="">
+                                <p style="font-family: 'Raleway', sans-serif; font-size: 20px;  margin : 5px 0px 10px 0px"> {{nonoff}}% </p>
+
+                        </div>
+                     </div>
+            </div>
+
+ </div>
+
+        <div class="card card-outline card-primary">
+  <div class="card-header">
+    <h3 class="card-title">Chart 1 </h3>
+    <div class="card-tools">
+      <!-- This will cause the card to maximize when clicked -->
+      <button type="button" class="btn btn-tool" data-card-widget="maximize"><i class="fas fa-expand"></i></button>
+      <!-- This will cause the card to collapse when clicked -->
+      <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i></button>
+      <!-- This will cause the card to be removed when clicked -->
+      <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i></button>
+    </div>
+    <!-- /.card-tools -->
+  </div>
+
+              <div class="card-body"  url-endpoint='{% url "api-data" %}' >
+                      <div >
+                        <canvas id="myChart" ></canvas>
+                    </div>
+              </div>
+  </div>
+
+    </div>
+    <div class="col-sm-9" >
+         <div class="card card-outline card-primary">
+
+            <div class="card-body" >
+
+                    <table class="table table-condensed">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>L'auteur</th>
+        <th>Commentaire</th>
+          <th>Degré d'offensivité</th>
+      </tr>
+    </thead>
+    <tbody>
+       {% for c in commentsOff %}
+   <tr>
+       <td>{{c.comment_date |date }}</td>
+       <td>{{c.comment_author}}</td>
+       <td>{{c.comment_data}}</td>
+       <td>
+            <div class="progress" style="margin : 10px">
+                  <div class="progress-bar" role="progressbar" style="width: {{c.comment_degre_OFF}}%; background-color:#e2574c" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{{ c.comment_degre_OFF}}%</div>
+              </div>
+       </td>
+
+   </tr>
+   {% endfor %}
+    </tbody>
+  </table>
+ {% if commentsOff.has_other_pages %}
+    <ul class="pagination">
+   {% if commentsOff.has_previous %}
+     <li><a href="?page={{ commentsOff.previous_page_number }}">«</a></li>
+   {% else %}
+     <li class="disabled"><span>«</span></li>
+   {% endif %}
+   {% for i in commentsOff.paginator.page_range %}
+     {% if commentsOff.number == i %}
+    <li class="active"><span>{{ i }} <span class="sr-only">(current)</span></span></li>
+     {% else %}
+    <li><a href="?page={{ i }}">{{ i }}</a></li>
+     {% endif %}
+   {% endfor %}
+   {% if commentsOff.has_next %}
+     <li><a href="?page={{commentsOff.next_page_number }}">»</a></li>
+   {% else %}
+     <li class="disabled"><span>»</span></li>
+   {% endif %}
+    </ul>
+  {% endif %}
+            </div>
+
+ </div>
+
+
+<div class="row">
+    <div class="col-lg-8">
+
+<div class="card card-outline card-primary">
   <div class="card-header">
     <h3 class="card-title">Chart 1 </h3>
     <div class="card-tools">
@@ -123,14 +365,59 @@ function setChart(){
 
   <div class="card-body"  url-endpoint='{% url "api-data" %}' >
         <div >
-            <canvas id="myChart2" ></canvas>
+            <canvas id="myChart4" ></canvas>
+            <!-- <canvas id="myChart2" ></canvas> -->
         </div>
+
   </div>
-  <!-- /.card-body -->
+</div>
+    </div>
+
+
+     <div class="col-lg-4">
+<div id="harceleurs" class="card card-outline card-primary" style="display : none; ">
+  <div class="card-header">
+    <h3 class="card-title">Utilisateurs qui peuvent etre des harceleurs </h3>
+    <div class="card-tools">
+      <!-- This will cause the card to maximize when clicked -->
+      <button type="button" class="btn btn-tool" data-card-widget="maximize"><i class="fas fa-expand"></i></button>
+      <!-- This will cause the card to collapse when clicked -->
+      <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i></button>
+      <!-- This will cause the card to be removed when clicked -->
+      <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i></button>
+    </div>
+    <!-- /.card-tools -->
+  </div>
+
+  <div class="card-body"  url-endpoint='{% url "api-data" %}' >
+        <div>
+
+
+<table class="table" id ="tableUsers">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Username</th>
+      <th scope="col">number of OFF comments</th>
+
+    </tr>
+  </thead>
+  <tbody id ="tbodyUsers">
+
+  </tbody>
+</table>
+
+  </div>
+ </div>
+</div>
+
+
+    </div>
+</div>
 
 </div>
 </div>
 </div>
-</div>
+
+</section>
 
 {% endblock content %}

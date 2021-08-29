@@ -3,7 +3,7 @@ from numpy.testing import (assert_allclose,
                            assert_equal)
 import scipy.linalg.cython_blas as blas
 
-class TestDGEMM:
+class TestDGEMM(object):
     
     def test_transposes(self):
 
@@ -46,7 +46,7 @@ class TestDGEMM:
         blas._test_dgemm(1., b.T, a.T, 0., c.T)
         assert_allclose(c, b.T.dot(a.T).T)
         
-class TestWfuncPointers:
+class TestWfuncPointers(object):
     """ Test the function pointers that are expected to fail on
     Mac OS X without the additional entry statement in their definitions
     in fblas_l1.pyf.src. """

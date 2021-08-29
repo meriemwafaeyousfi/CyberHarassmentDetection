@@ -1,16 +1,23 @@
+import time
+import pafy
+import sys
 from bson import ObjectId
 from django.http import HttpResponse, JsonResponse
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.template import Context
 from django.views import View
+from rest_framework import viewsets
 from rest_framework.response import Response
 #from rest_framework.authtoken.admin import User
 from rest_framework.views import APIView
+from django.views.generic import TemplateView
 from sklearn.feature_extraction.text import TfidfTransformer, CountVectorizer
 from sklearn.pipeline import make_pipeline
 # Create your views here.
 from django.views.decorators.csrf import csrf_exempt
 
-from . models import Comments
+from .forms import CommentForm
+from . models import *
 import joblib
 from apiclient.discovery import build
 import nltk
@@ -25,7 +32,7 @@ import regex
 import csv
 from csv import QUOTE_NONE
 import unidecode
-
+import json
 from sklearn import model_selection, naive_bayes, svm
 from sklearn import metrics
 from sklearn.metrics import f1_score
@@ -39,6 +46,19 @@ from textblob import TextBlob
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from django.db import connection
+from collections import defaultdict
+from .serializers import commentsSerializer
+import phonetics
+import sklearn.cluster
+import Levenshtein
+from operator import eq, contains
+from fuzzywuzzy import fuzz
+from urllib.parse import parse_qs, urlparse
+from sqlalchemy import create_engine
+from django.conf import settings
+from datetime import datetime
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+from django.core.files.storage import FileSystemStorage
 
 class pretraitement:
     def __init__(self):
@@ -68,12 +88,19 @@ class pretraitement:
         with open('media/stopwords-arabizi.txt', 'r', encoding='utf-8-sig') as f:
             lines = f.readlines()
             self.stop_word_comp = []
-            # emojis_ar2 = []
             for line in lines:
                 line = line.strip('\n').split('\t')
-                # line2 = line.strip('\n')
                 self.stop_word_comp.append(line[0].strip())
-                # emojis_ar2.append(line[0])
+
+        self.vocab =[]
+        self.vocab = np.genfromtxt("media/vocab.txt", dtype=str,encoding=None, delimiter=",")
+
+        self.dic = defaultdict(list)
+        key = ""
+        self.dic.setdefault(key, [])
+        with open('media/dic.json') as json_file:
+            self.dic = json.load(json_file)
+
 
     def _remove_punctuations(self,x):
         x = str(x)
@@ -229,7 +256,6 @@ class pretraitement:
     # 9--------- commentaire vide
     def vide(self,df):
         indexNames = df[len(df['comment_clean']) == 1].index
-        # indexNames = df[len(df['Comment']) <= 1 ].index
         df.drop(indexNames, inplace=True)
         return df
 
@@ -238,7 +264,6 @@ class pretraitement:
         for emot in self.emot_fr:
             emoticon_pattern = r'(' + emot + ')'
             emoticon_words = self.emot_fr[emot]
-            # print( emoticon_words)
             replace_text = emoticon_words.replace(",", "")
             replace_text = replace_text.replace(":", "")
             replace_text = replace_text.replace("/", "")
@@ -257,8 +282,7 @@ class pretraitement:
 
     # 11-----------nan
     def delete_vide(self,df):
-        for i in df.columns:
-            df[i][df[i].apply(lambda i: True if (
+        df['comment_clean'][df['comment_clean'].apply(lambda i: True if (
                         re.search('^\s*$', str(i)) or re.search('[a-zA-Z]', str(i)) == None) else False)] = None
         df.dropna(subset=["comment_clean"], inplace=True)
         return df
@@ -294,6 +318,151 @@ class pretraitement:
         df = df.drop_duplicates(subset=["comment_author", "comment_clean"], keep='first', inplace=False)
         return df
 
+    def _arabizi_let(self,word):
+        word = word.replace('2', 'a')
+        word = word.replace('5', 'kh')
+        word = word.replace('7', 'h')
+        word = word.replace('8', 'gh')
+        word = word.replace('9', 'q')
+        word = word.replace('6', 't')
+        word = word.replace('3a', 'a')
+        word = word.replace('3e', 'e')
+        word = word.replace('3i', 'i')
+        word = word.replace('i3', 'i')
+        word = word.replace('o3', 'o')
+        word = word.replace('a3', 'a')
+        word = word.replace('e3', 'e')
+        word = word.replace('3', 'a')
+        # word = word.replace('4', '')
+        return word
+
+    def arabizi_let(self,df):
+        df['comment_clean'] = df['comment_clean'].apply(lambda x: self._arabizi_let(x))
+        return df
+    # arabizi preprocessing
+    def vocabulary(self,df):
+        comment = df['comment_clean']
+        liste = []
+        vocab = self.vocab
+        for line in comment:
+            x = word_tokenize(line)
+            liste = np.array(x)
+            vocab = np.unique(np.concatenate((vocab, liste)))
+        diff = list(set(vocab) - set(self.vocab))
+        self.vocab =vocab
+        file = open("media/vocab.txt", "w+")
+        writer = csv.writer(file)
+        writer.writerow(self.vocab)
+        file.close()
+        return diff
+
+    def phonitic_dic(self,words):
+        for word in words:
+            key = phonetics.metaphone(word)
+            if key not in self.dic.keys():
+                self.dic.update({key: [word]})
+            else:
+                self.dic[key].append(word)
+        return self.dic
+
+    def phonitic_group(self,df):
+        v = self.vocabulary(df)
+        dic = self.phonitic_dic(v)
+        json.dump(self.dic, open("media/dic.json", 'w+'))
+        return self.dic
+
+# leveinshtein distance
+    def read_dic(self):
+        f = open('media/dic2.json' )
+        dic = json.load(f)
+        #df = pd.DataFrame(list(dic.items()), columns=['Key', 'Phonemes'])
+        return dic
+
+    def freq_vocabulary(self,df):
+        comment = df['comment_clean']
+        vocabulary = []
+        liste = []
+        for line in comment:
+            x = word_tokenize(line)
+            # print(line)
+            liste = np.array(x)
+            # nv =vocabulary.concat(liste.filter((item) => a.indexOf(item) < 0))
+            # print (liste[1])
+            # nouveau = set (vocabulary) - set (liste)
+            vocabulary = np.concatenate((vocabulary, liste))
+
+        freq = nltk.FreqDist(vocabulary)
+        return freq
+
+    def most_freq_word(self,vocab,df):
+        freq = self.freq_vocabulary(df)
+        max = 0
+        for i in range(len(vocab)):
+            if (freq[vocab[i]] > max):
+                max = freq[vocab[i]]
+                word = vocab[i]
+        return word
+
+    def _fuzzy_distance(self,df,line):
+        grs = list()
+        my_dict = dict()
+        l = line
+        while (len(l) > 0):
+            g = []
+            freq = self.most_freq_word(l,df)
+            for name in l:
+                if (fuzz.ratio(name, freq) >= 80):
+                    g.append(name)
+            my_dict[freq] = g
+            l = list(set(l) - set(g))
+
+        return my_dict
+
+    def fuzzy_distance(self,df):
+        dic = defaultdict(list)
+        for i in df.index:
+            x = df['Phonemes'][i]
+            df['Phonemes'][i] = self._fuzzy_distance(x)
+            dic.update(df['Phonemes'][i])
+        return dic
+
+    def keys_of_value(self,dct, value, ops=(eq, contains)):
+        for k in dct:
+            if ops[isinstance(dct[k], list)](dct[k], value):
+                return k
+
+    def _spell_check(self,line, dict_list):
+        keys = list(dict_list.keys())
+        vals = list(dict_list.values())
+        max = 80
+        key_max = 0
+        word_list = word_tokenize(line)
+        for value in word_list:
+            if (value in [x for v in dict_list.values() for x in v]):
+                if (self.keys_of_value(dict_list, value)):
+                    word_list[word_list.index(value)] = self.keys_of_value(dict_list, value)
+            else:
+                key_max = 0
+                for key in keys:
+                    if (fuzz.ratio(value, key) > max):
+                        max = fuzz.ratio(value, key)
+                        key_max = key
+                if (key_max != 0):
+                    word_list[word_list.index(value)] = key_max
+                    dict_list[key_max].append(value)
+                else:
+                    # ajouter dans dic
+                    dict_list.update({value: [value, ]})
+                    # dict_list[value].append(value)
+
+        line = " ".join(word_list)
+        json.dump(dict_list, open("dic2.json", 'w'))
+
+        return line
+
+    def spell_check(self,df, list_data):
+        df['comment_clean'] = df['comment_clean'].apply(lambda x: self._spell_check(x, list_data))
+        return df
 
 def get_videos(playlist_id):
     key = "AIzaSyBPkPCltYAW6hXfAkMNfwfnZzQl-VbTNiM" #hide it
@@ -376,49 +545,74 @@ def df_parallelize_run(df, func, num_cores=2):
     pool.join()
     return df
 
-def cleaning(df):
+def cleaning_comment(df):
     p = pretraitement()
-    df = p.delete_dupplicated(df)
-    df = p.replace_emoticons(df)
-    df = p.remove_punctuations(df)
-    df = p.remove_repeating_char(df)
-    df = p.delete_URLs(df)
-    df = p.clean_hashtag(df)
-    df= p.emoji_trans(df)
-    df = p.lower_case(df)
-    df= p.latin(df)
-    df = p.delete_stop_words(df)
-    df = p.delete_accents(df)
-    df = p.extraWhite(df)
-    df= p.delete_single_letters(df)
-    df= p.delete_vide(df)
+    df = p._replace_emoticons(df)
+    df = p._remove_punctuations(df)
+    df = p._remove_repeating_char(df)
+    df = p._delete_URLs(df)
+    df = p._clean_hashtag(df)
+    df= p.emoji_unicode_translation(df)
+    df = p._lower_case(df)
+    df= p._latin(df)
+    df = p._delete_stop_words(df)
+    df = p._delete_accents(df)
+    df = p._extraWhite(df)
+    df= p._delete_single_letters(df)
+    #arabizi prétraitement
+    df = p._arabizi_let(df)
+    #p.phonitic_group(df)
+    data = p.read_dic()
+    df=p._spell_check(df, data)
+    #test = p.fuzzy_distance(data)
+    #json.dump(test, open("media/dic2.json", 'w+'))
+    #final_data = p.spell_check(df, test)
     return df
 
 
+def cleaning(df):
+    p = pretraitement()
+    df = p.delete_dupplicated(df)
+    df['comment_clean'] = df['comment_clean'].apply(lambda x: cleaning_comment(x))
+    df = p.delete_vide(df)
+    return df
+
+def model(data_test):
+    cls= joblib.load('final_model.sav')
+    loaded_cvec = joblib.load("finalized_countvectorizer.sav")
+    feat_test = loaded_cvec.transform(data_test)
+    ans = cls.predict(feat_test)
+    proba = cls.predict_proba(feat_test)
+    return ans,proba
+
+
+
 def home(request):
+    #ar = get_comments('UCyVfMUt4tGYENMbqQ8Pusog')
+    #df = pd.DataFrame(ar, columns=['comment_data', 'comment_author', 'comment_date', 'comment_source', 'comment_clean'])
+    #df_cleaned = cleaning(df)
+    # get the comments from the database
+    #query = str(Comments.objects.all().query)
+    #df1 = pd.read_sql_query(query, connection)
+    #df2 = pd.concat([df1, df_cleaned]).drop_duplicates(subset=["comment_data", "comment_author", "comment_source", "comment_clean"], keep=False, inplace=False)
+    #print(df_cleaned)
+
+    #for i in range(len(df2)):
+    #    comment = df['comment_data'][i]
+     #   author = df['comment_author'][i]
+      #  date = df['comment_date'][i]
+       # source = df['comment_source'][i]
+        #clean = df['comment_clean'][i]
+        #new_comment = Comments(comment_data=comment, comment_author=author, comment_date=date, comment_source=source, comment_clean= clean).save()
+    return render(request, 'home.html')
+
+
+
+def result(request):
     ar = get_comments('UCyVfMUt4tGYENMbqQ8Pusog')
     df = pd.DataFrame(ar, columns=['comment_data', 'comment_author', 'comment_date', 'comment_source', 'comment_clean'])
     df_cleaned = cleaning(df)
-    # get the comments from the database
-    query = str(Comments.objects.all().query)
-    df1 = pd.read_sql_query(query, connection)
-    df2 = pd.concat([df1, df_cleaned]).drop_duplicates(subset=["comment_data", "comment_author", "comment_source", "comment_clean"], keep=False, inplace=False)
-    print(df2)
-
-    for i in range(len(df2)):
-        comment = df_cleaned['comment_data'][i]
-        author = df_cleaned['comment_author'][i]
-        date = df_cleaned['comment_date'][i]
-        source = df_cleaned['comment_source'][i]
-        clean = df_cleaned['comment_clean'][i]
-        new_comment = Comments(comment_data=comment, comment_author=author, comment_date=date, comment_source=source, comment_clean= clean).save()
-    return render(request, 'home.html')
-
-def result(request):
-    cls= joblib.load('final_model.sav')
-    loaded_cvec = joblib.load("finalized_countvectorizer.sav")
-    feat_test = loaded_cvec.transform(['hmar hhh'])
-    ans = cls.predict(feat_test)
+    ans = model(df_cleaned['comment_clean'])
     return render(request, 'result.html',{'ans':ans})
 
 def get_data(request, *args, **kwargs):
@@ -428,7 +622,19 @@ def get_data(request, *args, **kwargs):
     }
     return JsonResponse(data) # http response
 
+def youtube_link(url):
+    regex = (r'(https?://)?(www\.)?'
+             '(youtube|youtu|youtube-nocookie)\.(com|be)/'
+             '(watch\?.*?(?=v=)v=|embed/|v/|.+\?v=)?([^&=%\?]{11})')
 
+    p = re.compile(regex)
+    if (url == None):
+        return False
+
+    if (re.search(p, url)):
+        return True
+    else:
+        return False
 
 class ChartData(APIView):
     authentication_classes = []
@@ -444,6 +650,177 @@ class ChartData(APIView):
         }
         return Response(data)
 
-class HomeView(View):
+class DashboardView(View):
+    def get(self, request,video_id, *args, **kwargs):
+        offTable = []
+        nonoffTable = []
+        df = get_comments_video(video_id)
+        df = pd.DataFrame(df, columns=['comment_data', 'comment_author', 'comment_date', 'comment_source',
+                                       'comment_clean'])
+
+        df_cleaned = cleaning(df)
+        label, proba = model(df_cleaned['comment_clean'])
+        data = []
+        dataOff = []
+        tableCount = []
+        # delete the existiong comments of the same video in case they were changed or deleted in future
+        Comments.objects.filter(comment_source=video_id).delete()
+        i = 0
+        nbr_off = 0
+        nbr_nonoff = 0
+        for index, row in df_cleaned.iterrows():
+            date = datetime.strptime(row['comment_date'], '%Y-%m-%dT%H:%M:%SZ').strftime("%m/%d/%Y")
+            if (label[i] == 'OFF'):
+                off = 1
+                tableCount.append([date, 1, 0])
+                nbr_off = nbr_off + 1
+            else:
+                off = 0
+                tableCount.append([date, 0, 1])
+                nbr_nonoff = nbr_nonoff + 1
+
+            new_comment = Comments(comment_data=row['comment_data'], comment_author=row['comment_author'],
+                                   comment_date=row['comment_date'], comment_source=row['comment_source'],
+                                   comment_clean=row['comment_clean'], comment_OFF=off,
+                                   comment_degre_OFF=proba[i][1]).save()
+            if (label[i] == 'OFF'):
+                date = datetime.strptime(row['comment_date'], '%Y-%m-%dT%H:%M:%SZ').strftime("%m/%d/%Y")
+                row['comment_date'] = datetime.strptime(row['comment_date'], '%Y-%m-%dT%H:%M:%SZ')
+                row['comment_degre_OFF'] = round(proba[i][1] * 100, 1)
+                dataOff.append(row)
+                offTable.append([date, 1])
+            else:
+                date = datetime.strptime(row['comment_date'], '%Y-%m-%dT%H:%M:%SZ').strftime("%m/%d/%Y")
+                nonoffTable.append([date, 1])
+
+            i = i + 1
+
+        data = df_cleaned.to_dict('records')
+        df = pd.DataFrame(tableCount, columns=['date', 'offcount', 'nonoffcount'])
+        df = df.sort_values(by="date")
+        grpTableCount = df.groupby('date', as_index=False).agg({"offcount": "sum", "nonoffcount": "sum"})
+        if len(grpTableCount) > 4:
+            indexDrop = grpTableCount[(grpTableCount['offcount'] == 0) & (grpTableCount['nonoffcount'] <= 2)].index
+            # indexDrop = indexDrop[indexDrop['nonoffcount'] <= 2 ].index
+            grpTableCount.drop(indexDrop, inplace=True)
+
+        groupedDate = json.dumps(grpTableCount['date'].values.tolist())
+        groupedOffCount = json.dumps(grpTableCount['offcount'].values.tolist())
+        groupedNonoffCount = json.dumps(grpTableCount['nonoffcount'].values.tolist())
+
+        page = request.GET.get('page', 1)
+        paginator = Paginator(dataOff, 3)
+        try:
+            cmts = paginator.page(page)
+        except PageNotAnInteger:
+            cmts = paginator.page(1)
+        except EmptyPage:
+            cmts = paginator.page(paginator.num_pages)
+
+        # dati = datetime.strptime('2021-08-25T12:56:32Z', '%b %d %Y %I:%M%p')
+        # context = {"my_data": data}
+        # data = json.dumps(data)
+        total = df_cleaned.shape[0]
+        nbr_off = (nbr_off * 100) / total
+        nbr_nonoff = (nbr_nonoff * 100) / total
+
+        # print(groupedNonoffCount)
+
+        args = {'comments': data, 'commentsOff': cmts, 'videoId': video_id, 'total': total, 'off': round(nbr_off, 2),
+                'nonoff': round(nbr_nonoff, 2), 'date': groupedDate, 'offCount': groupedOffCount,
+                'nonoffCount': groupedNonoffCount}
+        return render(request, 'dashboard.html', args)
+
+def analyse_comment(request, *args, **kwargs):
+        text = request.session['text']
+        df = pd.DataFrame([[text, "none", "none", "none", text]],
+                                      columns=['comment_data', 'comment_author', 'comment_date', 'comment_source',
+                                               'comment_clean'])
+        df_cleaned = cleaning(df)
+        label, proba = model(df_cleaned['comment_clean'])
+        probaNonoff = round(proba[0][0], 3) * 100.
+        probaOff = round(proba[0][1], 3) * 100.
+        args = {'text': text, 'comment_label': label, 'probaOff': probaOff,'probaNonoff': probaNonoff}
+        return render(request, 'analyse_comment.html', args)
+
+def handle_uploaded_file(f):
+    with open('upload/csv/'+f.name, 'wb+') as destination:
+        for chunk in f.chunks():
+            destination.write(chunk)
+
+class IndexView(View):
+    template_name = 'index.html'
+
     def get(self, request, *args, **kwargs):
-        return render(request, 'dashboard.html', {"customers": 10})
+        form = CommentForm()
+        return render(request, self.template_name, {"form": form})
+
+    def post(self, request):
+        postVar = False
+        if request.method == 'POST':
+            print(request.POST)
+            form = CommentForm(request.POST)
+            file_obj = request.FILES.get("document")
+            print(request.FILES)
+            #handle_uploaded_file(file_obj)
+            fs = FileSystemStorage()
+            fs.save(file_obj.name, file_obj)
+
+            probaNonoff=0
+            probaOff=0
+
+            if form.is_valid():
+                time.sleep(0.01)
+                print("helllllllllllllllllllllllllo")
+                postVar = True
+                text = form.cleaned_data['comment']
+                if(youtube_link(text)):
+                    video = pafy.new(text)
+                    videoId =  video.videoid
+                    #parse_qs(urlparse(text).query).get('v')
+                    return redirect('dashboard', video_id=videoId)
+
+                else:
+                    df= pd.DataFrame([[text,"none","none","none",text]], columns=['comment_data', 'comment_author', 'comment_date', 'comment_source','comment_clean'])
+                    df_cleaned = cleaning(df)
+                    label, proba = model(df_cleaned['comment_clean'])
+                    probaNonoff=round(proba[0][0], 3) *100.
+                    probaOff= round(proba[0][1],3) *100.
+                    #form = CommentForm()
+                    args = {'form': form, 'text': text, 'comment_label':label, 'probaOff':probaOff, 'probaNonoff':probaNonoff, 'postVar' : postVar}
+                    return render(request, self.template_name, args)
+
+            else:
+                return render(request, self.template_name)
+        else:
+            return render(request, self.template_name)
+
+#comments view
+class CommentsView(TemplateView):
+    authentication_classes = []
+    permission_classes = []
+    #serializer_class = commentsSerializer
+
+    def get(self, request):
+        comments = list(Comments.objects.values())
+        #serializer = commentsSerializer(comments, many=True)
+        return JsonResponse(comments, safe=False)
+
+class CommentsOffView(TemplateView):
+    authentication_classes = []
+    permission_classes = []
+    #serializer_class = commentsSerializer
+
+    def get(self, request):
+        comments = list(Comments.objects.values().filter(comment_OFF=1))
+        #serializer = commentsSerializer(comments, many=True)
+        return JsonResponse(comments, safe=False)
+
+
+#def index(request):
+#    if request.user.is_authenticated:
+#        return redirect('/')
+ #   else :
+  #      return render(request, 'index.html')
+
+

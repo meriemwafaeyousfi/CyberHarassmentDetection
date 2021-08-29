@@ -1,10 +1,6 @@
 import pytest
 
-from pandas import (
-    NaT,
-    date_range,
-    to_datetime,
-)
+from pandas import NaT, date_range, to_datetime
 import pandas._testing as tm
 
 

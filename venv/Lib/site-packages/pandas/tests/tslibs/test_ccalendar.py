@@ -1,12 +1,6 @@
-from datetime import (
-    date,
-    datetime,
-)
+from datetime import date, datetime
 
-from hypothesis import (
-    given,
-    strategies as st,
-)
+from hypothesis import given, strategies as st
 import numpy as np
 import pytest
 

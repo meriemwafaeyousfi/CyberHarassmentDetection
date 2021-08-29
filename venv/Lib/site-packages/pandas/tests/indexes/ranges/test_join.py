@@ -1,10 +1,6 @@
 import numpy as np
 
-from pandas import (
-    Index,
-    Int64Index,
-    RangeIndex,
-)
+from pandas import Index, Int64Index, RangeIndex
 import pandas._testing as tm
 
 

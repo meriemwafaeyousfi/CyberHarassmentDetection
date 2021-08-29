@@ -49,7 +49,6 @@ def test_namespace():
         "localize_pydatetime",
         "tz_convert_from_utc_single",
         "to_offset",
-        "tz_compare",
     ]
 
     expected = set(submodules + api)

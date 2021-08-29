@@ -1,20 +1,9 @@
 import numpy as np
 import pytest
 
-from pandas import (
-    DataFrame,
-    MultiIndex,
-)
+from pandas import DataFrame, MultiIndex
 import pandas._testing as tm
-from pandas.core.groupby.base import (
-    reduction_kernels,
-    transformation_kernels,
-)
-
-
-@pytest.fixture(params=[True, False])
-def as_index(request):
-    return request.param
+from pandas.core.groupby.base import reduction_kernels, transformation_kernels
 
 
 @pytest.fixture
@@ -142,17 +131,13 @@ def parallel(request):
     return request.param
 
 
-# Can parameterize nogil & nopython over True | False, but limiting per
-# https://github.com/pandas-dev/pandas/pull/41971#issuecomment-860607472
-
-
-@pytest.fixture(params=[False])
+@pytest.fixture(params=[True, False])
 def nogil(request):
     """nogil keyword argument for numba.jit"""
     return request.param
 
 
-@pytest.fixture(params=[True])
+@pytest.fixture(params=[True, False])
 def nopython(request):
     """nopython keyword argument for numba.jit"""
     return request.param

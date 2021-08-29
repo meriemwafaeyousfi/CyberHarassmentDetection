@@ -11,14 +11,14 @@ Module for testing automatic garbage collection of objects
 """
 import weakref
 import gc
+import sys
 
 from contextlib import contextmanager
-from platform import python_implementation
 
 __all__ = ['set_gc_state', 'gc_state', 'assert_deallocated']
 
 
-IS_PYPY = python_implementation() == 'PyPy'
+IS_PYPY = '__pypy__' in sys.modules
 
 
 class ReferenceError(AssertionError):
@@ -78,12 +78,12 @@ def assert_deallocated(func, *args, **kwargs):
 
     Examples
     --------
-    >>> class C: pass
+    >>> class C(object): pass
     >>> with assert_deallocated(C) as c:
     ...     # do something
     ...     del c
 
-    >>> class C:
+    >>> class C(object):
     ...     def __init__(self):
     ...         self._circular = self # Make circular reference
     >>> with assert_deallocated(C) as c: #doctest: +IGNORE_EXCEPTION_DETAIL
