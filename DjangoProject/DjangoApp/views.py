@@ -1,3 +1,4 @@
+import os
 import time
 import pafy
 import sys
@@ -59,6 +60,7 @@ from django.conf import settings
 from datetime import datetime
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.core.files.storage import FileSystemStorage
+from django.core.files.storage import default_storage
 
 class pretraitement:
     def __init__(self):
@@ -651,20 +653,35 @@ class ChartData(APIView):
         return Response(data)
 
 class DashboardView(View):
-    def get(self, request,video_id, *args, **kwargs):
+    def get(self, request,id, *args, **kwargs):
         offTable = []
         nonoffTable = []
-        df = get_comments_video(video_id)
-        df = pd.DataFrame(df, columns=['comment_data', 'comment_author', 'comment_date', 'comment_source',
+        file = False
+        print(type(id))
+        if (id.isnumeric()):
+            path = FileUpload.objects.get(file_id= id)
+            print(path.csv)
+            df = pd.read_csv(path.csv,encoding='utf-8-sig', delimiter=',', names=['comment_data','label','comment_source', 'comment_date',  'comment_author'])
+            df['comment_clean'] = df['comment_data']
+            file = True
+
+        else:
+            df = get_comments_video(id)
+            df = pd.DataFrame(df, columns=['comment_data', 'comment_author', 'comment_date', 'comment_source',
                                        'comment_clean'])
+            Comments.objects.filter(comment_source=id).delete()
 
         df_cleaned = cleaning(df)
+        print(df_cleaned)
         label, proba = model(df_cleaned['comment_clean'])
+        #df_cleaned['comment_OFF']= label
+        #df_cleaned['comment_degre_OFF']= proba
         data = []
         dataOff = []
         tableCount = []
+        userTableCount = []
         # delete the existiong comments of the same video in case they were changed or deleted in future
-        Comments.objects.filter(comment_source=video_id).delete()
+
         i = 0
         nbr_off = 0
         nbr_nonoff = 0
@@ -673,16 +690,18 @@ class DashboardView(View):
             if (label[i] == 'OFF'):
                 off = 1
                 tableCount.append([date, 1, 0])
+                userTableCount.append([row['comment_author'], 1])
                 nbr_off = nbr_off + 1
             else:
                 off = 0
                 tableCount.append([date, 0, 1])
                 nbr_nonoff = nbr_nonoff + 1
-
-            new_comment = Comments(comment_data=row['comment_data'], comment_author=row['comment_author'],
+            if(file ==False) :
+                new_comment = Comments(comment_data=row['comment_data'], comment_author=row['comment_author'],
                                    comment_date=row['comment_date'], comment_source=row['comment_source'],
                                    comment_clean=row['comment_clean'], comment_OFF=off,
                                    comment_degre_OFF=proba[i][1]).save()
+
             if (label[i] == 'OFF'):
                 date = datetime.strptime(row['comment_date'], '%Y-%m-%dT%H:%M:%SZ').strftime("%m/%d/%Y")
                 row['comment_date'] = datetime.strptime(row['comment_date'], '%Y-%m-%dT%H:%M:%SZ')
@@ -695,19 +714,32 @@ class DashboardView(View):
 
             i = i + 1
 
+        #df_cleaned['comment_OFF'] = label
+        #df_cleaned['comment_degre_OFF'] = proba
+        print(df_cleaned)
         data = df_cleaned.to_dict('records')
+
         df = pd.DataFrame(tableCount, columns=['date', 'offcount', 'nonoffcount'])
         df = df.sort_values(by="date")
         grpTableCount = df.groupby('date', as_index=False).agg({"offcount": "sum", "nonoffcount": "sum"})
-        if len(grpTableCount) > 4:
+        if len(grpTableCount) > 20:
             indexDrop = grpTableCount[(grpTableCount['offcount'] == 0) & (grpTableCount['nonoffcount'] <= 2)].index
             # indexDrop = indexDrop[indexDrop['nonoffcount'] <= 2 ].index
             grpTableCount.drop(indexDrop, inplace=True)
 
+        df = pd.DataFrame(userTableCount, columns=['user', 'offcount'])
+        print("here is off users")
+        print(userTableCount)
+        grpTableOffUsers = df.groupby('user', as_index=False).agg({"offcount": "sum"})
+
+
         groupedDate = json.dumps(grpTableCount['date'].values.tolist())
         groupedOffCount = json.dumps(grpTableCount['offcount'].values.tolist())
         groupedNonoffCount = json.dumps(grpTableCount['nonoffcount'].values.tolist())
-
+        groupedOffUsers = json.dumps(grpTableOffUsers['user'].values.tolist())
+        groupedOffUsersCount = json.dumps(grpTableOffUsers['offcount'].values.tolist())
+        #data = json.dumps(data.tolist())
+        print(data)
         page = request.GET.get('page', 1)
         paginator = Paginator(dataOff, 3)
         try:
@@ -721,14 +753,15 @@ class DashboardView(View):
         # context = {"my_data": data}
         # data = json.dumps(data)
         total = df_cleaned.shape[0]
-        nbr_off = (nbr_off * 100) / total
-        nbr_nonoff = (nbr_nonoff * 100) / total
+        pr_off = (nbr_off * 100) / total
+        pr_nonoff = (nbr_nonoff * 100) / total
 
         # print(groupedNonoffCount)
 
-        args = {'comments': data, 'commentsOff': cmts, 'videoId': video_id, 'total': total, 'off': round(nbr_off, 2),
-                'nonoff': round(nbr_nonoff, 2), 'date': groupedDate, 'offCount': groupedOffCount,
-                'nonoffCount': groupedNonoffCount}
+        args = { 'commentsOff': cmts, 'id': id, 'total': total, 'proff': round(pr_off, 2),
+                'prnonoff': round(pr_nonoff, 2),'nbroff': nbr_off,
+                'nbrnonoff': nbr_nonoff , 'date': groupedDate, 'offCount': groupedOffCount,
+                'nonoffCount': groupedNonoffCount,'offUsersCount':groupedOffUsersCount,'offUsers':groupedOffUsers, 'file':file }
         return render(request, 'dashboard.html', args)
 
 def analyse_comment(request, *args, **kwargs):
@@ -756,38 +789,53 @@ class IndexView(View):
         return render(request, self.template_name, {"form": form})
 
     def post(self, request):
-        postVar = False
+        labelStat = False
         if request.method == 'POST':
             print(request.POST)
             form = CommentForm(request.POST)
-            file_obj = request.FILES.get("document")
-            print(request.FILES)
+            #save_path = os.path.join(settings.MEDIA_ROOT, 'upload', file_obj.name)
+            #path = default_storage.save(save_path, request.FILES['document'])
+            #print(document.id)
             #handle_uploaded_file(file_obj)
-            fs = FileSystemStorage()
-            fs.save(file_obj.name, file_obj)
+            #fs = FileSystemStorage()
+            #fs.save(file_obj.name, file_obj)
 
+            #file_name = default_storage.save(file_obj.name, file_obj)
+            #document = FileUpload.objects.create(csv=file_obj)
+            #document.save()
             probaNonoff=0
             probaOff=0
 
             if form.is_valid():
                 time.sleep(0.01)
-                print("helllllllllllllllllllllllllo")
                 postVar = True
                 text = form.cleaned_data['comment']
-                if(youtube_link(text)):
+
+                if request.FILES.get("document"):
+                    file_obj = request.FILES.get("document")
+                    handle_uploaded_file(file_obj)
+                    document = FileUpload.objects.create(csv='csv/' + file_obj.name)
+                    print(document.file_id)
+                    return redirect('dashboard', id=document.file_id)
+
+                elif(youtube_link(text)):
                     video = pafy.new(text)
                     videoId =  video.videoid
                     #parse_qs(urlparse(text).query).get('v')
-                    return redirect('dashboard', video_id=videoId)
+                    return redirect('dashboard', id=videoId)
 
                 else:
+                    labelStat = True
                     df= pd.DataFrame([[text,"none","none","none",text]], columns=['comment_data', 'comment_author', 'comment_date', 'comment_source','comment_clean'])
                     df_cleaned = cleaning(df)
                     label, proba = model(df_cleaned['comment_clean'])
-                    probaNonoff=round(proba[0][0], 3) *100.
-                    probaOff= round(proba[0][1],3) *100.
+                    probaNonoff = proba[0][0] * 100
+                    probaNonoff=round(probaNonoff, 2)
+                    probaOff = proba[0][1] * 100
+                    probaOff= round(probaOff,2)
+
                     #form = CommentForm()
-                    args = {'form': form, 'text': text, 'comment_label':label, 'probaOff':probaOff, 'probaNonoff':probaNonoff, 'postVar' : postVar}
+                    args = {'labelStat':labelStat,'form': form, 'text': text, 'comment_label':label, 'probaOff':probaOff, 'probaNonoff':probaNonoff, 'postVar' : postVar}
                     return render(request, self.template_name, args)
 
             else:
@@ -803,6 +851,21 @@ class CommentsView(TemplateView):
 
     def get(self, request):
         comments = list(Comments.objects.values())
+        #serializer = commentsSerializer(comments, many=True)
+        return JsonResponse(comments, safe=False)
+
+class CommentsFileView(TemplateView):
+    authentication_classes = []
+    permission_classes = []
+    #serializer_class = commentsSerializer
+
+    def get(self, request, id):
+        path = FileUpload.objects.get(file_id=id)
+        print(path.csv)
+        df = pd.read_csv(path.csv, encoding='utf-8-sig', delimiter=',',
+                         names=['comment_data', 'label', 'comment_source', 'comment_date', 'comment_author'])
+        print(df)
+        comments =  df.to_dict('records')
         #serializer = commentsSerializer(comments, many=True)
         return JsonResponse(comments, safe=False)
 

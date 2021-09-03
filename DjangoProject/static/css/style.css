@@ -155,3 +155,6 @@ margin: 0 auto;
 .not-visible{
 display : none;
 }
+.borderless td, .borderless th {
+    border: none;
+}

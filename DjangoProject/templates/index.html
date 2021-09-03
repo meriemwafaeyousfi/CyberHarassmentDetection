@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>SecureTube</title>
+  <title>SafeTube</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
   <!-- Font Awesome Icons -->
@@ -18,7 +18,7 @@
 
 
   <!-- Favicons -->
-  <link href="{% static 'assets/img/favicon.png' %}" rel="icon">
+  <link href="{% static 'assets/img/lol.png' %}" rel="icon">
   <link href="{% static 'assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -53,21 +53,18 @@
     <div class="container d-flex align-items-center">
 
       <div class="logo mr-auto">
-        <h1 class="text-light"><a href="index">SecureTube</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+        <!-- <h1 class="text-light"><a href="index">SecureTube</a></h1> -->
+        <a href=""><img src="{% static 'assets/img/logo.png' %}" alt="" class="img-fluid" style="max-height: 80px"></a>
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="index">Home</a></li>
-          <li><a href="#features">App Features</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#faq">F.A.Q</a></li>
-          <li><a href="#contact">Contact Us</a></li>
+          <li class="active"><a href="index">Acceuil</a></li>
+          <li><a href="#features">Fonctionalités</a></li>
+          <li><a href="#gallery">Dashboard</a></li>
 
-          <li class="get-started"><a href="#features">Get Started</a></li>
+          <li class="get-started"><a href="#features">Commencer</a></li>
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -83,16 +80,16 @@
       <div class="row">
         <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-1" data-aos="fade-up">
           <div>
-            <h1>SecureTube, La première application qui analyse l'Arabizi</h1>
+            <h1>SafeTube, La première application qui analyse l'Arabizi</h1>
             <h2>Vous voulez vous débrasser des commentaires déplaisants dans votre chaine YouTube? Avec SecureTube, c'est facile! Il suffit juste de vous connecter avec votre compte google !</h2>
 
-
+<a href="" class="download-btn"><i class="fas fa-location-arrow"></i> Commencer l'analyse </a>
 
           </div>
         </div>
 
         <div class="col-lg-6 d-lg-flex flex-lg-column align-items-stretch order-1 order-lg-2 hero-img" data-aos="fade-up">
-          <img src="{% static 'assets/img/hero-img.png' %}" class="img-fluid" alt="">
+          <img src="{% static 'assets/img/hate.png' %}" class="img-fluid" alt="">
         </div>
       </div>
     </div>
@@ -106,20 +103,25 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Analyser vos commentaires</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h3 style="font-weight: 700; font-size: 32px; color: #1c3230;">Analyser vos commentaires</h3>
+          <p style="font-style: italic!important;font-family: 'Open Sans', sans-serif; color: #54615f;"> Vous pouvez annalyser et detecter les messages d'harcelement
+          en passons en entrée un unique message pour le classé comme offanssant ou non, ou bien passer un lien de video YouTube pour
+            analyser ses commentaires et afficher le dashboard, et la même chose en passant un fichier .csv/.txt qui contient
+            des messages sous le format (Commentaire,Source,Date,Auteur).
+          </p>
         </div>
 
           <div class="row content">
-              <form id="forma" class="input-group input-group-lg"  method="post" action="" enctype="multipart/form-data" >
+              <form id="forma"  class="input-group input-group-lg"  method="post" action="" enctype="multipart/form-data" >
              <label class="btn btn-default"  style='margin:auto 0px; padding : 0px; margin-right: 8px'>
-                  <i class="fa fa-paperclip" aria-hidden="true" style='font-size:40px;color:#5777ba'></i>
-             <input type="file" name="document" accept=".csv ,.txt" hidden>
+                  <i class="fa fa-paperclip" aria-hidden="true" style='font-size:40px;color:#3a7863'></i>
+             {% csrf_token %}
+               <input id="file-upload" type="file" name="document" accept=".csv ,.txt" hidden>
             </label>
             {% csrf_token %}
             {{ form.comment }}
               <div class="input-group-append">
-                  <button class="btn btn-outline-secondary" onclick="myFunction()" type="submit">Analyser</button>
+                  <button class="btn btn-outline-secondary"  type="submit">Analyser</button>
               </div>
 
               </form>
@@ -137,28 +139,30 @@
                <p>Wait...</p>
             </div>
 
+{% if labelStat %}
+             <div id="labelStat" class="row align-items-center flex-column" >
 
-             <div id="labelStat" class="row d-flex align-items-center flex-column" style="dispaly: block">
-               {{comment_label}}
               {% if probaNonoff > probaOff %}
               <img src="{% static 'assets/img/check.png' %}" class="rounded mx-auto d-block" style=" margin : 10px" width="100" height="100"alt="">
-              <p style="color :#3db39e"> Pas de soucis, ce message ne contient pas d'harcelemnt </p>
+              <p style="color :#3db39e"> Pas de soucis, ce message ne contient pas d'harcelement </p>
              {% else %}
-              <img src="{% static 'assets/img/notcheck.png' %}" class="rounded mx-auto d-block" style="margin : 10px" width="100" height="100"alt="">
+              <img src="{% static 'assets/img/notcheck.png' %}" class="rounded mx-auto d-block" style="margin : 10px " width="100" height="100"alt="">
               <p style="color :#e2574c"> Attention!, ce message peu contenir des mots offenssives et de haine</p>
               {% endif %}
 
-              <div style="width: 30%">
-              <div class="progress" style="margin : 10px">
-                  <div class="progress-bar" role="progressbar" style="width:{{ probaNonoff }}%; background-color:#3db39e" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{{ probaNonoff }}%</div>
+              <div style="width: 30%; text-align: center">
+                <p style="color: #3db39e">{{ probaNonoff }}%</p>
+              <div class="progress" style="margin : 8px">
+                  <div class="progress-bar" role="progressbar" style="width:{{ probaNonoff }}%; background-color:#3db39e" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-
-              <div class="progress" style="margin : 10px">
-                  <div class="progress-bar" role="progressbar" style="width: {{ probaOff }}%; background-color: #e2574c" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{{probaOff}}%</div>
+                <p  style="color: #e2574c">{{probaOff}}%</p>
+              <div class="progress" style="margin : 8px">
+                  <div class="progress-bar" role="progressbar" style="width: {{ probaOff }}%; background-color: #e2574c" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
               </div>
 
             </div>
+{% endif %}
 
           </div>
 
@@ -683,6 +687,12 @@ $(document).ready(function() {
     $(window).scrollTop(sessionStorage.scrollTop);
   }
 });
+
+
+$("#file-upload").change(function(){
+  document.getElementById("form-comment").setAttribute('value',this.files[0].name);
+});
+
 </script>
 
 </body>

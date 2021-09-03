@@ -8,6 +8,7 @@ var labels = [];
 var d =0;
 var n =0;
 var countUsers = {};
+var co_users = {};
 var offCount = [];
 var nonoffCount = [];
 var users = [];
@@ -23,36 +24,15 @@ $.ajax({
     method: "GET",
     url: endpoint,
     success: function(data){
-        vid = "{{videoId}}"
-        l = data.length
-        labels = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday","Saturday"]
+        vid = "{{id}}";
+        l = data.length;
         labels2 = ["NONOFF", "OFF"]
         gDate = {{date |safe}};
         goffCount = {{offCount |safe}};
         gnonoffCount = {{nonoffCount |safe}};
         console.log(goffCount.length);
 
-        for (let i = 0; i < 7; i++) {
-        for (let j = 0; j < l; j++) {
-            d =new Date(data[j]["comment_date"]);
-            n = d.getDay();
-            if ((n==i) & (data[j]["comment_source"]==vid)){
-                defaultD[i]++;
-            }
-        }
-        }
-
-         for (let k = 0; k < l; k++) {
-           if(data[k]["comment_source"]==vid) {
-                    if (!data[k]["comment_OFF"]){
-                        defaultData2[0]++;
-                    }
-                    else{
-                     defaultData2[1]++;
-                    }
-            }
-        }
-         defaultData= defaultD
+        defaultData2=[{{nbrnonoff}},{{nbroff}}]
 
  var tbl = document.getElementById("tableUsers");
   var tblBody = document.getElementById("tbodyUsers");
@@ -60,40 +40,22 @@ $.ajax({
   var cellText;
   var row;
 
-  // count users comments
-    var offUsers =  data.filter(function(comment) {
-    return (comment.comment_OFF == 1 & comment.comment_source==vid);
-    });
-    var nonoffUsers =  data.filter(function(comment) {
-    return (comment.comment_OFF == 0 & comment.comment_source==vid);
-    });
 
-    offUsers.forEach(function (x) { countOffUsers[x.comment_author] = (countOffUsers[x.comment_author] || 0) + 1; });
-    nonoffUsers.forEach(function (x) { countNonOffUsers[x.comment_author] = (countNonOffUsers[x.comment_author] || 0) + 1; });
-    data.forEach(function (x) { countUsers[x.comment_author] = (countUsers[x.comment_author] || 0) + 1; });
-
-    console.log(countUsers);
-    index = 0;
-    for (const element in countUsers) {
-     users[index] = element;
-
-     if(countOffUsers[element] != null){
-     offCount[index] = countOffUsers[element];
-
-     }else{
-     offCount[index] =  0;
-     }
-     if(countNonOffUsers[element] != null){
-     nonoffCount[index] = countNonOffUsers[element];
-     }else{
-     nonoffCount[index] = 0;
-     }
-     index++;
-
-    }
+    off_users= {{offUsers |safe}}
+    countOffUsers= {{offUsersCount |safe}}
+    console.log("hhhhhhhhhhhhhhhhhhhhhhhhhhhhhh");
     console.log(countOffUsers);
-  for (const element in countOffUsers) {
-      if (countOffUsers[element] >0){
+    console.log(off_users);
+
+     for (let i = 0; i < countOffUsers.length; i++){
+    console.log(off_users[0])
+    console.log(countOffUsers[i])
+    co_users[off_users[i]]= countOffUsers[i]
+    }
+
+
+  for (const element in co_users) {
+      if (co_users[element] >0){
       $("#harceleurs").show();
       row = document.createElement("tr");
        console.log('hiiiii');
@@ -103,7 +65,7 @@ $.ajax({
       row.appendChild(cell);
 
       cell = document.createElement("td");
-      cellText = document.createTextNode(countOffUsers[element]);
+      cellText = document.createTextNode(co_users[element]);
       cell.appendChild(cellText);
       row.appendChild(cell);
 
@@ -139,16 +101,16 @@ function setChart(){
             label: '# of Votes',
             data: defaultData2,
             backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
+                'rgba(102, 196, 238, 0.2)',
+                'rgba(237, 108, 113, 0.2)',
                 'rgba(255, 206, 86, 0.2)',
                 'rgba(75, 192, 192, 0.2)',
                 'rgba(153, 102, 255, 0.2)',
                 'rgba(255, 159, 64, 0.2)'
             ],
             borderColor: [
-                'rgba(255,99,132,1)',
-                'rgba(54, 162, 235, 1)',
+                'rgba(102, 196, 238, 1)',
+                'rgba(237, 108, 113, 1)',
                 'rgba(255, 206, 86, 1)',
                 'rgba(75, 192, 192, 1)',
                 'rgba(153, 102, 255, 1)',
@@ -166,15 +128,15 @@ var myChart4 = new Chart(ctx4, {
             datasets: [{
                 label: 'OFF',
                 data: goffCount,
-                borderColor: 'rgba(75, 192, 192, 1)',
-                backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                borderColor: 'rgba(237, 108, 113, 1)',
+                backgroundColor: 'rgba(237, 108, 113, 0.2)',
 
             },
             {
                 label: 'NONOFF',
                 data: gnonoffCount,
-                 backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                 borderColor:'rgba(255,99,132,1)',
+                 backgroundColor: 'rgba(102, 196, 238, 0.2)',
+                 borderColor:'rgba(102, 196, 238,1)',
 
             }
             ]
@@ -190,37 +152,7 @@ var myChart4 = new Chart(ctx4, {
     }
     });
 
-// users graph
-var myChart = new Chart(ctx3, {
-    type: 'bar',
-    data: {
-        labels: users,
-        datasets: [{
-            label: 'OFF',
-            data: offCount,
-            backgroundColor: 'rgba(255, 99, 132, 0.2)',
-            borderColor:'rgba(255,99,132,1)',
-            borderWidth: 1
-        },
-        {
-            label: 'NONOFF',
-            data: nonoffCount,
-            backgroundColor: 'rgba(54, 162, 235, 0.2)',
-            borderColor: 'rgba(54, 162, 235, 1)',
-            borderWidth: 1
-        }
-        ]
-    },
-    options: {
-        scales: {
-            yAxes: [{
-                ticks: {
-                    beginAtZero:true
-                }
-            }]
-        }
-    }
-});
+
 
 
 }
@@ -241,26 +173,26 @@ window.onload = function() {
 
     <div class="col-sm-3">
 
- <div class="card card-outline card-primary">
+ <div class="card card-outline card-primary" style="border-top: 3px solid #a0a9a5">
 
             <div class="card-body" >
                     <div class="row d-flex align-items-center" style=" text-align : center">
 
-                       <div class="col-lg-3">
-                            <img src="{% static 'assets/img/comment.png' %}" class="img-fluid" style="margin : 0px" width="50px" height="50px" alt="">
-                       </div>
-                        <div class="col-lg-3" >
+                       <div class="col-lg-6" style=" padding : 0px">
                             <p style="font-family: 'Raleway', sans-serif; font-size: 30px; margin : 0px"> {{total}}</p>
-                             <p style="font-family: 'Raleway', sans-serif; font-size: 25px; margin : 0px">Total</p>
-                        </div>
+                            <img src="{% static 'assets/img/comment.png' %}" class="img-fluid" style="margin : 0px" width="40px" height="40px" alt="">
+                       <p style="font-family: 'Raleway', sans-serif; font-size: 25px; margin : 0px">Total</p>
+
+                       </div>
+
                         <div class="col-lg-3"  style=" padding : 0px">
-                              <img src="{% static 'assets/img/rouge.png' %}" class="img-fluid" style="margin : 10px 0px 0px 0px" width="40px" height="50px" alt="">
-                       <p style="font-family: 'Raleway', sans-serif; font-size: 20px; margin : 5px 0px 10px 0px"> {{off}}% </p>
+                              <img src="{% static 'assets/img/rouge.png' %}" class="img-fluid" style="margin : 15px 0px 0px 0px" width="40px" height="50px" alt="">
+                       <p style="font-family: 'Raleway', sans-serif; font-size: 20px; margin : 5px 0px 10px 0px"> {{proff}}% </p>
 
                         </div>
                         <div class="col-lg-3"  style=" padding : 0px">
-                               <img src="{% static 'assets/img/vert.png' %}" class="img-fluid" style="margin :10px 0px 0px 0px" width="40px" height="50px" alt="">
-                                <p style="font-family: 'Raleway', sans-serif; font-size: 20px;  margin : 5px 0px 10px 0px"> {{nonoff}}% </p>
+                               <img src="{% static 'assets/img/vert.png' %}" class="img-fluid" style="margin :15px 0px 0px 0px" width="40px" height="50px" alt="">
+                                <p style="font-family: 'Raleway', sans-serif; font-size: 20px;  margin : 5px 0px 10px 0px"> {{prnonoff}}% </p>
 
                         </div>
                      </div>
@@ -268,16 +200,13 @@ window.onload = function() {
 
  </div>
 
-        <div class="card card-outline card-primary">
+        <div class="card card-outline card-primary" style="border-top: 3px solid #a0a9a5">
   <div class="card-header">
-    <h3 class="card-title">Chart 1 </h3>
+    <h3 class="card-title">Nombre de commentaires </h3>
     <div class="card-tools">
       <!-- This will cause the card to maximize when clicked -->
       <button type="button" class="btn btn-tool" data-card-widget="maximize"><i class="fas fa-expand"></i></button>
-      <!-- This will cause the card to collapse when clicked -->
-      <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i></button>
-      <!-- This will cause the card to be removed when clicked -->
-      <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i></button>
+
     </div>
     <!-- /.card-tools -->
   </div>
@@ -291,7 +220,7 @@ window.onload = function() {
 
     </div>
     <div class="col-sm-9" >
-         <div class="card card-outline card-primary">
+         <div class="card card-outline card-primary" style="border-top: 3px solid #a0a9a5">
 
             <div class="card-body" >
 
@@ -349,16 +278,13 @@ window.onload = function() {
 <div class="row">
     <div class="col-lg-8">
 
-<div class="card card-outline card-primary">
+<div class="card card-outline card-primary" style="border-top: 3px solid #a0a9a5">
   <div class="card-header">
-    <h3 class="card-title">Chart 1 </h3>
+    <h3 class="card-title">L'evolution de nombre de commentaires en fonction de temps</h3>
     <div class="card-tools">
       <!-- This will cause the card to maximize when clicked -->
       <button type="button" class="btn btn-tool" data-card-widget="maximize"><i class="fas fa-expand"></i></button>
-      <!-- This will cause the card to collapse when clicked -->
-      <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i></button>
-      <!-- This will cause the card to be removed when clicked -->
-      <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i></button>
+
     </div>
     <!-- /.card-tools -->
   </div>
@@ -375,43 +301,34 @@ window.onload = function() {
 
 
      <div class="col-lg-4">
-<div id="harceleurs" class="card card-outline card-primary" style="display : none; ">
+<div id="harceleurs" class="card card-outline card-primary" style=" border-top: 3px solid #a0a9a5" >
   <div class="card-header">
-    <h3 class="card-title">Utilisateurs qui peuvent etre des harceleurs </h3>
-    <div class="card-tools">
-      <!-- This will cause the card to maximize when clicked -->
-      <button type="button" class="btn btn-tool" data-card-widget="maximize"><i class="fas fa-expand"></i></button>
-      <!-- This will cause the card to collapse when clicked -->
-      <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i></button>
-      <!-- This will cause the card to be removed when clicked -->
-      <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i></button>
-    </div>
+    <h3 class="card-title">Utilisateurs qui peuvent être des harceleurs </h3>
     <!-- /.card-tools -->
   </div>
 
   <div class="card-body"  url-endpoint='{% url "api-data" %}' >
-        <div>
 
 
-<table class="table" id ="tableUsers">
-  <thead class="thead-dark">
-    <tr>
-      <th scope="col">Username</th>
-      <th scope="col">number of OFF comments</th>
-
+<table class="table borderless" id ="tableUsers" style="border: none; height:50px; overflow-y: scroll;">
+    <thead  style="border: none; font-size: 14px; padding :0px">
+    <tr >
+      <th  style="padding :1px" scope="col">Harceleur</th>
+      <th  style=" padding :1px" scope="col">Nombre de commentaires</th>
     </tr>
   </thead>
-  <tbody id ="tbodyUsers">
+  <tbody id ="tbodyUsers" style="border: none">
 
   </tbody>
 </table>
 
-  </div>
+
  </div>
 </div>
 
-
     </div>
+
+
 </div>
 
 </div>

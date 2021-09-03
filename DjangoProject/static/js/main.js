@@ -7,7 +7,7 @@ console.log(progressBox)
 
 $(document).ready(function () {
   $("#forma").submit(function (event) {
-  $("#labelStat").hide();
+
    $("#progress-bar").show();
 
 

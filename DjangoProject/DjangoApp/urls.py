@@ -24,10 +24,11 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('',views.home, name='home'),
-    path('dashboard/<video_id>', DashboardView.as_view(), name='dashboard'),
+    path('dashboard/<id>', DashboardView.as_view(), name='dashboard'),
     #url(r'^chart/$', HomeView.as_view(), name='chart'),
     url(r'^comments/$', CommentsView.as_view(), name='comments'),
     url(r'^commentsOff/$', CommentsOffView.as_view(), name='commentsOff'),
+    url(r'^commentsFile/<id>/$', CommentsFileView.as_view(), name='commentsFile'),
     path('result',views.result, name='result'),
     path('analyse_comment',analyse_comment, name='commentAna'),
     url(r'^index', IndexView.as_view(), name='index'),
