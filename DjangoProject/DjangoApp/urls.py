@@ -34,7 +34,8 @@ urlpatterns = [
     url(r'^index', IndexView.as_view(), name='index'),
     url(r'^api/data/$', get_data, name='api-data2'),
     url(r'^api/chart/data/$', ChartData.as_view(),name='api-data'),
-]+static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+]
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root= settings.MEDIA_ROOT)
+    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

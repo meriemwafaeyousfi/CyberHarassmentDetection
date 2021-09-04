@@ -248,7 +248,15 @@ class pretraitement:
     # 8--------- latin script only
     def _latin(self,x):
         # x = re.sub(r'[^\x00-\x7f]',r'', x)
-        x = re.sub(u'[^\\x00-\\x7F\\x80-\\xFF\\u0100-\\u017F\\u0180-\\u024F\\u1E00-\\u1EFF]', u'', x)
+        x2 =re.sub(u'[^\\x00-\\x7F\\x80-\\xFF\\u0100-\\u017F\\u0180-\\u024F\\u1E00-\\u1EFF\U0001F600-\U0001F64F|\U0001F300-\U0001F5FF|\U0001F680-\U0001F6FF|\U0001F190-\U0001F1FF|\U00002702-\U000027B0|\U0001F926-\U0001FA9F|\u200d|\u2640-\u2642|\u2600-\u2B55|\u23cf|\u23e9|\u231a|\ufe0f]', u'', x)
+        if (x != x2):
+            x= x2
+            english_check = re.compile(r"[a-zA-Z]")
+            if english_check.match(x):
+                return x
+            else:
+                x=' '
+
         return x
 
     def latin(self,df):
@@ -287,6 +295,11 @@ class pretraitement:
         df['comment_clean'][df['comment_clean'].apply(lambda i: True if (
                         re.search('^\s*$', str(i)) or re.search('[a-zA-Z]', str(i)) == None) else False)] = None
         df.dropna(subset=["comment_clean"], inplace=True)
+        return df
+    def delete_vide_data(self,df):
+        df['comment_data'][df['comment_data'].apply(lambda i: True if (
+                        re.search('^\s*$', str(i)) or re.search('[a-zA-Z]', str(i)) == None) else False)] = None
+        df.dropna(subset=["comment_data"], inplace=True)
         return df
 
     # 12-----------delete stop words
@@ -549,6 +562,7 @@ def df_parallelize_run(df, func, num_cores=2):
 
 def cleaning_comment(df):
     p = pretraitement()
+    df = p._latin(df)
     df = p._replace_emoticons(df)
     df = p._remove_punctuations(df)
     df = p._remove_repeating_char(df)
@@ -652,11 +666,46 @@ class ChartData(APIView):
         }
         return Response(data)
 
+def detect_langue(df,lenTotal):
+    language =[]
+    nbr = []
+    i =0
+    tableCount = []
+    for index, row in df.iterrows():
+        english_check = re.compile(r"[a-zA-Z]")
+        if (english_check.match(row['comment_data']) and len(row['comment_data'])>3) :
+            b = TextBlob(row['comment_data'])
+            lg = b.detect_language()
+            if (lg != 'en' and lg !='fr' and lg !='ar'):
+                tableCount.append(['Autres languages que Arabizi, Anglais ou Francais', (1*100)/lenTotal])
+            else:
+                if lg == 'en':
+                    tableCount.append(['Anglais', (1*100)/lenTotal])
+                if lg == 'fr':
+                    tableCount.append(['Francais', (1*100)/lenTotal])
+                if lg == 'ar':
+                    tableCount.append(['Arabizi', (1*100)/lenTotal])
+        else:
+            tableCount.append(['Emojis', (1*100)/lenTotal])
+        i = i +1
+    d = pd.DataFrame(tableCount, columns=['lg', 'count'])
+    grpTableCount = d.groupby('lg', as_index=False).agg({"count": "sum"})
+    max = grpTableCount['count'].idxmax()
+    #language = grpTableCount['lg'].values.tolist()
+    #nbr = grpTableCount['count'].values.tolist()
+    language = grpTableCount['lg'][max]
+    nbr = grpTableCount['count'][max]
+    return language,nbr
+
+
 class DashboardView(View):
     def get(self, request,id, *args, **kwargs):
         offTable = []
         nonoffTable = []
         file = False
+        language = []
+        lgnbr = []
+
         print(type(id))
         if (id.isnumeric()):
             path = FileUpload.objects.get(file_id= id)
@@ -671,7 +720,12 @@ class DashboardView(View):
                                        'comment_clean'])
             Comments.objects.filter(comment_source=id).delete()
 
+
         df_cleaned = cleaning(df)
+        lenTotal = len(df)
+        lenGarde = len(df_cleaned)
+        language, lgnbr = detect_langue(df_cleaned,lenGarde)
+
         print(df_cleaned)
         label, proba = model(df_cleaned['comment_clean'])
         #df_cleaned['comment_OFF']= label
@@ -738,6 +792,8 @@ class DashboardView(View):
         groupedNonoffCount = json.dumps(grpTableCount['nonoffcount'].values.tolist())
         groupedOffUsers = json.dumps(grpTableOffUsers['user'].values.tolist())
         groupedOffUsersCount = json.dumps(grpTableOffUsers['offcount'].values.tolist())
+        lg = language
+        lgcount = round(lgnbr,2)
         #data = json.dumps(data.tolist())
         print(data)
         page = request.GET.get('page', 1)
@@ -758,8 +814,8 @@ class DashboardView(View):
 
         # print(groupedNonoffCount)
 
-        args = { 'commentsOff': cmts, 'id': id, 'total': total, 'proff': round(pr_off, 2),
-                'prnonoff': round(pr_nonoff, 2),'nbroff': nbr_off,
+        args = { 'commentsOff': cmts, 'id': id, 'total': lenTotal ,'totalGarde': total, 'proff': round(pr_off, 2),
+                'prnonoff': round(pr_nonoff, 2),'nbroff': nbr_off, 'lg': lg, 'lgcount': lgcount,
                 'nbrnonoff': nbr_nonoff , 'date': groupedDate, 'offCount': groupedOffCount,
                 'nonoffCount': groupedNonoffCount,'offUsersCount':groupedOffUsersCount,'offUsers':groupedOffUsers, 'file':file }
         return render(request, 'dashboard.html', args)

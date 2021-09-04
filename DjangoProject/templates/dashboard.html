@@ -20,6 +20,7 @@ var defaultData2= [0,0];
 var gDate =[]
 var goffCount = []
 var gnonoffCount = []
+var gtotal = []
 $.ajax({
     method: "GET",
     url: endpoint,
@@ -30,6 +31,7 @@ $.ajax({
         gDate = {{date |safe}};
         goffCount = {{offCount |safe}};
         gnonoffCount = {{nonoffCount |safe}};
+        gtotal = goffCount.map((a, i) => a + gnonoffCount[i]);
         console.log(goffCount.length);
 
         defaultData2=[{{nbrnonoff}},{{nbroff}}]
@@ -92,7 +94,6 @@ function setChart(){
     var ctx = document.getElementById("myChart");
     var ctx3 = document.getElementById("myChart3");
     var ctx4 = document.getElementById("myChart4");
-
     var myChart = new Chart(ctx, {
     type: 'doughnut',
     data: {
@@ -138,6 +139,13 @@ var myChart4 = new Chart(ctx4, {
                  backgroundColor: 'rgba(102, 196, 238, 0.2)',
                  borderColor:'rgba(102, 196, 238,1)',
 
+            },
+            {
+                label: 'Total',
+                data: gtotal ,
+                 backgroundColor: 'rgba(160, 169, 165, 0.2)',
+                 borderColor:'rgba(160, 169, 165,1)',
+
             }
             ]
         },
@@ -151,8 +159,6 @@ var myChart4 = new Chart(ctx4, {
         }
     }
     });
-
-
 
 
 }
@@ -176,26 +182,62 @@ window.onload = function() {
  <div class="card card-outline card-primary" style="border-top: 3px solid #a0a9a5">
 
             <div class="card-body" >
-                    <div class="row d-flex align-items-center" style=" text-align : center">
+                    <div class="row " style="margin : 8px 0px 8px 0px">
 
-                       <div class="col-lg-6" style=" padding : 0px">
-                            <p style="font-family: 'Raleway', sans-serif; font-size: 30px; margin : 0px"> {{total}}</p>
-                            <img src="{% static 'assets/img/comment.png' %}" class="img-fluid" style="margin : 0px" width="40px" height="40px" alt="">
-                       <p style="font-family: 'Raleway', sans-serif; font-size: 25px; margin : 0px">Total</p>
+                        <div class="col-lg-9" >
+                           <p style="font-family: 'Raleway', sans-serif; font-size: 18px">Total de commentaires</p>
+                       </div>
+
+                       <div class="col-lg-3">
+                            <p style="font-family: 'Raleway', sans-serif; font-size: 22px; margin : 0px"> {{total}}</p>
 
                        </div>
 
-                        <div class="col-lg-3"  style=" padding : 0px">
+                     </div>
+
+                <div class="row " style="margin : 8px 0px 0px 0px" >
+
+                        <div class="col-lg-9" >
+                           <p style="font-family: 'Raleway', sans-serif; font-size: 18px">Nombre de commentaires analysé
+                           </p>
+                       </div>
+
+                       <div class="col-lg-3" >
+                            <p style="font-family: 'Raleway', sans-serif; font-size: 22px"> {{totalGarde}}</p>
+
+                       </div>
+
+                     </div>
+
+
+                <div class="row" style="margin : 8px 0px 0px 0px">
+                    <div class="col-lg-12" >
+                           <p style="font-family: 'Raleway', sans-serif; font-size: 15px">La langue dominante dans les commentaires annalysés est  <b>{{lg}}</b>  avec
+                               un pourcentage estimer à  <b> {{lgcount}}% </b>
+                           </p>
+                        </div>
+                     </div>
+
+
+                 <div class="row d-flex align-items-center" style=" text-align : center">
+
+                        <div class="col-lg-6"  style=" padding : 0px">
                               <img src="{% static 'assets/img/rouge.png' %}" class="img-fluid" style="margin : 15px 0px 0px 0px" width="40px" height="50px" alt="">
                        <p style="font-family: 'Raleway', sans-serif; font-size: 20px; margin : 5px 0px 10px 0px"> {{proff}}% </p>
 
                         </div>
-                        <div class="col-lg-3"  style=" padding : 0px">
+                        <div class="col-lg-6"  style=" padding : 0px">
                                <img src="{% static 'assets/img/vert.png' %}" class="img-fluid" style="margin :15px 0px 0px 0px" width="40px" height="50px" alt="">
                                 <p style="font-family: 'Raleway', sans-serif; font-size: 20px;  margin : 5px 0px 10px 0px"> {{prnonoff}}% </p>
 
                         </div>
                      </div>
+
+
+
+
+
+
             </div>
 
  </div>
@@ -222,15 +264,14 @@ window.onload = function() {
     <div class="col-sm-9" >
          <div class="card card-outline card-primary" style="border-top: 3px solid #a0a9a5">
 
-            <div class="card-body" >
-
-                    <table class="table table-condensed">
+            <div class="card-body " >
+                <table class="table table-condensed ">
     <thead>
       <tr>
         <th>Date</th>
         <th>L'auteur</th>
         <th>Commentaire</th>
-          <th>Degré d'offensivité</th>
+          <th>Probabilité d'offensivité</th>
       </tr>
     </thead>
     <tbody>
@@ -249,27 +290,29 @@ window.onload = function() {
    {% endfor %}
     </tbody>
   </table>
+                <nav aria-label="Page navigation example" style="margin-top : 10px">
  {% if commentsOff.has_other_pages %}
-    <ul class="pagination">
+    <ul class="pagination justify-content-end" style="margin : 0px">
    {% if commentsOff.has_previous %}
-     <li><a href="?page={{ commentsOff.previous_page_number }}">«</a></li>
+     <li  class="page-item "><a class="page-link" style="color: #3a7863" href="?page={{ commentsOff.previous_page_number }}">«</a></li>
    {% else %}
-     <li class="disabled"><span>«</span></li>
+     <li class="page-item disabled"><a class="page-link" href="#">«</a></li>
    {% endif %}
    {% for i in commentsOff.paginator.page_range %}
      {% if commentsOff.number == i %}
-    <li class="active"><span>{{ i }} <span class="sr-only">(current)</span></span></li>
+    <li class="page-item active"><a class="page-link" style="background-color: #3a7863; border-color : #3a7863" href="#">{{ i }} <span class="sr-only">(current)</span></a></li>
      {% else %}
-    <li><a href="?page={{ i }}">{{ i }}</a></li>
+    <li class="page-item "><a class="page-link" style="color: #3a7863"  href="?page={{ i }}">{{ i }}</a></li>
      {% endif %}
    {% endfor %}
    {% if commentsOff.has_next %}
-     <li><a href="?page={{commentsOff.next_page_number }}">»</a></li>
+     <li class="page-item "><a class="page-link" style="color: #3a7863"  href="?page={{commentsOff.next_page_number }}">»</a></li>
    {% else %}
-     <li class="disabled"><span>»</span></li>
+     <li class="page-item disabled"><a class="page-link" href="#">»</a></li>
    {% endif %}
     </ul>
   {% endif %}
+                </nav>
             </div>
 
  </div>
@@ -307,7 +350,7 @@ window.onload = function() {
     <!-- /.card-tools -->
   </div>
 
-  <div class="card-body"  url-endpoint='{% url "api-data" %}' >
+  <div class="card-body"  url-endpoint='{% url "api-data" %}' style="display: block;position: relative;height: 320px;overflow: auto;" >
 
 
 <table class="table borderless" id ="tableUsers" style="border: none; height:50px; overflow-y: scroll;">
