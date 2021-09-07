@@ -671,9 +671,12 @@ def detect_langue(df,lenTotal):
     nbr = []
     i =0
     tableCount = []
+    print("ldf_cleaned")
+
     for index, row in df.iterrows():
         english_check = re.compile(r"[a-zA-Z]")
         if (english_check.match(row['comment_data']) and len(row['comment_data'])>3) :
+            print(row["comment_data"])
             b = TextBlob(row['comment_data'])
             lg = b.detect_language()
             if (lg != 'en' and lg !='fr' and lg !='ar'):
