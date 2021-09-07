@@ -49,15 +49,16 @@ $.ajax({
     console.log(countOffUsers);
     console.log(off_users);
 
+
+
      for (let i = 0; i < countOffUsers.length; i++){
     console.log(off_users[0])
     console.log(countOffUsers[i])
     co_users[off_users[i]]= countOffUsers[i]
     }
-
-
+if ({{maxHarceleur }} > 1) {
   for (const element in co_users) {
-      if (co_users[element] >0){
+      if (co_users[element] >1){
       $("#harceleurs").show();
       row = document.createElement("tr");
        console.log('hiiiii');
@@ -78,7 +79,7 @@ $.ajax({
   tbl.appendChild(tblBody);
 
   tbl.setAttribute("border", "2");
-
+}
 
 setChart()
     },
@@ -290,7 +291,7 @@ window.onload = function() {
    {% endfor %}
     </tbody>
   </table>
-                <nav aria-label="Page navigation example" style="margin-top : 10px">
+                <nav aria-label="Page navigation example" style="margin-top : 10px" >
  {% if commentsOff.has_other_pages %}
     <ul class="pagination justify-content-end" style="margin : 0px">
    {% if commentsOff.has_previous %}
@@ -349,7 +350,7 @@ window.onload = function() {
     <h3 class="card-title">Utilisateurs qui peuvent être des harceleurs </h3>
     <!-- /.card-tools -->
   </div>
-
+ {% if maxHarceleur > 1 %}
   <div class="card-body"  url-endpoint='{% url "api-data" %}' style="display: block;position: relative;height: 320px;overflow: auto;" >
 
 
@@ -365,8 +366,18 @@ window.onload = function() {
   </tbody>
 </table>
 
-
  </div>
+    {%else%}
+    <div class="card-body">
+      <div class=" row d-flex align-items-center" >
+      <img src="{% static 'assets/img/safe.png' %}"  style="margin-left : 120px" width="60px" height="60px" >
+      <p  class="text-success"  style="text-align : center; margin-top : 10px">
+Il ne semble pas y avoir d’harceleurs potentiels
+      </p>
+  </div>
+    </div>
+{% endif %}
+
 </div>
 
     </div>

@@ -786,7 +786,8 @@ class DashboardView(View):
         print(userTableCount)
         grpTableOffUsers = df.groupby('user', as_index=False).agg({"offcount": "sum"})
 
-
+        maxHarceleur = max(grpTableOffUsers['offcount'].values.tolist())
+        print(maxHarceleur)
         groupedDate = json.dumps(grpTableCount['date'].values.tolist())
         groupedOffCount = json.dumps(grpTableCount['offcount'].values.tolist())
         groupedNonoffCount = json.dumps(grpTableCount['nonoffcount'].values.tolist())
@@ -814,7 +815,7 @@ class DashboardView(View):
 
         # print(groupedNonoffCount)
 
-        args = { 'commentsOff': cmts, 'id': id, 'total': lenTotal ,'totalGarde': total, 'proff': round(pr_off, 2),
+        args = {'maxHarceleur':maxHarceleur, 'commentsOff': cmts, 'id': id, 'total': lenTotal ,'totalGarde': total, 'proff': round(pr_off, 2),
                 'prnonoff': round(pr_nonoff, 2),'nbroff': nbr_off, 'lg': lg, 'lgcount': lgcount,
                 'nbrnonoff': nbr_nonoff , 'date': groupedDate, 'offCount': groupedOffCount,
                 'nonoffCount': groupedNonoffCount,'offUsersCount':groupedOffUsersCount,'offUsers':groupedOffUsers, 'file':file }
