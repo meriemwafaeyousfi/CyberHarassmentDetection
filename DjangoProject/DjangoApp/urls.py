@@ -23,7 +23,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
-    path('',views.home, name='home'),
+    #path('',views.home, name='home'),
     path('dashboard/<id>', DashboardView.as_view(), name='dashboard'),
     #url(r'^chart/$', HomeView.as_view(), name='chart'),
     url(r'^comments/$', CommentsView.as_view(), name='comments'),
@@ -31,7 +31,7 @@ urlpatterns = [
     url(r'^commentsFile/<id>/$', CommentsFileView.as_view(), name='commentsFile'),
     path('result',views.result, name='result'),
     path('analyse_comment',analyse_comment, name='commentAna'),
-    url(r'^index', IndexView.as_view(), name='index'),
+    url(r'^', IndexView.as_view(), name='index'),
     url(r'^api/data/$', get_data, name='api-data2'),
     url(r'^api/chart/data/$', ChartData.as_view(),name='api-data'),
 ]

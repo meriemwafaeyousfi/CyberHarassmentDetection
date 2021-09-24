@@ -471,7 +471,7 @@ class pretraitement:
                     # dict_list[value].append(value)
 
         line = " ".join(word_list)
-        json.dump(dict_list, open("dic2.json", 'w'))
+        #json.dump(dict_list, open("dic2.json", 'w'))
 
         return line
 
@@ -888,7 +888,9 @@ class IndexView(View):
                     labelStat = True
                     df= pd.DataFrame([[text,"none","none","none",text]], columns=['comment_data', 'comment_author', 'comment_date', 'comment_source','comment_clean'])
                     df_cleaned = cleaning(df)
+                    print (df_cleaned)
                     label, proba = model(df_cleaned['comment_clean'])
+                    print(label)
                     probaNonoff = proba[0][0] * 100
                     probaNonoff=round(probaNonoff, 2)
                     probaOff = proba[0][1] * 100
@@ -910,7 +912,7 @@ class CommentsView(TemplateView):
     #serializer_class = commentsSerializer
 
     def get(self, request):
-        comments = list(Comments.objects.values())
+        comments = list(Comments.objects.values().filter(comment_source='H0GJSQl3Mzk'))
         #serializer = commentsSerializer(comments, many=True)
         return JsonResponse(comments, safe=False)
 
